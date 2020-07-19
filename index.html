@@ -1,5 +1,75 @@
 <!DOCTYPE HTML>
 <html>
+
+<head>
+    <title>Andrea Tagliasacchi</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+    <meta name="keywords" content="create from keywords">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <script src="/java-script/common.js"></script>
+    <script src="/java-script/jquery.js"></script>
+    <script src="/java-script/include.js"></script>
+    <script src="/java-script/bibtexParse.js"></script>
+    <script src="/java-script/make_layout.js"></script>
+    <script src="/java-script/make_service.js"></script>
+    <script src="/java-script/make_teaching.js"></script>
+    <script src="/java-script/make_news.js"></script>
+    <script src="/java-script/make_pubs.js"></script>
+    <script>
+        var filter_for_author = "Tagliasacchi"
+        $(document).ready(make_news)
+        $(document).ready(make_pubs)
+        $(document).ready(make_service)
+        $(document).ready(make_teaching)
+        $(document).ready(make_layout)
+        $(document).ready(exec_includes_recursive)
+    </script>
+</head>
+
+<body>
+    <!-- Main Menu -->
+    <script> make_menu() </script>
+
+    <!-- Main Body -->
+    <div id="container">
+        <!-- Top-left -->
+        <div class="two-third">
+            <div include="biography.html"></div>
+            <div include="contactme.html"></div>
+        </div>
+        <!-- Top-right -->
+        <div class="one-third last">
+            <div class="image"><img src="images/andrea_cassis3.jpg" /></div>
+        </div>
+
+        <!-- Research -->
+        <!-- <div include="research.html"></div> -->
+
+        <!-- News -->
+        <!-- <div class="newline_bg"><h2>Recent News</h2></div> -->
+        <!-- <ul class="list" id="news_list"></ul> -->
+
+        <!-- Teaching -->
+        <!-- <div class="newline_bg"><h2>Teaching</h2></div> -->
+        <!-- <ul class="list" id="teaching_list"></ul> -->
+
+        <!-- Service -->
+        <!-- <div class="newline_bg"><h2>Service</h2></div> -->
+        <!-- <ul class="list" id="service_list"></ul> -->
+
+        <!-- Publications -->
+        <div class="newline_bg">
+            <h2>Recent Publications</h2>
+        </div>
+        <div id="pubs_list"></div>
+    </div>
+</body>
+
+</html>
+
+<!-- <!DOCTYPE HTML>
+<html>
 <head>
 	<title>Publications @ UVic</title>
     <link rel="stylesheet" type="text/css" media="screen" href="/style.css">
@@ -27,8 +97,7 @@
     <script> make_menu() </script>
     <div id="container">
         <div class="newline_bg"><h2>Selected Publications</h2></div>
-        <div id="pubs_list">  <!-- AUTOMATIC --> </div>
+        <div id="pubs_list"> </div>
     </div>
 </body>
-
-</html>
+</html> -->
