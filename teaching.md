@@ -1,4 +1,4 @@
-# Test teaching page
+# Test jakyll page
 
 ```
 class MyDenseLayer(tf.keras.layers.Layer):
