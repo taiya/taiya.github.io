@@ -12,14 +12,12 @@ ga('send', 'pageview');
 // <div include="/common/menu.html"></div>
 function make_menu(){
     document.write('<div id="menu">');
-    document.write('<menu_title>Visual Computing @ UVic</menu_title>');    
+    document.write('<menu_title>Andrea Tagliasacchi</menu_title>');    
     document.write('<ol>');
     document.write('  <li><a href="/"> Home </a></li>');
-    document.write('  <li><a href="/people"> People </a></li>');
-    document.write('  <li><a href="/pubs"> Publications </a></li>');
-    // document.write('  <li><a href="/datasets/datasets.md"> Dataset </a></li>');
-    document.write('  <li><a href="/teaching"> Teaching </a></li>');
-    document.write('  <li><a href="/apply.md"> Join US!</a></li>');
+    // document.write('  <li><a href="/pubs"> Publications </a></li>');
+    // document.write('  <li><a href="/teaching"> Teaching </a></li>');
+    // document.write('  <li><a href="/apply.md"> Join US!</a></li>');
     document.write('</ol>');
     document.write('</div>');
 }
