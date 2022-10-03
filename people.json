@@ -1,0 +1,112 @@
+{
+  "current": [
+    {
+      "name": "Xingguang Yan",
+      "degree": "PhD candidate",
+      "time": "2022-",
+      "currently": "SFU",
+      "homepage": "http://yanxg.art"
+    }
+    ,
+    {
+      "name": "Ahan Shabanov",
+      "degree": "PhD candidate",
+      "time": "2022-",
+      "currently": "SFU",
+      "homepage": "https://scholar.google.com/citations?user=pKhP8_cAAAAJ&hl=en"
+    }
+    ,
+    {
+      "name": "Gopal Sharma",
+      "degree": "Postdoc",
+      "time": "2022-",
+      "currently": "UBC",
+      "coadvisors": "Prof. Kwang Moo Yi",
+      "homepage": "https://hippogriff.github.io"
+    }
+    ,
+    {
+      "name": "Daniel Rebain",
+      "degree": "PhD candidate",
+      "time": "2020-",
+      "currently": "UBC",
+      "coadvisors": "Prof. Kwang Moo Yi",
+      "homepage": "http://drebain.com",
+      "honors": "NSERC CGS"
+    }
+    ,
+    {
+      "name": "Weiwei Sun",
+      "degree": "PhD candidate",
+      "time": "2020-",
+      "currently": "UBC",
+      "coadvisors": "Prof. Kwang Moo Yi",
+      "homepage": "https://wsunid.github.io"
+    }
+    ,
+    {
+      "name": "Lily Goli",
+      "degree": "PhD candidate",
+      "time": "2021-",
+      "currently": "UofT",
+      "coadvisors": "Prof. Animesh Garg",
+      "homepage": "https://ir.linkedin.com/in/lily-goli-a904459a"
+    }
+    ,
+    {
+      "name": "Daniel Ajisafe",
+      "degree": "PhD candidate",
+      "time": "2023-",
+      "currently": "UBC",
+      "coadvisors": "Prof. Helge Rhodin",
+      "homepage": "https://danielajisafe.github.io"
+    }
+  ]
+  ,
+  "alumni": [
+    {
+      "name": "Dr. Anastasia Tkach",
+      "degree": "PhD",
+      "time": "2014-2018",
+      "currently": "Software Engineer, Facebook Reality Labs",
+      "coadvisors": "Prof. Mark Pauly",
+      "homepage": "https://scholar.google.com/citations?user=hc35dk4AAAAJ&hl=en"
+    }
+    ,
+    {
+      "name": "Dr. Baptiste Angles",
+      "degree": "PhD",
+      "time": "2016-2019",
+      "currently": "Software Engineer, Apple Inc.",
+      "coadvisors": "Prof. Loic Barthe",
+      "homepage": "https://scholar.google.ca/citations?user=TINTysAAAAAJ&hl=en"
+    }
+    ,
+    {
+      "name": "Abhishek Kumar Bojja",
+      "degree": "MSc",
+      "time": "2017-2019",
+      "currently": "Software Engineer, Algolux",
+      "coadvisors": "Prof. Kwang Moo Yi",
+      "homepage": "https://ca.linkedin.com/in/abojja9"
+    }
+    ,
+    {
+      "name": "Daniel Rebain",
+      "degree": "MSc",
+      "time": "2017-2019",
+      "currently": "PhD candidate at UBC",
+      "coadvisors": "Prof. Kwang Moo Yi",
+      "homepage": "http://drebain.com"
+    }
+    ,
+    {
+      "name": "Boyang Deng",
+      "degree": "Google Brain Resident",
+      "time": "2020-2021",
+      "currently": "Research Scientist, Waymo",
+      "coadvisors": "Prof. Geoffrey Hinton",
+      "homepage": "https://boyangdeng.com"
+    }
+  ]
+}

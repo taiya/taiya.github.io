@@ -1,0 +1,307 @@
+/* Reset defaults */ @charset"utf-8";html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-family:inherit;vertical-align:baseline}:focus{outline:0}ol,ul,li{list-style-type:none}table{border-collapse:separate;border-spacing:0}caption,th,td{text-align:left;font-weight:400}
+
+/* Fonts abd colors */
+
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Quicksand Regular'), local('Quicksand-Regular'), url(images/quicksand.woff) format('woff');
+}
+
+/**************************** Site Structure *****************************/
+
+html {
+	font-size: 1em;
+}
+
+body {
+	background: #fff url(images/body_bg.png) fixed;
+}
+
+img {
+  display: block;
+}
+
+.image {
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 1px 10px #444;
+  display: table;
+  overflow: hidden;
+}
+
+.image_centered {
+  border-radius: 8px;
+  box-shadow: 0px 1px 10px #444;
+  display: table;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tracker {
+  display: none;
+}
+
+#container {
+  font-family: Arial,Helvetica sans-serif;
+  /* text inflation algorithm used on some smartphones and tablets. Other browsers will ignore this property. */
+  text-size-adjust: none;
+	color: #333;
+	line-height: 1.4em;
+	width:960px;
+	background: #FFF;
+	border-radius: 8px;
+	box-shadow: 0px 0px 5px #555;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+	margin: auto;
+	margin-bottom: 30px;
+	position: relative;
+	clear: both;
+}
+
+#footer {font-size: small; clear: both; color: #727579; text-align: center;}
+#footer a {color: #727579; text-decoration: none}
+#footer a:hover{text-decoration: none}
+
+/**************************** Typography *****************************/
+
+.no_display {display: none;}
+
+h1, h2, h3 { 
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 0px;
+  color: #000
+}
+
+h1, h2, h3 {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: .1em;
+}
+h1:after, h2:after, h3:after {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  vertical-align:middle;
+  content: '';
+  height: .25em;
+  margin-left: .25em; 
+  margin-right: -100%;
+  width:100%;
+}
+
+h1 {font-size: 1.5em; line-height: 1.1em; font-weight: normal}
+h2 {font-size: 1.3em; line-height: 1.1em; font-weight: normal}
+h3 {font-size: 1.1em; line-height: 1.1em; font-weight: 700}
+a  {color: #0b7183; text-decoration: none}
+p {margin-bottom:1em;}
+ul {margin-left: 25px; margin-bottom:1em; list-style-image: url('images/bullet.png');}
+a:hover{text-decoration: underline}
+strong {font-weight: bold; color: red;}
+em {font-style: italic;}
+
+/******************************************************************************/
+/*----------------------------------- Columns --------------------------------*/
+/******************************************************************************/
+
+.left {float:left; }
+.right{float:right;}
+.one, .one-half, .two-third, .one-third, .one-fourth, .one-fifth, .one-sixth ,.inner-content, .one-third-big {
+	float:left;
+}
+.one-half, .two-third, .one-third, .one-fourth, .one-fifth, .one-sixth, .inner-content,.one-third-big  {
+  margin-right: 30px;
+}
+.one {width:960px;}
+.one-half {width:465px;}
+.two-third {width:630px;}
+.one-third  {width:300px;}
+.inner-content {width:712px;}
+.one-third-big {width:340px;}
+.one-fourth {width:217px;}
+.one-fifth {width:168px;}
+.one-sixth {width:135px;}
+.last {margin-right: 0px!important;}
+
+/******************************************************************************/
+/*-----------------------------------   Menu  --------------------------------*/
+/******************************************************************************/
+
+#menu {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5em;
+  width: 1000px;
+  margin: 20px auto;
+  border: 1px solid #222;
+  background: #141414 url(images/menu_bg.jpg) repeat-x top;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px #333;
+}
+
+#menu:before, #menu:after {
+  content: "";
+  display: table;
+  clear: both;
+  color: #E65C5C;
+}
+
+#menu li {
+  float: left;
+  border-right: 1px solid #222;
+  -moz-box-shadow: 1px 0 0 #444;
+  -webkit-box-shadow: 1px 0 0 #444;
+  box-shadow: 1px 0 0 #444;
+  position: relative;
+}
+
+#menu a {
+  float: left;
+  padding: 12px 30px;
+  color: #E65C5C;
+  /* text-transform: uppercase; */
+  text-shadow: 0 1px 0 #000;
+  text-decoration: none;
+}
+
+#menu li:hover > a {
+  color: #999;
+}
+
+#menu menu_title {
+  padding: 12px 30px;
+  float: right;
+  color: #E65C5C;
+}
+
+/******************************************************************************/
+/*                                  PUBLICATIONS                              */
+/******************************************************************************/
+
+/* for the quick publication tag */
+reddish { color:#E65C5C; }
+
+.publication {
+  float: left;
+  padding: 15px;
+  width: 950px;
+  border-radius: 8px;
+}
+
+.publication:hover {
+  background: #95d9e5;
+  background: -webkit-gradient(linear, 0% 0%, 1000% 0%, from(#95d9e5), to(#fff));
+  background: -webkit-linear-gradient(left, #95d9e5, #fff);
+  background: -moz-linear-gradient(left, #95d9e5, #fff);
+  background: -ms-linear-gradient(left, #95d9e5, #fff);
+  background: -o-linear-gradient(left, #95d9e5, #fff);
+}
+
+.publication_content {
+	display: flow-root;
+  min-height: 150px;
+}
+
+.publication_information {
+	display: block;
+	float: right;
+	position: relative;
+	width: 675px;
+}
+
+/* Centering: https://www.w3.org/Style/Examples/007/center.en.html#hv3 */
+.publication_image {
+  border-radius: 8px;
+  box-shadow: 1px 1px 4px #444;
+  overflow: hidden;
+  float: left;
+  width: 250px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.publication_venue, .publication_authors, .publication_links{
+  padding-top: .5em;
+}
+
+.publication_title{
+	font-weight: bold;
+}
+.publication_authors{
+	font-style: italic;
+}
+
+/* publication links collection: [link1, link2, link3] */
+.publication_links { 
+  display:inline;
+  margin-left: 0px;
+}
+.publication_links:before{ content:"["; }
+.publication_links:after{ content:"]"; }
+
+.publication_link{
+	display: inline;
+	cursor: pointer;
+}
+
+.publication_link+.publication_link:before{
+	content:", ";
+}
+
+/* go to newline afterwards (needs display:inline in element)
+http://stackoverflow.com/questions/10933837/line-break-like-br-using-only-css */
+/*.publication_title:after{ content:"\a"; white-space: pre; }
+.publication_authors:after{ content:"\a"; white-space: pre; }
+.publication_venue:after{ content:"\a"; white-space: pre; }*/
+
+.publication_detail {
+  /*
+  border-left-color: black;
+  border-left-width: 2px;
+  border-style: solid;
+  */
+  border-radius: 2px;
+  box-shadow: 0px 0px 2px #444;
+  margin-left: 118px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  padding: 10px;
+  float: left;
+  display: none;
+  /*
+  border-radius: 8px;
+  background: #eee;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eee), to(#fff));
+  background: -webkit-linear-gradient(top, #eee, #fff);
+  background: -moz-linear-gradient(top, #eee, #fff);
+  background: -ms-linear-gradient(top, #eee, #fff);
+  background: -o-linear-gradient(top, #eee, #fff);
+  */
+}
+
+.publication_abstract {
+  float: left;
+  width: 660px;
+  margin-right: 20px;
+ 	font-size: 0.9em;
+  line-height: 1.2em;
+}
+
+.publication_bibtex {
+	font-family: monospace;
+	display: block;
+	margin-left: 140px;
+	overflow: hidden;
+	max-height: 0px;
+	transition: max-height 0.5s;
+}
+
+.publication_text_box {
+	padding: 2em;
+}

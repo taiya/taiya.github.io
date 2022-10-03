@@ -1,0 +1,1272 @@
+[
+  {
+    "type": "article",
+    "key": "tagliasacchi2022volume",
+    "title": "Volume Rendering Digest (for NeRF)",
+    "year": "2022",
+    "journal": "arXiv preprint arXiv:2209.02417",
+    "arxiv": "https://arxiv.org/abs/2209.02417",
+    "icon": "/icons/tagliasacchi2022volume.jpg",
+    "pdf": "/pubs/tagliasacchi2022volume.pdf",
+    "special": "arXiv'22",
+    "authors": [
+      "Andrea Tagliasacchi",
+      "Ben Mildenhall"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "chen2023mobilenerf",
+    "title": "MobileNeRF: Exploiting the Polygon Rasterization Pipeline for Efficient Neural Field Rendering on Mobile Architectures",
+    "year": "2023",
+    "journal": "arXiv preprint arXiv:2208.00277",
+    "homepage": "https://mobile-nerf.github.io",
+    "pdf": "/pubs/chen2023mobilenerf.pdf",
+    "icon": "/icons/chen2023mobilenerf.jpg",
+    "arxiv": "https://arxiv.org/abs/2208.00277",
+    "special": "arXiv'23",
+    "authors": [
+      "Zhiqin Chen",
+      "Tom Funkhouser",
+      "Peter Hedman",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "wu2022ddnerf",
+    "title": "D2NeRF: Self-Supervised Decoupling of Dynamic and Static Objects from a Monocular Video",
+    "year": "2022",
+    "journal": "Proceedings of Neural Information Processing Systems",
+    "homepage": "https://d2nerf.github.io",
+    "pdf": "https://arxiv.org/abs/2205.15838",
+    "special": "NeurIPS'22",
+    "authors": [
+      "Tianhao Wu",
+      "Fangcheng Zhong",
+      "Forrester Cole",
+      "Andrea Tagliasacchi",
+      "Cengiz Oztireli"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "vora2022nesf",
+    "title": "NeSF: Neural Semantic Fields",
+    "journal": "Transactions on Machine Learning Research",
+    "homepage": "https://nesf3d.github.io",
+    "video": "https://www.youtube.com/watch?v=yagzIwmiu20",
+    "year": "2021",
+    "special": "TMLR'22",
+    "authors": [
+      "Suhani Vora",
+      "Noha Radwan",
+      "Klaus Greff",
+      "Henning Meyer",
+      "Kyle Genova",
+      "Mehdi S. M. Sajjadi",
+      "Etienne Pot",
+      "Andrea Tagliasacchi",
+      "Daniel Duckworth"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "chen2022ndc",
+    "title": "Neural Dual Contouring",
+    "year": "2022",
+    "journal": "ACM Transaction on Graphics (Proc. SIGGRAPH)",
+    "pdf": "https://arxiv.org/abs/2202.01999",
+    "video": "https://youtu.be/uQV9GqeKaQg",
+    "special": "SIG'22",
+    "authors": [
+      "Zhiqin Chen",
+      "Andrea Tagliasacchi",
+      "Thomas Funkhouser",
+      "Richard Zhang"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "simeonov2022ndf",
+    "title": "Neural Descriptor Fields",
+    "journal": "International Conference on Robotics and Automation",
+    "homepage": "https://yilundu.github.io/ndf",
+    "video": "https://www.youtube.com/watch?v=dXl9xI2LrRw&feature=emb_logo",
+    "year": "2022",
+    "special": "ICRA'22",
+    "authors": [
+      "Anthony Simeonov",
+      "Yilun Du",
+      "Andrea Tagliasacchi",
+      "Joshua B. Tenenbaum",
+      "Alberto Rodriguez",
+      "Pulkit Agrawal",
+      "Vincent Sitzmann"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "rematas2022urf",
+    "title": "Urban Radiance Fields",
+    "journal": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+    "special": "CVPR'22",
+    "homepage": "http://urban-radiance-fields.github.io",
+    "video": "https://www.youtube.com/watch?v=qGlq5DZT6uc",
+    "year": "2021",
+    "authors": [
+      "Konstantinos Rematas",
+      "Andrew Liu",
+      "Pratul Srinivasan",
+      "Jonathan Barron",
+      "Andrea Tagliasacchi",
+      "Thomas Funkhouser",
+      "Vittorio Ferrari"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "kania2022conerf",
+    "title": "CoNeRF: Controllable Neural Radiance Fields",
+    "journal": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+    "special": "CVPR'22",
+    "homepage": "https://conerf.github.io",
+    "year": "2021",
+    "authors": [
+      "Kacper Kania",
+      "Kwang Moo Yi",
+      "Marek Kowalski",
+      "Tomasz Trzcinski",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "rebain2021lolnerf",
+    "title": "LOLNeRF: Learn from One Look",
+    "journal": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+    "special": "CVPR'22",
+    "homepage": "https://ubc-vision.github.io/lolnerf",
+    "year": "2021",
+    "authors": [
+      "Daniel Rebain",
+      "Mark Matthews",
+      "Kwang Moo Yi",
+      "Dmitry Lagun",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "sajjadi2022srt",
+    "title": "Scene Representation Transformer",
+    "homepage": "http://srt-paper.github.io",
+    "year": "2021",
+    "journal": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+    "special": "CVPR'22",
+    "authors": [
+      "Mehdi S. M. Sajjadi",
+      "Henning Meyer",
+      "Etienne Pot",
+      "Urs Bergmann",
+      "Klaus Greff",
+      "Noha Radwan",
+      "Suhani Vora",
+      "Mario Lucic",
+      "Daniel Duckworth",
+      "Alexey Dosovitskiy",
+      "Jakob Uszkoreit",
+      "Thomas Funkhouser",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "usman2022metapose",
+    "title": "MetaPose: fast 3D pose from multiple views without 3D supervision",
+    "journal": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+    "special": "CVPR'22",
+    "homepage": "https://metapose.github.io",
+    "year": "2021",
+    "authors": [
+      "Ben Usman",
+      "Andrea Tagliasacchi",
+      "Kate Saenko",
+      "Avneesh Sud"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "greff2022kubric",
+    "title": "Kubric: A scalable dataset generator",
+    "journal": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+    "special": "CVPR'22",
+    "source": "https://github.com/google-research/kubric",
+    "homepage": "https://arxiv.org/abs/2203.03570",
+    "year": "2021",
+    "authors": [
+      "Klaus Greff",
+      "Francois Belletti",
+      "Lucas Beyer",
+      "Carl Doersch",
+      "Yilun Du",
+      "Daniel Duckworth",
+      "David J Fleet",
+      "Dan Gnanapragasam",
+      "Florian Golemo",
+      "Charles Herrmann",
+      "Thomas Kipf",
+      "Abhijit Kundu",
+      "Dmitry Lagun",
+      "Issam Laradji",
+      "Hsueh-Ti (Derek) Liu",
+      "Henning Meyer",
+      "Yishu Miao",
+      "Derek Nowrouzezahrai",
+      "Cengiz Oztireli",
+      "Etienne Pot",
+      "Noha Radwan",
+      "Daniel Rebain",
+      "Sara Sabour",
+      "Mehdi S. M. Sajjadi",
+      "Matan Sela",
+      "Vincent Sitzmann",
+      "Austin Stone",
+      "Deqing Sun",
+      "Suhani Vora",
+      "Ziyu Wang",
+      "Tianhao Wu",
+      "Kwang Moo Yi",
+      "Fangcheng Zhong",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "kundu2022panoptic",
+    "title": "Panoptic Neural Fields: A Semantic Object-Aware Neural Scene Representation",
+    "year": "2022",
+    "journal": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+    "special": "CVPR'22",
+    "homepage": "https://abhijitkundu.info/projects/pnf",
+    "authors": [
+      "Abhijit Kundu",
+      "Kyle Genova",
+      "Xiaoqi Yin",
+      "Alireza Fathi",
+      "Caroline Pantofaru",
+      "Leonidas Guibas",
+      "Andrea Tagliasacchi",
+      "Frank Dellaert",
+      "Thomas Funkhouser"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "sun2021caca",
+    "title": "Canonical Capsules: Self-supervised Capsules in Canonical Pose",
+    "journal": "Proceedings of Neural Information Processing Systems",
+    "homepage": "https://canonical-capsules.github.io",
+    "icon": "/icons/sun2021caca.jpg",
+    "year": "2021",
+    "special": "NeurIPS'21",
+    "authors": [
+      "Weiwei Sun",
+      "Andrea Tagliasacchi",
+      "Boyang Deng",
+      "Sara Sabour",
+      "Soroosh Yazdani",
+      "Geoffrey Hinton",
+      "Kwang Moo Yi"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "rebain2021deep",
+    "title": "Deep Medial Fields",
+    "journal": "arXiv preprint arXiv:2106.03804",
+    "homepage": "https://arxiv.org/abs/2106.03804",
+    "year": "2021",
+    "special": "arXiv'21",
+    "authors": [
+      "Daniel Rebain",
+      "Ke Li",
+      "Vincent Sitzmann",
+      "Soroosh Yazdani",
+      "Kwang Moo Yi",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "jiang2021cotr",
+    "title": "COTR: Correspondence transformer for matching across images",
+    "year": "2021",
+    "journal": "arXiv preprint: 2103.14167",
+    "icon": "/icons/jiang2021cotr.jpg",
+    "source": "https://github.com/ubc-vision/COTR",
+    "special": "ICCV'21 (oral)",
+    "authors": [
+      "Wei Jiang",
+      "Eduard Trulls",
+      "Jan Hosang",
+      "Andrea Tagliasacchi",
+      "Kwang Moo Yi"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "deng2021vn",
+    "title": "Vector Neurons: a general framework for SO(3)-equivariant networks",
+    "year": "2021",
+    "journal": "arXiv preprint: 2104.12229",
+    "icon": "/icons/deng2021vn.jpg",
+    "source": "https://github.com/FlyingGiraffe/vnn",
+    "homepage": "https://cs.stanford.edu/~congyue/vnn",
+    "special": "ICCV'21 (oral)",
+    "authors": [
+      "Congyue Deng",
+      "Or Litany",
+      "Yueqi Duan",
+      "Adrien Poulenard",
+      "Andrea Tagliasacchi",
+      "Leonidas Guibas"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "sabour2021flowcaps",
+    "title": "Unsupervised part representation by Flow Capsules",
+    "year": "2021",
+    "pdf": "https://arxiv.org/pdf/2011.13920.pdf",
+    "icon": "/icons/sabour2021flowcaps.jpg",
+    "journal": "Proc. International Conference on Machine Learning (ICML)",
+    "special": "ICML'21",
+    "authors": [
+      "Sara Sabour",
+      "Andrea Tagliasacchi",
+      "Soroosh Yazdani",
+      "Geoffrey E. Hinton",
+      "David J. Fleet"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "rebain2021derf",
+    "title": "DeRF: Decomposed Radiance Fields",
+    "year": "2021",
+    "journal": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+    "special": "CVPR'21",
+    "icon": "/icons/rebain2021derf.jpg",
+    "homepage": "https://ubc-vision.github.io/derf",
+    "authors": [
+      "Daniel Rebain",
+      "Wei Jiang",
+      "Soroosh Yazdani",
+      "Ke Li",
+      "Kwang Moo Yi",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "angles2021mist",
+    "title": "MIST: Multiple Instance Spatial Transformer Networks",
+    "journal": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+    "homepage": "https://arxiv.org/pdf/1811.10725.pdf",
+    "special": "CVPR'21",
+    "icon": "/icons/angles2021mist.jpg",
+    "year": "2021",
+    "authors": [
+      "Baptiste Angles",
+      "Yuhe Jin",
+      "Simon Kornblith",
+      "Andrea Tagliasacchi",
+      "Kwang Moo Yi"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "wang2020pienet",
+    "title": "PIE-NET: Parametric Inference of Point Cloud Edges",
+    "year": "2020",
+    "icon": "/icons/wang2020pienet.jpg",
+    "journal": "Proceedings of Neural Information Processing Systems",
+    "special": "NeurIPS'20",
+    "homepage": "https://arxiv.org/pdf/2007.04883",
+    "authors": [
+      "Xiaogang Wang",
+      "Yuelang Xu",
+      "Kai Xu",
+      "Andrea Tagliasacchi",
+      "Bin Zhou",
+      "Ali Mahdavi-Amiri",
+      "Hao Zhang"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "aksan2020cose",
+    "title": "CoSE: Compositional Stroke Embeddings",
+    "year": "2020",
+    "journal": "Proceedings of Neural Information Processing Systems",
+    "special": "NeurIPS'20",
+    "icon": "/icons/aksan2020cose.jpg",
+    "homepage": "https://arxiv.org/pdf/2006.09930",
+    "authors": [
+      "Emre Aksan",
+      "Thomas Deselaers",
+      "Andrea Tagliasacchi",
+      "Otmar Hilliges"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "jiang2020shapeflow",
+    "title": "ShapeFlow: Learnable Deformations Among 3D Shapes",
+    "journal": "Proceedings of Neural Information Processing Systems",
+    "special": "NeurIPS'20 (spotlight)",
+    "icon": "/icons/jiang2020shapeflow.jpg",
+    "year": "2020",
+    "homepage": "https://arxiv.org/pdf/2006.07982",
+    "authors": [
+      "Chiyu \"Max\" Jiang",
+      " Jingwei Huang",
+      "Andrea Tagliasacchi",
+      "Leonidas Guibas"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "deng2020nasa",
+    "title": "NASA: Neural Articulated Shape Approximation",
+    "pdf": "https://arxiv.org/abs/1912.03207",
+    "homepage": "https://virtualhumans.mpi-inf.mpg.de/nasa",
+    "source": "https://github.com/tensorflow/graphics/tree/master/tensorflow_graphics/projects/nasa",
+    "journal": "Proceedings of the European Conference on Computer Vision",
+    "icon": "/icons/deng2020nasa.jpg",
+    "special": "ECCV'20",
+    "year": "2020",
+    "authors": [
+      "Boyang Deng",
+      "JP Lewis",
+      "Timothy Jeruzalski",
+      "Gerard Pons-Moll",
+      "Geoffrey Hinton",
+      "Mohammad Norouzi",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "jeruzalski2020nilbs",
+    "title": "NiLBS: Neural Inverse Linear Blend Skinning",
+    "journal": "arXiv preprint: 2004.05980",
+    "year": "2020",
+    "special": "(technical report)",
+    "homepage": "https://arxiv.org/pdf/2004.05980",
+    "icon": "/icons/jeruzalski2020nilbs.jpg",
+    "authors": [
+      "Timothy Jeruzalski",
+      "David I. W. Levin",
+      "Alec Jacobson",
+      "Paul Lalonde",
+      "Mohammad Norouzi",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "technical-report",
+    "key": "williams2019voronoinet",
+    "title": "VoronoiNet: General Functional Approximators with Local Support",
+    "year": "2019",
+    "journal": "arXiv preprint: 1912.03629",
+    "homepage": "https://arxiv.org/pdf/1912.03629",
+    "icon": "/icons/williams2019voronoinet.jpg",
+    "special": "(technical report)",
+    "authors": [
+      "Francis Williams",
+      "Daniele Panozzo",
+      "Kwang Moo Yi",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "chen2020bspnet",
+    "title": "BSP-Net: Generating Compact Meshes via Binary Space Partitioning",
+    "journal": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+    "year": "2020",
+    "homepage": "https://bsp-net.github.io",
+    "source": "https://github.com/czq142857/BSP-NET-original",
+    "video": "https://youtu.be/9-ixexpjN-8",
+    "pdf": "https://arxiv.org/abs/1911.06971",
+    "special": "CVPR'20 (oral, best student paper award)",
+    "icon": "/icons/chen2020bspnet.jpg",
+    "authors": [
+      "Zhiqin Chen",
+      "Andrea Tagliasacchi",
+      "Hao Zhang"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "deng2020cvxnet",
+    "title": "CvxNet: Learnable Convex Decomposition",
+    "journal": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+    "year": "2020",
+    "special": "CVPR'20 (oral, nominated for best paper award)",
+    "pdf": "https://arxiv.org/pdf/1909.05736.pdf",
+    "homepage": "https://cvxnet.github.io/",
+    "slides": "https://cvxnet.github.io/data/5908-talk.pdf",
+    "video": "https://www.youtube.com/watch?v=dfWWtwE8PEo",
+    "source": "https://github.com/tensorflow/graphics/tree/master/tensorflow_graphics/projects/cvxnet",
+    "icon": "/icons/deng2020cvxnet.jpg",
+    "authors": [
+      "Boyang Deng",
+      "Kyle Genova",
+      "Soroosh Yazdani",
+      "Sofien Bouaziz",
+      "Geoffrey Hinton",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "tang2020compression",
+    "title": "Deep Implicit Volume Compression",
+    "journal": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+    "year": "2020",
+    "homepage": "https://research.google/pubs/pub49210",
+    "video": "https://www.youtube.com/watch?v=GuLzjnFGDKs",
+    "pdf": "https://arxiv.org/abs/2005.08877",
+    "icon": "/icons/tang2020compression.jpg",
+    "special": "CVPR'20 (oral)",
+    "authors": [
+      "Danhang Tang",
+      "Saurabh Singh",
+      "Philip A. Chou",
+      "Christian Haene",
+      "Mingsong Dou",
+      "Sean Fanello",
+      "Jonathan Taylor",
+      "Philip Davidson",
+      "Onur G. Guleryuz",
+      "Yinda Zhang",
+      "Shahram Izadi",
+      "Andrea Tagliasacchi",
+      "Sofien Bouaziz",
+      "Cem Keskin"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "sun2020acne",
+    "title": "Attentive Context Normalization for Robust Permutation-Equivariant Learning",
+    "journal": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+    "year": "2020",
+    "homepage": "https://acne.github.io",
+    "video": "https://youtu.be/twH-vfpQrX4?t=149",
+    "source": "https://github.com/vcg-uvic/acne",
+    "icon": "/icons/sun2020acne.jpg",
+    "pdf": "/pubs/sun2020acne/paper.pdf",
+    "special": "CVPR'20",
+    "authors": [
+      "Weiwei Sun",
+      "Wei Jiang",
+      "Andrea Tagliasacchi",
+      "Eduard Trulls",
+      "Kwang Moo Yi"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "meka2019drf",
+    "title": "Deep reflectance fields",
+    "journal": "ACM Transaction on Graphics (Proc. SIGGRAPH)",
+    "video": "https://www.youtube.com/watch?v=4pCoZSHeJbI",
+    "homepage": "https://gvv.mpi-inf.mpg.de/projects/DeepReflectanceFields",
+    "pdf": "https://vcai.mpi-inf.mpg.de/projects/DeepReflectanceFields/DRF.pdf",
+    "slides": "https://vcai.mpi-inf.mpg.de/projects/DeepReflectanceFields/DRF.pptx",
+    "icon": "/icons/meka2019drf.jpg",
+    "year": "2019",
+    "special": "SIG'19",
+    "authors": [
+      "Meka",
+      "Haene",
+      "Pandey",
+      "Zollhoefer",
+      "Fanello",
+      "Fyffe",
+      "Kowdle",
+      "Yu",
+      "Busch",
+      "Dourgarian",
+      "Denny",
+      "Bouaziz",
+      "Lincoln",
+      "Whalen",
+      "Harvey",
+      "Taylor",
+      "Izadi",
+      "Tagliasacchi",
+      "Debevec",
+      "Theobalt",
+      "Valentin",
+      "Rhemann"
+    ]
+  },
+  {
+    "type": "conference",
+    "key": "jiang2019linearized",
+    "title": "Linearized Multi-Sampling for Differentiable Image Transformation",
+    "journal": "Proceedings of the International Conference on Computer Vision",
+    "special": "ICCV'19 (oral)",
+    "year": "2019",
+    "icon": "/icons/jiang2019linearized.jpg",
+    "pdf": "/pubs/jiang2019linearized/paper.pdf",
+    "source": "https://github.com/vcg-uvic/linearized_multisampling_release",
+    "authors": [
+      "Wei Jiang",
+      "Weiwei Sun",
+      "Andrea Tagliasacchi",
+      "Eduard Trulls",
+      "Kwang Moo Yi"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "dong2019multirobot",
+    "title": "Multi-Robot Collaborative Dense Scene Reconstruction",
+    "year": "2019",
+    "journal": "ACM Transaction on Graphics (Proc. SIGGRAPH Asia)",
+    "homepage": "https://kevinkaixu.net/projects/multirobot.html",
+    "video": "https://www.youtube.com/watch?v=h1yEYusDDfY",
+    "icon": "/icons/dong2019multirobot.jpg",
+    "pdf": "/pubs/dong2019multirobot/paper.pdf",
+    "special": "SIG'19",
+    "authors": [
+      "Siyan Dong",
+      "Kai Xu",
+      "Qiang Zhou",
+      "Andrea Tagliasacchi",
+      "Shiqing Xin",
+      "Matthias Nie\u00dfner",
+      "Baoquan Chen"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "angles2019viper",
+    "title": "VIPER: Volume Invariant Position-based Elastic Rods",
+    "journal": "Proceedings of Symposium on Computer Animation",
+    "year": "2019",
+    "pdf": "https://arxiv.org/pdf/1906.05260.pdf",
+    "icon": "/icons/angles2019viper.jpg",
+    "special": "SCA'19",
+    "video": "https://www.youtube.com/watch?v=2CGRfJJEu38",
+    "authors": [
+      "Baptiste Angles",
+      "Daniel Rebain",
+      "Miles Macklin",
+      "Brian Wyvill",
+      "Loic Barthe",
+      "John Lewis",
+      "Javier von der Pahlen",
+      "Shahram Izadi",
+      "Julien Valentin",
+      "Sofien Bouaziz",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "conference",
+    "key": "pandey2019semiparametric",
+    "title": "Volumetric Capture of Humans with a Single RGBD Camera via Semi-Parametric Learning",
+    "journal": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+    "year": "2019",
+    "special": "CVPR'19",
+    "pdf": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Pandey_Volumetric_Capture_of_Humans_With_a_Single_RGBD_Camera_via_CVPR_2019_paper.pdf",
+    "icon": "/icons/pandey2019semiparametric.jpg",
+    "homepage": "http://openaccess.thecvf.com/content_CVPR_2019/html/Pandey_Volumetric_Capture_of_Humans_With_a_Single_RGBD_Camera_via_CVPR_2019_paper.html",
+    "authors": [
+      "Rohit Kumar Pandey",
+      "Anastasia Tkach",
+      "Shuoran Yang",
+      "Pavel Pidlypenskyi",
+      "Jonathan Taylor",
+      "Ricardo Martin Brualla",
+      "Andrea Tagliasacchi",
+      "George Papandreou",
+      "Philip Davidson",
+      "Cem Keskin",
+      "Shahram Izadi",
+      "Sean Fanello"
+    ]
+  },
+  {
+    "type": "conference",
+    "key": "bojja2019handseg",
+    "title": "HandSeg: An Automatically Labeled Dataset for Hand Segmentation from Depth Images",
+    "journal": "Proceedings of Conference on Computer and Robot Vision (CRV)",
+    "year": "2019",
+    "pdf": "/pubs/bojja2019handseg/paper.pdf",
+    "icon": "/icons/bojja2019handseg.jpg",
+    "homepage": "https://vision.uvic.ca/pubs/2019/bojja2019handseg/page.md",
+    "special": "CRV'19",
+    "authors": [
+      "Abhishake Kumar Bojja",
+      "Franziska Mueller",
+      "Sri Raghu Malireddi",
+      "Markus Oberweger",
+      "Vincent Lepetit",
+      "Christian Theobalt",
+      "Kwang Moo Yi",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "rebain2019lsmat",
+    "title": "LSMAT: Least Squares Medial Axis Transform",
+    "journal": "Computer Graphics Forum (Presented at the Symposium on Geometry Processing)",
+    "special": "CGF'19",
+    "pdf": "https://onlinelibrary.wiley.com/doi/epdf/10.1111/cgf.13599",
+    "icon": "/icons/rebain2019lsmat.jpg",
+    "year": "2019",
+    "authors": [
+      "Daniel Rebain",
+      "Baptiste Angles",
+      "Julien Valentin",
+      "Jiju Peethambaran",
+      "Shahram Izadi",
+      "Nicholas Vining",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "peethambaran2019incremental",
+    "title": "Incremental Labeling of Voronoi Vertices for Shape Reconstruction",
+    "journal": "Computer Graphics Forum",
+    "icon": "/icons/peethambaran2019incremental.jpg",
+    "pdf": "/pubs/peethambaran2019incremental.pdf",
+    "special": "CGF'19",
+    "year": "2019",
+    "authors": [
+      "Jiju Peethambaran",
+      "Amal Dev Parakkat",
+      "Andrea Tagliasacchi",
+      "Ruisheng Wang",
+      "Ramanathan Muthuganapathy"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "tang2018compression",
+    "title": "Real-time Compression and Streaming of 4D Performances",
+    "journal": "ACM Transaction on Graphics (Proc. SIGGRAPH Asia)",
+    "homepage": "https://ai.google/research/pubs/pub47782",
+    "icon": "/icons/tang2018compression.jpg",
+    "pdf": "/pubs/tang2018compression.pdf",
+    "special": "SIGA'18",
+    "year": "2018",
+    "authors": [
+      "Danhang Tang",
+      "Mingsong Dou",
+      "Peter Lincoln",
+      "Philip Davidson",
+      "Kaiwen Guo",
+      "Jonathan Taylor",
+      "Sean Fanello",
+      "cem Keskin",
+      "Adarsh Kowdle",
+      "Sofien Bouaziz",
+      "Shahram Izadi",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "kowdle2018sensor",
+    "title": "The Need 4 Speed in Real-Time Dense Visual Tracking",
+    "journal": "ACM Transaction on Graphics (Proc. SIGGRAPH Asia)",
+    "homepage": "https://ai.google/research/pubs/pub47783",
+    "video": "https://www.youtube.com/watch?v=eitY6AeXH3k",
+    "icon": "/icons/kowdle2018sensor.jpg",
+    "special": "SIGA'18",
+    "year": "2018",
+    "authors": [
+      "Adarsh Kowdle",
+      "Christoph Rhemann",
+      "Sean Fanello",
+      "Andrea Tagliasacchi",
+      "Jonathan Taylor",
+      "Philip Davidson",
+      "Mingsong Dou",
+      "Kaiwen Guo",
+      "Cem Keskin",
+      "Sameh Khamis",
+      "David Kim",
+      "Danhang Tang",
+      "Vladimir Tankovich",
+      "Julien Valentin",
+      "Shahram Izadi"
+    ]
+  },
+  {
+    "type": "conference",
+    "key": "guo2018twinfusion",
+    "title": "TwinFusion: High Framerate Non-Rigid Fusion through Fast Correspondence Tracking",
+    "journal": "International Conference on 3D Vision (3DV)",
+    "special": "3DV'18",
+    "icon": "/icons/guo2018twinfusion.jpg",
+    "pdf": "https://ieeexplore.ieee.org/document/8491012",
+    "year": "2018",
+    "authors": [
+      "Kaiwen Guo",
+      "Jonathan Taylor",
+      "Sean Fanello",
+      "Andrea Tagliasacchi",
+      "Mingsong Dou",
+      "Philip Davidson",
+      "Adarsh Kowdle",
+      "Shahram Izadi"
+    ]
+  },
+  {
+    "type": "conference",
+    "key": "pedersoli2018espresso",
+    "title": "Espresso: Efficient Forward Propagation for BCNNs",
+    "journal": "Proceedings of the International Conference on Machine Learning (ICML)",
+    "special": "ICML'18",
+    "icon": "/icons/pedersoli2018espresso.jpg",
+    "pdf": "/pubs/pedersoli2018espresso/paper.pdf",
+    "source": "https://github.com/fpeder/espresso",
+    "year": "2018",
+    "authors": [
+      "Fabrizio Pedersoli",
+      "George Tzanetakis",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "angles2017sketch",
+    "title": "Sketch-Based Implicit Blending",
+    "journal": "ACM Transaction on Graphics (Proc. SIGGRAPH Asia)",
+    "year": "2017",
+    "icon": "/icons/angles2017sketch.jpg",
+    "pdf": "/pubs/angles2017sketch/paper.pdf",
+    "video": "https://youtu.be/5lah1kdp-P8",
+    "special": "SIGA'17",
+    "authors": [
+      "Baptiste Angles",
+      "Marco Tarini",
+      "Loic Barthe",
+      "Brian Wyvill",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "tkach2017online",
+    "title": "Online Generative Model Personalization for Hand Tracking",
+    "journal": "ACM Transaction on Graphics (Proc. SIGGRAPH Asia)",
+    "year": "2017",
+    "video": "https://www.youtube.com/watch?v=zbcoWcYg4Qs",
+    "source": "https://github.com/OpenGP/honline",
+    "icon": "/icons/tkach2017online.jpg",
+    "pdf": "/pubs/tkach2017online/paper.pdf",
+    "special": "SIGA'17",
+    "authors": [
+      "Anastasia Tkach",
+      "Andrea Tagliasacchi",
+      "Edoardo Remelli",
+      "Mark Pauly",
+      "Andrew Fitzgibbon"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "remelli2017shapespace",
+    "title": "Low-Dimensionality Calibration through Local Anisotropic Scaling",
+    "journal": "Proceedings of the International Conference on Computer Vision (ICCV)",
+    "icon": "/icons/remelli2017shapespace.jpg",
+    "pdf": "/pubs/remelli2017shapespace/paper.pdf",
+    "special": "ICCV'17",
+    "year": "2017",
+    "authors": [
+      "Edoardo Remelli",
+      "Anastasia Tkach",
+      "Andrea Tagliasacchi",
+      "Mark Pauly"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "tkach2016sphere",
+    "title": "Sphere-Meshes for Real-Time Hand Modeling and Tracking",
+    "journal": "ACM Transaction on Graphics (Proc. SIGGRAPH Asia)",
+    "special": "SIGA'16",
+    "year": "2016",
+    "icon": "/icons/tkach2016sphere.jpg",
+    "pdf": "/pubs/tkach2016sphere/paper.pdf",
+    "source": "https://github.com/OpenGP/hmodel",
+    "video": "https://www.youtube.com/watch?v=QtOQmbo3IsY",
+    "authors": [
+      "Anastasia Tkach",
+      "Mark Pauly",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "course",
+    "key": "tagliasacchi2016registration",
+    "title": "Modern Techniques and Applications for Real-Time Non-rigid Registration",
+    "journal": "Proc. SIGGRAPH Asia (Technical Course Notes)",
+    "source": "/pubs/tagliasacchi2016registration/source.zip",
+    "slides": "/pubs/tagliasacchi2016registration/slides",
+    "icon": "/icons/tagliasacchi2016registration.jpg",
+    "pdf": "/pubs/tagliasacchi2016registration/paper.pdf",
+    "special": "SIGA'16",
+    "year": "2016",
+    "authors": [
+      "Andrea Tagliasacchi",
+      "Hao Li"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "berger2016star",
+    "title": "A Survey of Surface Reconstruction from Point Clouds",
+    "journal": "Computer Graphics Forum'16 (extended journal version of the EG STAR)",
+    "icon": "/icons/berger2016star.jpg",
+    "pdf": "/pubs/berger2016star/paper.pdf",
+    "special": "CGF'16",
+    "year": "2016",
+    "authors": [
+      "Matthew Berger",
+      "Andrea Tagliasacchi",
+      "Lee M. Seversky",
+      "Pierre Alliez",
+      "Gael Guennebaud",
+      "Joshua A. Levine",
+      "Andrei Sharf",
+      "Claudio T. Silva"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "tagliasacchi2016star",
+    "title": "3D Skeletons: A State-of-the-Art Report",
+    "journal": "Computer Graphics Forum (Proc. Eurographics)",
+    "slides": "/pubs/tagliasacchi2016star/slides",
+    "icon": "/icons/tagliasacchi2016star.jpg",
+    "pdf": "/pubs/tagliasacchi2016star/paper.pdf",
+    "special": "EG'16",
+    "year": "2016",
+    "authors": [
+      "Andrea Tagliasacchi",
+      "Thomas Delame",
+      "Michela Spagnuolo",
+      "Nina Amenta",
+      "Alexandru Telea"
+    ]
+  },
+  {
+    "type": "course",
+    "key": "bouaziz2015registration",
+    "journal": "Proc. Symposium on Geometry Processing (Technical Course Notes)",
+    "title": "Dynamic 2D/3D Registration",
+    "slides": "/pubs/bouaziz2015registration/slides.pdf",
+    "source": "/pubs/bouaziz2015registration/source.zip",
+    "icon": "/icons/bouaziz2015registration.jpg",
+    "pdf": "/pubs/bouaziz2015registration/paper.pdf",
+    "special": "SGP'15",
+    "year": "2015",
+    "authors": [
+      "Sofien Bouaziz",
+      "Andrea Tagliasacchi (presenters)"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "tagliasacchi2015htrack",
+    "title": "Robust Articulated-ICP for Real-Time Hand Tracking",
+    "journal": "Computer Graphics Forum (Proc. Symposium on Geometry Processing)",
+    "special": "SGP'15 (best paper award)",
+    "source": "https://github.com/OpenGP/htrack",
+    "icon": "/icons/tagliasacchi2015htrack.jpg",
+    "pdf": "/pubs/tagliasacchi2015htrack/paper.pdf",
+    "datasets": "/pubs/tagliasacchi2015htrack/data",
+    "slides": "https://youtu.be/prGLqytAAwQ",
+    "video": "https://youtu.be/rm3YnClSmIQ",
+    "year": "2015",
+    "authors": [
+      "Andrea Tagliasacchi",
+      "Matthias Schroeder",
+      "Anastasia Tkach",
+      "Sofien Bouaziz",
+      "Mario Botsch",
+      "Mark Pauly"
+    ]
+  },
+  {
+    "type": "course",
+    "key": "bouaziz2014registration",
+    "title": "Dynamic 2D/3D Registration",
+    "journal": "Proc. Eurographics (Technical Course Notes)",
+    "source": "/pubs/bouaziz2014registration/source.zip",
+    "slides": "/pubs/bouaziz2014registration/slides.pdf",
+    "pdf": "/pubs/bouaziz2014registration/paper.pdf",
+    "icon": "/icons/bouaziz2014registration.jpg",
+    "special": "EG'14",
+    "year": "2014",
+    "authors": [
+      "Sofien Bouaziz",
+      "Andrea Tagliasacchi",
+      "Mark Pauly (presenters)"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "schwartzburg2014caustics",
+    "title": "High-Contrast Computational Caustic Design",
+    "journal": "ACM Transaction on Graphics (Proc. SIGGRAPH)",
+    "special": "SIG'14",
+    "icon": "/icons/schwartzburg2014caustics.jpg",
+    "pdf": "/pubs/schwartzburg2014caustics/paper.pdf",
+    "video": "http://www.youtube.com/watch?v=R00IvqcI9jU",
+    "homepage": "http://www.chateaunoir.net/caustics.html",
+    "year": "2014",
+    "authors": [
+      "Yuliy Schwartzburg",
+      "Romain Testuz",
+      "Andrea Tagliasacchi",
+      "Mark Pauly"
+    ]
+  },
+  {
+    "type": "conference",
+    "key": "berger2014star",
+    "title": "State of the Art in Surface Reconstruction from Point Clouds",
+    "journal": "Eurographics STAR (Proc. of Eurographics)",
+    "icon": "/icons/berger2014star.jpg",
+    "pdf": "/pubs/berger2014star/paper.pdf",
+    "special": "EG'14",
+    "year": "2014",
+    "authors": [
+      "M. Berger",
+      "Andrea Tagliasacchi",
+      "L. Seversky",
+      "P. Alliez",
+      "J. Levine",
+      "A. Sharf",
+      "C. Silva"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "bouaziz2013sparseicp",
+    "title": "Sparse Iterative Closest Point",
+    "journal": "Computer Graphics Forum (Proc. Symposium on Geometry Processing)",
+    "pdf": "/pubs/bouaziz2013sparseicp/paper.pdf",
+    "icon": "/icons/bouaziz2013sparseicp.jpg",
+    "source": "http://github.com/OpenGP/sparseicp",
+    "slides": "https://youtu.be/zd-nUO7E82w",
+    "video": "https://www.youtube.com/watch?v=ii2vHBwlmo8",
+    "video_copy": "https://youtu.be/VP4ORRSNCp4",
+    "pages": "113--123",
+    "special": "SGP'13",
+    "year": "2013",
+    "volume": "32",
+    "number": "5",
+    "authors": [
+      "Sofien Bouaziz",
+      "Andrea Tagliasacchi",
+      "Mark Pauly"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "tagliasacchi2012mcfskel",
+    "title": "Mean Curvature Skeletons",
+    "journal": "Computer Graphics Forum (Proc. Symposium on Geometry Processing)",
+    "special": "SGP'12 (also NSF  best poster award)",
+    "volume": "31",
+    "number": "5",
+    "pdf": "/pubs/tagliasacchi2012mcfskel/paper.pdf",
+    "icon": "/icons/tagliasacchi2012mcfskel.jpg",
+    "source": "https://github.com/ataiya/starlab-mcfskel",
+    "slides": "https://youtu.be/MRI-C6SPmio",
+    "video": "https://www.youtube.com/watch?v=gs5R2RhngVA",
+    "pages": "1735--1744",
+    "year": "2012",
+    "authors": [
+      "Andrea Tagliasacchi",
+      "Ibraheem Alhashim",
+      "Matt Olson",
+      "Hao Zhang"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "tagliasacchi2011vase",
+    "title": "VASE: Volume-Aware Surface Evolution for Surface Reconstruction",
+    "journal": "Computer Graphics Forum (Proc. Symposium on Geometry Processing)",
+    "special": "SGP'11",
+    "year": "2011",
+    "volume": "30",
+    "number": "5",
+    "pdf": "/pubs/tagliasacchi2011vase/paper.pdf",
+    "icon": "/icons/tagliasacchi2011vase.jpg",
+    "slides": "/pubs/tagliasacchi2011vase/slides.mov",
+    "pages": "1563--1571",
+    "homepage": "http://gruvi.cs.sfu.ca/projects/volume-aware-surface-evolution-surface-reconstruction-incomplete-point-clouds",
+    "Doi": "http://dx.doi.org/10.1111/j.1467-8659.2011.02030.x",
+    "authors": [
+      "Andrea Tagliasacchi",
+      "Matt Olson",
+      "Hao Zhang",
+      "Ghassan Hamarneh",
+      "Daniel Cohen-Or"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "vankaick2011prior",
+    "title": "Prior Knowledge for Shape Correspondence",
+    "journal": "Computer Graphics Forum (Proc. Eurographics)",
+    "volume": "30",
+    "number": "2",
+    "special": "EG'11",
+    "pages": "553--562",
+    "pdf": "/pubs/vankaick2011prior/paper.pdf",
+    "icon": "/icons/vankaick2011prior.jpg",
+    "year": "2011",
+    "homepage": "http://gruvi.cs.sfu.ca/projects/prior-knowledge-part-correspondence",
+    "authors": [
+      "Oliver van Kaick",
+      "Andrea Tagliasacchi",
+      "Oana Sidi",
+      "Hao Zhang",
+      "Daniel Cohen-Or",
+      "Lior Wolf",
+      "Ghassan Hamarneh"
+    ]
+  },
+  {
+    "type": "conference",
+    "key": "cao2010cloudcontr",
+    "title": "Point Cloud Skeletons via Laplacian-Based Contraction",
+    "journal": "Proc. of IEEE Conference on Shape Modeling and Applications (SMI)",
+    "special": "SMI'10",
+    "pdf": "/pubs/cao2010cloudcontr/paper.pdf",
+    "icon": "/icons/cao2010cloudcontr.jpg",
+    "source": "https://github.com/taiya/cloudcontr",
+    "slides": "https://github.com/taiya/cloudcontr/raw/master/Downloads/SkelContr_SMI10.pptx",
+    "pages": "187--197",
+    "year": "2010",
+    "authors": [
+      "Junjie Cao",
+      "Andrea Tagliasacchi",
+      "Matt Olson",
+      "Hao Zhang",
+      "Zhixun Su"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "zheng2010consensus",
+    "title": "Consensus Skeleton for Non-Rigid Space-Time Registration",
+    "journal": "Computer Graphics Forum (Proc. Eurographics)",
+    "volume": "29",
+    "number": "2",
+    "pages": "635--644",
+    "year": "2010",
+    "special": "EG'10",
+    "pdf": "/pubs/zheng2010consensus/paper.pdf",
+    "icon": "/icons/zheng2010consensus.jpg",
+    "homepage": "http://web.siat.ac.cn/~vcc/publications/2010/consensus_skeleton",
+    "slides": "http://web.siat.ac.cn/~vcc/publications/2010/consensus_skeleton/eg-talk.zip",
+    "authors": [
+      "Qian Zheng",
+      "Andrei Sharf",
+      "Andrea Tagliasacchi",
+      "Baoquan Chen",
+      "Hao Zhang",
+      "Alla Sheffer",
+      "Daniel Cohen-Or"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "xu2009pirs",
+    "title": "Partial Intrinsic Reflectional Symmetry of 3D Shapes",
+    "journal": "ACM Transactions on Graphics (Proc. SIGGRAPH Asia)",
+    "volume": "28",
+    "special": "SIGA'09",
+    "icon": "/icons/xu2009pirs.jpg",
+    "slides": "/pubs/xu2009pirs/slides.ppt",
+    "pdf": "/pubs/xu2009pirs/paper.pdf",
+    "homepage": "https://sites.google.com/site/kevinkaixu/publications/pirs",
+    "video": "http://www.youtube.com/watch?v=eO_ZACTJtL0",
+    "number": "5",
+    "pages": "Article 138",
+    "year": "2009",
+    "authors": [
+      "Kai Xu",
+      "Hao Zhang",
+      "Andrea Tagliasacchi",
+      "Ligang Liu",
+      "Guo Li",
+      "Min Meng",
+      "Yueshan Xiong"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "tagliasacchi2009rosa",
+    "title": "Curve Skeleton Extraction from Incomplete Point Cloud",
+    "journal": "ACM Transactions on Graphics (Proc. SIGGRAPH)",
+    "special": "SIG'09 (MITACS best paper award)",
+    "source": "/pubs/tagliasacchi2009rosa/source.zip",
+    "datasets": "/pubs/tagliasacchi2009rosa/data.zip",
+    "video": "/pubs/tagliasacchi2009rosa/video.mp4",
+    "icon": "/icons/tagliasacchi2009rosa.jpg",
+    "pdf": "/pubs/tagliasacchi2009rosa/paper.pdf",
+    "volume": "28",
+    "number": "3",
+    "pages": "71:1--71:9",
+    "year": "2009",
+    "authors": [
+      "Andrea Tagliasacchi",
+      "Hao Zhang",
+      "Daniel Cohen-Or"
+    ]
+  },
+  {
+    "type": "article",
+    "key": "zhang2008ddsc",
+    "title": "Deformation-Drive Shape Correspondence",
+    "journal": "Computer Graphics Forum (Proc. Symposium on Geometry Processing)",
+    "special": "SGP'08",
+    "year": "2008",
+    "volume": "27",
+    "number": "5",
+    "slides": "/pubs/zhang2008ddsc/slides.pdf",
+    "homepage": "http://www.cs.ubc.ca/labs/imager/tr/2008/DeformationDriveShapeCorrespondence",
+    "pages": "1431-1439",
+    "icon": "/icons/zhang2008ddsc.jpg",
+    "pdf": "/pubs/zhang2008ddsc/zhang2008ddsc.pdf",
+    "authors": [
+      "Hao Zhang",
+      "Alla Sheffer",
+      "Daniel Cohen-Or",
+      "Qingnan Zhou",
+      "Oliver van Kaick",
+      "Andrea Tagliasacchi"
+    ]
+  }
+]
