@@ -91,6 +91,7 @@ function make_pub(entry) {
   // return;
 
   var pub = document.createElement('div');
+  pub.id = entry["key"]
   pub.className = 'publication';
   document.getElementById('pubs_list').appendChild(pub);
 
@@ -101,25 +102,36 @@ function make_pub(entry) {
   var pub_info = document.createElement('div');
   pub_info.className = 'publication_information';
 
-  // Image
-  var image = document.createElement('div');
-  image.className = 'publication_image';
-  var img = document.createElement('img');
-
-  // TODO: video icon
-  // <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
-  //   <source src="ndfs/thumbnail.mp4" type="video/mp4">
-  // </video>
-
-  // --- add icon
-  icon = entry["icon"];
-  if (icon == undefined)
-    icon = "/images/placeholder.jpg"
-  img.setAttribute('src', icon)
-  img.setAttribute('height', '100%');
-  image.appendChild(img);
-  pub_content.appendChild(image);
-  pub_content.appendChild(pub_info);
+  if (entry["icon"] != undefined && entry["icon"].endsWith(".mov")) {
+    var video = document.createElement('video');
+    video.className = 'publication_image';
+    video.setAttribute('loop', '');
+    video.setAttribute('preload', '');
+    video.setAttribute('muted', '');
+    var source = document.createElement('source');
+    source.setAttribute('src', entry["icon"]);
+    source.setAttribute('type', "video/mp4");
+    video.appendChild(source);
+    pub.addEventListener("mouseover", function () { video.play(); });
+    pub.addEventListener("mouseleave", function () { video.pause(); });
+    // --- alternative: strategies to autoplay
+    // video.setAttribute('playsinline', '');
+    // video.setAttribute('autoplay', '');
+    // video.addEventListener("canplaythrough", function () { this.play(); }, false);
+    pub_content.appendChild(video);
+    pub_content.appendChild(pub_info);
+  } 
+  else {
+    var image = document.createElement('div');
+    image.className = 'publication_image';
+    var img = document.createElement('img');
+    icon = entry["icon"] == undefined ? "/images/placeholder.jpg" : entry["icon"];
+    img.setAttribute('src', icon)
+    img.setAttribute('height', '100%');
+    image.appendChild(img);
+    pub_content.appendChild(image);
+    pub_content.appendChild(pub_info);
+  }
 
   // --- Title + Special
   var title = document.createElement('div');

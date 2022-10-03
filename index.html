@@ -20,13 +20,13 @@
 
     <!-- executes javascript -->
     <script type="text/javascript">
-        $(document).ready(() => { jQuery.get("/1_biography.md", (file) => { markdown2html(file, "biography") }); })
-        $(document).ready(() => { jQuery.get("/2_contacts.md", (file) => { markdown2html(file, "contacts") }); })
-        $(document).ready(() => { jQuery.get("/3_hiring.md", (file) => { markdown2html(file, "hiring") }); })
-        $(document).ready(() => { jQuery.get("/4_news.md", (file) => { markdown2html(file, "news") }); })
-        $(document).ready(() => { jQuery.get("/5_service.md", (file) => { markdown2html(file, "service") }); })
-        $(document).ready(make_students)
-        $(document).ready(make_alumni)
+        // $(document).ready(() => { jQuery.get("/1_biography.md", (file) => { markdown2html(file, "biography") }); })
+        // $(document).ready(() => { jQuery.get("/2_contacts.md", (file) => { markdown2html(file, "contacts") }); })
+        // $(document).ready(() => { jQuery.get("/3_hiring.md", (file) => { markdown2html(file, "hiring") }); })
+        // $(document).ready(() => { jQuery.get("/4_news.md", (file) => { markdown2html(file, "news") }); })
+        // $(document).ready(() => { jQuery.get("/5_service.md", (file) => { markdown2html(file, "service") }); })
+        // $(document).ready(make_students)
+        // $(document).ready(make_alumni)
         $(document).ready(make_publications)
         $(document).ready(make_footer)
     </script>
@@ -45,18 +45,18 @@
 
     <div id="container">
         <!-- SPLIT 2/3 + 1/3-->
-        <div id="biography" class="two-third"></div>
-        <div class="one-third last"> <div class="image"><img src="images/andrea_mtdoug.jpeg" width=100% /></div> </div>
+        <!-- <div id="biography" class="two-third"></div> -->
+        <!-- <div class="one-third last"> <div class="image"><img src="images/andrea_mtdoug.jpeg" width=100% /></div> </div> -->
 
-        <div id="contacts" class="one"> </div>
-        <div id="hiring" class="one"> </div>
+        <!-- <div id="contacts" class="one"> </div> -->
+        <!-- <div id="hiring" class="one"> </div> -->
         
         <!-- SPLIT 1/2 + 1/2-->
-        <div id="news" class="one-half"> </div>
-        <div id="service" class="one-half last"> </div>
+        <!-- <div id="news" class="one-half"> </div> -->
+        <!-- <div id="service" class="one-half last"> </div> -->
        
-        <div id="team" class="one"> <h1> Team </h1> <ul class="list" id="students_list"> </ul> </div>
-        <div id="alumni" class="one"> <h1> Alumni </h1> <ul class="list" id="alumni_list"></ul> </div>
+        <!-- <div id="team" class="one"> <h1> Team </h1> <ul class="list" id="students_list"> </ul> </div> -->
+        <!-- <div id="alumni" class="one"> <h1> Alumni </h1> <ul class="list" id="alumni_list"></ul> </div> -->
         <div id="pubs_list" class="one"> <h1>Publications</h1> </div>
         <div id="footer"> </div>
     </div>

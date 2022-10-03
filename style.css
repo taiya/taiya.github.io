@@ -218,8 +218,8 @@ reddish { color:#E65C5C; }
   box-shadow: 1px 1px 4px #444;
   overflow: hidden;
   float: left;
-  width: 250px;
-  height: 150px;
+  width: 256px;
+  height: 144px;
   display: flex;
   align-items: center;
   justify-content: center;
