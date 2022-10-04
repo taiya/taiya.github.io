@@ -91,6 +91,7 @@ function make_pub(entry) {
   // return;
 
   var pub = document.createElement('div');
+  pub.setAttribute('id', entry['key']);
   pub.className = 'publication';
   document.getElementById('pubs_list').appendChild(pub);
 
