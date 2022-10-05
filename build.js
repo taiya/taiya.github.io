@@ -139,15 +139,12 @@ function make_pub(entry) {
   pub_info.appendChild(authors);
 
   // Venue
-  var venue = document.createElement('div');
-  venue.className = 'publication_venue';
-  // either use the journal or the booktitle field
-  if (entry["journal"] != undefined) {
-    venue.innerHTML = entry["journal"];
-  } else {
-    venue.innerHTML = entry["booktitle"];
+  if (entry["venue"] != undefined) {
+    var venue = document.createElement('div');
+    venue.className = 'publication_venue';
+    venue.innerHTML = entry["venue"];
+    pub_info.appendChild(venue);
   }
-  pub_info.appendChild(venue);
 
   // Links
   var links = document.createElement('ul');
