@@ -3,6 +3,7 @@
     "type": "conference",
     "key": "watson2023diffusion",
     "title": "Novel View Synthesis with Diffusion Models",
+    "icon": "/pubs/watson2023diffusion.mov",
     "authors": [
       "Daniel Watson",
       "William Chen",
