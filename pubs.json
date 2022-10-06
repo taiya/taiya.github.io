@@ -58,7 +58,7 @@
     "venue": "(in peer review)",
     "homepage": "https://mobile-nerf.github.io",
     "pdf": "/pubs/chen2023mobilenerf.pdf",
-    "icon": "/icons/chen2023mobilenerf.jpg",
+    "icon": "/pubs/chen2023mobilenerf.mov",
     "arxiv": "https://arxiv.org/abs/2208.00277",
     "special": "NEW",
     "authors": [
@@ -302,6 +302,7 @@
     "venue": "International Conference on Robotics and Automation (ICRA)",
     "homepage": "https://yilundu.github.io/ndf",
     "video": "https://www.youtube.com/watch?v=dXl9xI2LrRw&feature=emb_logo",
+    "icon": "/pubs/simeonov2022ndf.mov",
     "year": "2022",
     "special": "ICRA'22",
     "authors": [
@@ -320,7 +321,7 @@
     "title": "Canonical Capsules: Self-supervised Capsules in Canonical Pose",
     "venue": "Neural Information Processing Systems (NeurIPS)",
     "homepage": "https://canonical-capsules.github.io",
-    "icon": "/icons/sun2021caca.jpg",
+    "icon": "/pubs/sun2021caca.mov",
     "year": "2021",
     "special": "NeurIPS'21",
     "authors": [
