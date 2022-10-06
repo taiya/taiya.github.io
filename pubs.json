@@ -34,10 +34,11 @@
     "homepage": "http://nerf2nerf.github.io"
   },
   {
-    "key": "rebain2023abc",
     "type": "journal",
+    "key": "rebain2023abc",
     "title": "Attention Beats Concatenation for Conditioning Neural Fields",
     "arxiv": "https://arxiv.org/abs/2209.10684",
+    "icon": "/icons/rebain2023abc.jpg",
     "year": "2023",
     "venue": "(in peer review)",
     "special": "NEW",
