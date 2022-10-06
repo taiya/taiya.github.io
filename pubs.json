@@ -92,7 +92,8 @@
     "year": "2022",
     "venue": "Neural Information Processing Systems (NeurIPS)",
     "homepage": "https://d2nerf.github.io",
-    "pdf": "https://arxiv.org/abs/2205.15838",
+    "arxiv": "https://arxiv.org/abs/2205.15838",
+    "icon": "/pubs/wu2022ddnerf.mov",
     "special": "NeurIPS'22",
     "authors": [
       "Tianhao Wu",
