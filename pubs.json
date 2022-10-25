@@ -1,6 +1,45 @@
 [
   {
     "type": "conference",
+    "key": "vasconcelos2023cufs",
+    "title": "CUF: Continuous Upsampling Filters",
+    "arxiv": "https://arxiv.org/abs/2210.06965",
+    "authors": [
+      "Cristina Vasconcelos",
+      "Kevin Swersky",
+      "Mark Matthews",
+      "Milad Hashemi",
+      "Cengiz Oztireli",
+      "Andrea Tagliasacchi"
+    ],
+    "venue": "(in peer review)",
+    "year": "2023",
+    "special": "NEW",
+    "homepage": "https://cuf-paper.github.io",
+    "pdf": "https://cuf-paper.github.io/cuf.pdf"
+  },
+  {
+    "type": "conference",
+    "key": "sun2023neuralbf",
+    "title": "NeuralBF: Neural Bilateral Filtering for Top-down Instance Segmentation on Point Clouds",
+    "arxiv": "https://arxiv.org/abs/2207.09978",
+    "authors": [
+      "Weiwei Sun",
+      "Daniel Rebain",
+      "Renjie Liao",
+      "Vladimir Tankovic",
+      "Soroosh Yazdani",
+      "Kwang Moo Yi",
+      "Andrea Tagliasacchi"
+    ],
+    "venue": "Winter Applications of Computer Vision (WACV)",
+    "year": "2023",
+    "special": "WACV'23",
+    "homepage": "https://neuralbf.github.io",
+    "pdf": "https://neuralbf.github.io/resources/paper.pdf"
+  },
+  {
+    "type": "conference",
     "key": "watson2023diffusion",
     "title": "Novel View Synthesis with Diffusion Models",
     "icon": "/pubs/watson2023diffusion.mov",
