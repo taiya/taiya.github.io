@@ -1,6 +1,87 @@
 [
   {
     "type": "conference",
+    "key": "sabour2023robustnerf",
+    "title": "RobustNeRF: Ignoring Distractors with Robust Losses",
+    "authors": [
+      "Sara Sabour",
+      "Suhani Vora",
+      "Daniel Duckworth",
+      "Ivan Krasin",
+      "David J. Fleet",
+      "Andrea Tagliasacchi"
+    ],
+    "venue": "(in peer review)",
+    "year": "2023",
+    "special": "NEW"
+  },
+  {
+    "type": "conference",
+    "key": "kania2023blendfields",
+    "title": "BlendFields: Few-Shot Example-Driven Facial Modeling",
+    "authors": [
+      "Kacper Kania",
+      "Stephan J. Garbin",
+      "Andrea Tagliasacchi",
+      "Virginia Estellers",
+      "Kwang Moo Yi",
+      "Tomasz Trzcinski",
+      "Julien Valentin",
+      "Marek Kowalski"
+    ],
+    "venue": "(in peer review)",
+    "year": "2023",
+    "special": "NEW"
+  },
+  {
+    "type": "conference",
+    "key": "sinha2023sparsepose",
+    "title": "SparsePose: Sparse-View Camera Pose Regression and Refinement",
+    "authors": [
+      "Samarth Sinha",
+      "Jason Y. Zhang",
+      "Andrea Tagliasacchi",
+      "Igor Gilitschenski",
+      "David B. Lindell"
+    ],
+    "venue": "(in peer review)",
+    "year": "2023",
+    "special": "NEW"
+  },
+  {
+    "type": "conference",
+    "key": "peng2023openscene",
+    "title": "OpenScene: 3D Scene Understanding with Open Vocabularies",
+    "authors": [
+      "Songyou Peng",
+      "Kyle Genova",
+      "Chiyu Max Jiang",
+      "Andrea Tagliasacchi",
+      "Marc Pollefeys",
+      "Thomas Funkhouser"
+    ],
+    "venue": "(in peer review)",
+    "year": "2023",
+    "special": "NEW"
+  },
+  {	
+    "type": "conference",
+    "key": "tang2023neumap",
+    "title": "NeuMap: Neural Coordinate Mapping by Auto-Transdecoder for Camera Localization",
+    "authors": [
+      "Shitao Tang",
+      "Sicong Tang", 
+      "Fuyang Zhang",
+      "Andrea Tagliasacchi",
+      "Ping Tan",
+      "Yasutaka Furukawa"
+    ],
+    "venue": "(in peer review)",
+    "year": "2023",
+    "special": "NEW"
+  },
+  {
+    "type": "conference",
     "key": "vasconcelos2023cufs",
     "title": "CUF: Continuous Upsampling Filters",
     "arxiv": "https://arxiv.org/abs/2210.06965",
