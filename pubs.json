@@ -52,6 +52,7 @@
     "type": "conference",
     "key": "peng2023openscene",
     "title": "OpenScene: 3D Scene Understanding with Open Vocabularies",
+    "arxiv": "https://arxiv.org/abs/2211.15654",
     "authors": [
       "Songyou Peng",
       "Kyle Genova",
