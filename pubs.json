@@ -11,7 +11,7 @@
       "David J. Fleet",
       "Andrea Tagliasacchi"
     ],
-    "venue": "(in peer review)",
+    "venue": "(coming soon)",
     "year": "2023",
     "special": "NEW"
   },
@@ -29,7 +29,7 @@
       "Julien Valentin",
       "Marek Kowalski"
     ],
-    "venue": "(in peer review)",
+    "venue": "(coming soon)",
     "year": "2023",
     "special": "NEW"
   },
@@ -44,7 +44,7 @@
       "Igor Gilitschenski",
       "David B. Lindell"
     ],
-    "venue": "(in peer review)",
+    "venue": "(coming soon)",
     "year": "2023",
     "special": "NEW"
   },
@@ -61,7 +61,7 @@
       "Marc Pollefeys",
       "Thomas Funkhouser"
     ],
-    "venue": "(in peer review)",
+    "venue": "(coming soon)",
     "year": "2023",
     "special": "NEW"
   },
@@ -77,7 +77,7 @@
       "Ping Tan",
       "Yasutaka Furukawa"
     ],
-    "venue": "(in peer review)",
+    "venue": "(coming soon)",
     "year": "2023",
     "special": "NEW"
   },
@@ -94,7 +94,7 @@
       "Cengiz Oztireli",
       "Andrea Tagliasacchi"
     ],
-    "venue": "(in peer review)",
+    "venue": "(coming soon)",
     "year": "2023",
     "special": "NEW",
     "homepage": "https://cuf-paper.github.io",
@@ -132,7 +132,7 @@
       "Andrea Tagliasacchi",
       "Mohammad Norouzi"
     ],
-    "venue": "(in peer review)",
+    "venue": "(coming soon)",
     "year": "2023",
     "special": "NEW",
     "homepage": "https://3d-diffusion.github.io",
@@ -152,7 +152,7 @@
     "icon": "/pubs/goli2023nerf2nerf.mov",
     "year": "2023",
     "special": "NEW",
-    "venue": "(in peer review)",
+    "venue": "(coming soon)",
     "video": "https://www.youtube.com/watch?v=S071rGezdNM",
     "homepage": "http://nerf2nerf.github.io"
   },
@@ -163,7 +163,7 @@
     "arxiv": "https://arxiv.org/abs/2209.10684",
     "icon": "/icons/rebain2023abc.jpg",
     "year": "2023",
-    "venue": "(in peer review)",
+    "venue": "(coming soon)",
     "special": "NEW",
     "authors": [
       "Daniel Rebain",
@@ -179,7 +179,7 @@
     "key": "chen2023mobilenerf",
     "title": "MobileNeRF: Exploiting the Polygon Rasterization Pipeline for Efficient Neural Field Rendering on Mobile Architectures",
     "year": "2023",
-    "venue": "(in peer review)",
+    "venue": "(coming soon)",
     "homepage": "https://mobile-nerf.github.io",
     "pdf": "/pubs/chen2023mobilenerf.pdf",
     "icon": "/pubs/chen2023mobilenerf.mov",
