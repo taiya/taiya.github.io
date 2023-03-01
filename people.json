@@ -17,15 +17,6 @@
     }
     ,
     {
-      "name": "Gopal Sharma",
-      "degree": "Postdoc",
-      "time": "2022-",
-      "currently": "UBC",
-      "coadvisors": "Prof. Kwang Moo Yi",
-      "homepage": "https://hippogriff.github.io"
-    }
-    ,
-    {
       "name": "Daniel Rebain",
       "degree": "PhD candidate",
       "time": "2020-",
@@ -45,6 +36,15 @@
     }
     ,
     {
+      "name": "Daniel Ajisafe",
+      "degree": "PhD candidate",
+      "time": "2023-",
+      "currently": "UBC",
+      "coadvisors": "Prof. Helge Rhodin",
+      "homepage": "https://danielajisafe.github.io"
+    }
+    ,
+    {
       "name": "Lily Goli",
       "degree": "PhD candidate",
       "time": "2021-",
@@ -54,12 +54,12 @@
     }
     ,
     {
-      "name": "Daniel Ajisafe",
-      "degree": "PhD candidate",
-      "time": "2023-",
+      "name": "Gopal Sharma",
+      "degree": "Postdoc",
+      "time": "2022-",
       "currently": "UBC",
-      "coadvisors": "Prof. Helge Rhodin",
-      "homepage": "https://danielajisafe.github.io"
+      "coadvisors": "Prof. Kwang Moo Yi",
+      "homepage": "https://hippogriff.github.io"
     }
   ]
   ,
