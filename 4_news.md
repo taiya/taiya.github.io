@@ -1,8 +1,8 @@
 # Recent news
+- 7x papers accepted to CVPR'2023 (see publications)
 - [NeuralBF](https://neuralbf.github.io) accepted to WACV'2023
 - [D2NeRF](https://d2nerf.github.io) accepted to NeurIPS'2022
 - [NeSF](https://nesf3d.github.io) accecpted to TMLR'2022
-- [NDC](https://arxiv.org/abs/2202.01999) accepted to SIGGRAPH'2022
 - 7x papers accepted to CVPR'2022 (see publications)
 
 <!-- OLD NEWS
