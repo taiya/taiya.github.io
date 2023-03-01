@@ -11,9 +11,27 @@
       "David J. Fleet",
       "Andrea Tagliasacchi"
     ],
-    "venue": "(coming soon)",
+    "venue": "CVPR'23",
     "year": "2023",
     "special": "NEW"
+  },
+  {
+    "type": "conference",
+    "key": "chen2023mobilenerf",
+    "title": "MobileNeRF: Exploiting the Polygon Rasterization Pipeline for Efficient Neural Field Rendering on Mobile Architectures",
+    "year": "2023",
+    "venue": "CVPR'23",
+    "homepage": "https://mobile-nerf.github.io",
+    "pdf": "/pubs/chen2023mobilenerf.pdf",
+    "icon": "/pubs/chen2023mobilenerf.mov",
+    "arxiv": "https://arxiv.org/abs/2208.00277",
+    "special": "NEW",
+    "authors": [
+      "Zhiqin Chen",
+      "Tom Funkhouser",
+      "Peter Hedman",
+      "Andrea Tagliasacchi"
+    ]
   },
   {
     "type": "conference",
@@ -29,7 +47,7 @@
       "Julien Valentin",
       "Marek Kowalski"
     ],
-    "venue": "(coming soon)",
+    "venue": "CVPR'23",
     "year": "2023",
     "special": "NEW"
   },
@@ -44,7 +62,7 @@
       "Igor Gilitschenski",
       "David B. Lindell"
     ],
-    "venue": "(coming soon)",
+    "venue": "CVPR'23",
     "year": "2023",
     "special": "NEW"
   },
@@ -61,7 +79,7 @@
       "Marc Pollefeys",
       "Thomas Funkhouser"
     ],
-    "venue": "(coming soon)",
+    "venue": "CVPR'23",
     "year": "2023",
     "special": "NEW"
   },
@@ -77,7 +95,7 @@
       "Ping Tan",
       "Yasutaka Furukawa"
     ],
-    "venue": "(coming soon)",
+    "venue": "CVPR'23",
     "year": "2023",
     "special": "NEW"
   },
@@ -94,7 +112,7 @@
       "Cengiz Oztireli",
       "Andrea Tagliasacchi"
     ],
-    "venue": "(coming soon)",
+    "venue": "CVPR'23",
     "year": "2023",
     "special": "NEW",
     "homepage": "https://cuf-paper.github.io",
@@ -171,24 +189,6 @@
       "Kwang Moo Yi",
       "Gopal Sharma",
       "Dmitry Lagun",
-      "Andrea Tagliasacchi"
-    ]
-  },
-  {
-    "type": "conference",
-    "key": "chen2023mobilenerf",
-    "title": "MobileNeRF: Exploiting the Polygon Rasterization Pipeline for Efficient Neural Field Rendering on Mobile Architectures",
-    "year": "2023",
-    "venue": "(coming soon)",
-    "homepage": "https://mobile-nerf.github.io",
-    "pdf": "/pubs/chen2023mobilenerf.pdf",
-    "icon": "/pubs/chen2023mobilenerf.mov",
-    "arxiv": "https://arxiv.org/abs/2208.00277",
-    "special": "NEW",
-    "authors": [
-      "Zhiqin Chen",
-      "Tom Funkhouser",
-      "Peter Hedman",
       "Andrea Tagliasacchi"
     ]
   },
