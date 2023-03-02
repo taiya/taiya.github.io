@@ -188,7 +188,7 @@ function make_pub(entry) {
     }
 
     // --- Bibtex
-    blacklist = ["key", "special", "source", "slides", "video", "datasets", "pdf", "homepage", "icon", "type"];
+    blacklist = ["key", "special", "source", "slides", "video", "datasets", "pdf", "homepage", "icon", "type", "media"];
     var bibtex_text = "@" + entry['type'] + "{" + entry['key'];
     for (var tag_name in entry) {
       if (entry.hasOwnProperty(tag_name) && !blacklist.includes(tag_name)) {
@@ -278,6 +278,19 @@ function make_pub(entry) {
       a.href = link
       a.target = "New"
       a.innerHTML = "dataset"
+      li.appendChild(a);
+      links.appendChild(li);
+    }
+
+    // Link to media coverage
+    link = entry["media"];
+    if (link != undefined) {
+      li = document.createElement('li');
+      li.className = 'publication_link';
+      a = document.createElement('a');
+      a.href = link;
+      a.target = "New"
+      a.innerHTML = "media coverage"
       li.appendChild(a);
       links.appendChild(li);
     }

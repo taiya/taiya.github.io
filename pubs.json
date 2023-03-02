@@ -172,7 +172,8 @@
     "special": "NEW",
     "venue": "(coming soon)",
     "video": "https://www.youtube.com/watch?v=S071rGezdNM",
-    "homepage": "http://nerf2nerf.github.io"
+    "homepage": "http://nerf2nerf.github.io",
+    "media": "https://www.rsipvision.com/ComputerVisionNews-2023March/4/"
   },
   {
     "type": "journal",
@@ -718,6 +719,7 @@
     "video": "https://www.youtube.com/watch?v=dfWWtwE8PEo",
     "source": "https://github.com/tensorflow/graphics/tree/master/tensorflow_graphics/projects/cvxnet",
     "icon": "/icons/deng2020cvxnet.jpg",
+    "media": "https://www.rsipvision.com/ComputerVisionNews-2020July/22",
     "authors": [
       "Boyang Deng",
       "Kyle Genova",
