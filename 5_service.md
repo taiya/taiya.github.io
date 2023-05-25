@@ -1,5 +1,5 @@
 # Recent service
-- Program Chair – [International Conference on 3D Vision 2024](https://3dvconf.github.io/2024/) 
+- Program Chair – [3DV 2024](https://3dvconf.github.io/2024/) 
 - Area chair – [CVPR 2023](https://cvpr2023.thecvf.com)
 - Technical IPC – [SIGGRAPH 2023](https://siggraph.org)
 - Technical IPC – [SIGGRAPH 2022](https://s2022.siggraph.org)
