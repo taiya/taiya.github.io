@@ -11,16 +11,19 @@
       "David J. Fleet",
       "Andrea Tagliasacchi"
     ],
-    "venue": "CVPR'23",
-    "year": "2023",
-    "special": "NEW"
+    "venue": "Computer Vision and Pattern Recognition (CVPR)",
+    "media": "https: //www.rsipvision.com/ComputerVisionNews-2023July/3/",
+    "homepage": "https://robustnerf.github.io",
+    "arxiv": "https://arxiv.org/abs/2302.00833",
+    "special": "CVPR'23",
+    "year": "2023"
   },
   {
     "type": "conference",
     "key": "chen2023mobilenerf",
     "title": "MobileNeRF: Exploiting the Polygon Rasterization Pipeline for Efficient Neural Field Rendering on Mobile Architectures",
     "year": "2023",
-    "venue": "CVPR'23",
+    "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "homepage": "https://mobile-nerf.github.io",
     "pdf": "/pubs/chen2023mobilenerf.pdf",
     "icon": "/pubs/chen2023mobilenerf.mov",
@@ -47,7 +50,7 @@
       "Julien Valentin",
       "Marek Kowalski"
     ],
-    "venue": "CVPR'23",
+    "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "year": "2023",
     "special": "NEW"
   },
@@ -62,7 +65,7 @@
       "Igor Gilitschenski",
       "David B. Lindell"
     ],
-    "venue": "CVPR'23",
+    "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "year": "2023",
     "special": "NEW"
   },
@@ -79,7 +82,7 @@
       "Marc Pollefeys",
       "Thomas Funkhouser"
     ],
-    "venue": "CVPR'23",
+    "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "year": "2023",
     "special": "NEW"
   },
@@ -95,7 +98,7 @@
       "Ping Tan",
       "Yasutaka Furukawa"
     ],
-    "venue": "CVPR'23",
+    "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "year": "2023",
     "special": "NEW"
   },
@@ -112,7 +115,7 @@
       "Cengiz Oztireli",
       "Andrea Tagliasacchi"
     ],
-    "venue": "CVPR'23",
+    "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "year": "2023",
     "special": "NEW",
     "homepage": "https://cuf-paper.github.io",
