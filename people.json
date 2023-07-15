@@ -1,9 +1,17 @@
 {
   "current": [
     {
+      "name": "Sherwin Bahmani",
+      "degree": "PhD candidate",
+      "time": "Incoming (Sep. 2023)",
+      "currently": "UofT",
+      "homepage": "https://sherwinbahmani.github.io"
+    }
+    ,
+    {
       "name": "Shrisudhan Govindarajan",
       "degree": "PhD candidate",
-      "time": "Sep. 2023-",
+      "time": "Incoming (Sep. 2023)",
       "currently": "SFU",
       "homepage": "https://in.linkedin.com/in/shrisudhan-govindarajan-b6a914157"
     }
@@ -11,7 +19,7 @@
     {
       "name": "Maria Taktasheva",
       "degree": "PhD candidate",
-      "time": "Sep. 2023-",
+      "time": "Incoming (Sep. 2023)",
       "currently": "SFU",
       "homepage": "https://dblp.org/pid/244/2434.html"
     }
@@ -19,7 +27,7 @@
     {
       "name": "Cody Reading",
       "degree": "PhD candidate",
-      "time": "Sep. 2023-",
+      "time": "Incoming (Sep. 2023)",
       "currently": "SFU",
       "homepage": "https://codyreading.github.io"
     }
