@@ -1,6 +1,63 @@
 [
   {
     "type": "conference",
+    "key": "zhong2023nkf",
+    "title": "Neural Fields with Hard Constraints of Arbitrary Differential Order",
+    "authors": [
+      "Fangcheng Zhong",
+      "Kyle Fogarty",
+      "Param Hanji",
+      "Tianhao Wu",
+      "Alejandro Sztrajman",
+      "Andrew Spielberg",
+      "Andrea Tagliasacchi",
+      "Petra Bosilj",
+      "Cengiz Oztireli"
+    ],
+    "venue": "arXiv preprint arXiv:2306.08943",
+    "arXiv": "https://arxiv.org/abs/2306.08943",
+    "year": "2023",
+    "special": "NEW"
+  },
+  {
+    "type": "conference",
+    "key": "zhong2023nkf",
+    "title": "Unsupervised Semantic Correspondence Using Stable Diffusion",
+    "authors": [
+      "Eric Hedlin",
+      "Gopal Sharma",
+      "Shweta Mahajan",
+      "Hossam Isack",
+      "Abhishek Kar",
+      "Andrea Tagliasacchi",
+      "Kwang Moo Yi"
+    ],
+    "venue": "arXiv preprint arXiv:2305.15581",
+    "arxiv": "https://arxiv.org/abs/2305.15581",
+    "year": "2023",
+    "special": "NEW"
+  },
+  {
+    "type": "conference",
+    "key": "bahmani2023cc3d",
+    "title": "CC3D: Layout-Conditioned Generation of Compositional 3D Scenes",
+    "authors": [
+      "Sherwin Bahmani",
+      "Jeong Joon Park",
+      "Despoina Paschalidou",
+      "Xiaogang Yan",
+      "Gordon Wetzstein",
+      "Leonidas Guibas",
+      "Andrea Tagliasacchi"
+    ],
+    "venue": "International Conference on Computer Vision (ICCV)",
+    "homepage": "https://sherwinbahmani.github.io/cc3d",
+    "arxiv": "https://arxiv.org/abs/2303.12074",
+    "year": "2023",
+    "special": "ICCV'23"
+  },
+  {
+    "type": "conference",
     "key": "sabour2023robustnerf",
     "title": "RobustNeRF: Ignoring Distractors with Robust Losses",
     "authors": [
@@ -153,7 +210,7 @@
       "Andrea Tagliasacchi",
       "Mohammad Norouzi"
     ],
-    "venue": "International Conference on Learning Representations",
+    "venue": "International Conference on Learning Representations (ICLR)",
     "year": "2023",
     "special": "ICLR'23",
     "arxiv": "https://arxiv.org/abs/2210.04628",
@@ -487,7 +544,7 @@
     "title": "COTR: Correspondence transformer for matching across images",
     "year": "2021",
     "arxiv": "arXiv preprint: 2103.14167",
-    "venue": "International Conference on Computer Vision",
+    "venue": "International Conference on Computer Vision (ICCV)",
     "icon": "/icons/jiang2021cotr.jpg",
     "source": "https://github.com/ubc-vision/COTR",
     "special": "ICCV'21 (oral)",
