@@ -15,7 +15,7 @@
     "media": "https: //www.rsipvision.com/ComputerVisionNews-2023July/3/",
     "homepage": "https://robustnerf.github.io",
     "arxiv": "https://arxiv.org/abs/2302.00833",
-    "special": "CVPR'23",
+    "special": "CVPR'23 (highlight)",
     "year": "2023"
   },
   {
@@ -28,7 +28,7 @@
     "pdf": "/pubs/chen2023mobilenerf.pdf",
     "icon": "/pubs/chen2023mobilenerf.mov",
     "arxiv": "https://arxiv.org/abs/2208.00277",
-    "special": "CVPR'23",
+    "special": "CVPR'23 (award candidate)",
     "authors": [
       "Zhiqin Chen",
       "Tom Funkhouser",
@@ -716,7 +716,7 @@
     "title": "CvxNet: Learnable Convex Decomposition",
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "year": "2020",
-    "special": "CVPR'20 (oral, nominated for best paper award)",
+    "special": "CVPR'20 (oral, award candidate)",
     "pdf": "https://arxiv.org/pdf/1909.05736.pdf",
     "homepage": "https://cvxnet.github.io/",
     "slides": "https://cvxnet.github.io/data/5908-talk.pdf",
