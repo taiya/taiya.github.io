@@ -183,8 +183,8 @@
     "arxiv": "https://arxiv.org/abs/2209.10684",
     "icon": "/icons/rebain2023abc.jpg",
     "year": "2023",
-    "venue": "(coming soon)",
-    "special": "NEW",
+    "venue": "Transactions on Machine Learning Research (TMLR)",
+    "special": "TMLR'23",
     "authors": [
       "Daniel Rebain",
       "Mark J. Matthews",
