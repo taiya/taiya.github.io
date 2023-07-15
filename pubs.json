@@ -141,7 +141,7 @@
   {
     "type": "conference",
     "key": "watson2023diffusion",
-    "title": "Novel View Synthesis with Diffusion Models",
+    "title": "Novel View Synthesis with Diffusion Models (3DiM)",
     "icon": "/pubs/watson2023diffusion.mov",
     "authors": [
       "Daniel Watson",
@@ -150,9 +150,10 @@
       "Andrea Tagliasacchi",
       "Mohammad Norouzi"
     ],
-    "venue": "(coming soon)",
+    "venue": "International Conference on Learning Representations",
     "year": "2023",
-    "special": "NEW",
+    "special": "ICLR'23",
+    "arxiv": "https://arxiv.org/abs/2210.04628",
     "homepage": "https://3d-diffusion.github.io",
     "pdf": "https://3d-diffusion.github.io/static/paper.pdf"
   },
