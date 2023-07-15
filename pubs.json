@@ -28,7 +28,7 @@
     "pdf": "/pubs/chen2023mobilenerf.pdf",
     "icon": "/pubs/chen2023mobilenerf.mov",
     "arxiv": "https://arxiv.org/abs/2208.00277",
-    "special": "NEW",
+    "special": "CVPR'23",
     "authors": [
       "Zhiqin Chen",
       "Tom Funkhouser",
@@ -52,7 +52,7 @@
     ],
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "year": "2023",
-    "special": "NEW"
+    "special": "CVPR'23"
   },
   {
     "type": "conference",
@@ -67,7 +67,7 @@
     ],
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "year": "2023",
-    "special": "NEW"
+    "special": "CVPR'23"
   },
   {
     "type": "conference",
@@ -84,7 +84,7 @@
     ],
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "year": "2023",
-    "special": "NEW"
+    "special": "CVPR'23"
   },
   {	
     "type": "conference",
@@ -100,7 +100,7 @@
     ],
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "year": "2023",
-    "special": "NEW"
+    "special": "CVPR'23"
   },
   {
     "type": "conference",
@@ -117,7 +117,7 @@
     ],
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "year": "2023",
-    "special": "NEW",
+    "special": "CVPR'23",
     "homepage": "https://cuf-paper.github.io",
     "pdf": "https://cuf-paper.github.io/cuf.pdf"
   },
@@ -206,7 +206,7 @@
     "arxiv": "https://arxiv.org/abs/2209.02417",
     "icon": "/icons/tagliasacchi2022volume.jpg",
     "pdf": "/pubs/tagliasacchi2022volume.pdf",
-    "special": "NEW",
+    "special": "techreport",
     "authors": [
       "Andrea Tagliasacchi",
       "Ben Mildenhall"
