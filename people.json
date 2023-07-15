@@ -1,46 +1,41 @@
 {
   "current": [
     {
-      "name": "Sherwin Bahmani",
-      "degree": "PhD candidate",
-      "time": "Incoming (Sep. 2023)",
-      "coadvisors": "Prof. David Lindell",
-      "currently": "UofT",
-      "homepage": "https://sherwinbahmani.github.io"
-    }
-    ,
-    {
       "name": "Shrisudhan Govindarajan",
       "degree": "PhD candidate",
       "time": "Incoming (Sep. 2023)",
       "currently": "SFU",
       "homepage": "https://in.linkedin.com/in/shrisudhan-govindarajan-b6a914157"
-    }
-    ,
+    },
     {
       "name": "Maria Taktasheva",
       "degree": "PhD candidate",
       "time": "Incoming (Sep. 2023)",
       "currently": "SFU",
       "homepage": "https://dblp.org/pid/244/2434.html"
-    }
-    ,
+    },
     {
       "name": "Cody Reading",
       "degree": "PhD candidate",
       "time": "Incoming (Sep. 2023)",
       "currently": "SFU",
       "homepage": "https://codyreading.github.io"
-    }
-    ,
+    },
     {
       "name": "Ahan Shabanov",
       "degree": "PhD candidate",
       "time": "2022-",
       "currently": "SFU",
       "homepage": "https://scholar.google.com/citations?user=pKhP8_cAAAAJ&hl=en"
-    }
-    ,
+    },
+    {
+      "name": "Sherwin Bahmani",
+      "degree": "PhD candidate",
+      "time": "Incoming (Sep. 2023)",
+      "coadvisors": "Prof. David Lindell",
+      "currently": "UofT",
+      "homepage": "https://sherwinbahmani.github.io"
+    },
     {
       "name": "Daniel Rebain",
       "degree": "PhD candidate",
@@ -49,8 +44,7 @@
       "coadvisors": "Prof. Kwang Moo Yi",
       "homepage": "http://drebain.com",
       "honors": "NSERC CGS"
-    }
-    ,
+    },
     {
       "name": "Weiwei Sun",
       "degree": "PhD candidate",
@@ -58,8 +52,7 @@
       "currently": "UBC",
       "coadvisors": "Prof. Kwang Moo Yi",
       "homepage": "https://wsunid.github.io"
-    }
-    ,
+    },
     {
       "name": "Daniel Ajisafe",
       "degree": "PhD candidate",
@@ -67,8 +60,7 @@
       "currently": "UBC",
       "coadvisors": "Prof. Helge Rhodin",
       "homepage": "https://danielajisafe.github.io"
-    }
-    ,
+    },
     {
       "name": "Lily Goli",
       "degree": "PhD candidate",
@@ -76,8 +68,7 @@
       "currently": "UofT",
       "coadvisors": "Prof. Alec Jacobson",
       "homepage": "https://ir.linkedin.com/in/lily-goli-a904459a"
-    }
-    ,
+    },
     {
       "name": "Gopal Sharma",
       "degree": "Postdoc",
@@ -96,8 +87,7 @@
       "currently": "Software Engineer, Facebook Reality Labs",
       "coadvisors": "Prof. Mark Pauly",
       "homepage": "https://scholar.google.com/citations?user=hc35dk4AAAAJ&hl=en"
-    }
-    ,
+    },
     {
       "name": "Dr. Baptiste Angles",
       "degree": "PhD",
@@ -105,8 +95,7 @@
       "currently": "Software Engineer, Apple Inc.",
       "coadvisors": "Prof. Loic Barthe",
       "homepage": "https://scholar.google.ca/citations?user=TINTysAAAAAJ&hl=en"
-    }
-    ,
+    },
     {
       "name": "Abhishek Kumar Bojja",
       "degree": "MSc",
@@ -114,8 +103,7 @@
       "currently": "Software Engineer, Algolux",
       "coadvisors": "Prof. Kwang Moo Yi",
       "homepage": "https://ca.linkedin.com/in/abojja9"
-    }
-    ,
+    },
     {
       "name": "Daniel Rebain",
       "degree": "MSc",
@@ -123,8 +111,7 @@
       "currently": "PhD candidate at UBC",
       "coadvisors": "Prof. Kwang Moo Yi",
       "homepage": "http://drebain.com"
-    }
-    ,
+    },
     {
       "name": "Boyang Deng",
       "degree": "Google Brain Resident",
