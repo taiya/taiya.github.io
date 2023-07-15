@@ -170,10 +170,10 @@
     ],
     "icon": "/pubs/goli2023nerf2nerf.mov",
     "year": "2023",
-    "special": "NEW",
-    "venue": "(coming soon)",
-    "video": "https://www.youtube.com/watch?v=S071rGezdNM",
+    "special": "ICRA'23",
+    "venue": "International Conference on Robotics and Automation (ICRA)",
     "homepage": "http://nerf2nerf.github.io",
+    "video": "https://www.youtube.com/watch?v=S071rGezdNM",
     "media": "https://www.rsipvision.com/ComputerVisionNews-2023March/4/"
   },
   {
