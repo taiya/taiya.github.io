@@ -1,4 +1,5 @@
 # Recent news
+- 2x papers accepted to NeurIPS'2023 (see publications)
 - [MobileNeRF](https://mobile-nerf.github.io) is a CVPR'2023 [best paper award candidate](https://cvpr2023.thecvf.com/Conferences/2023/AcceptedPapers)
 - 7x papers accepted to CVPR'2023 (see publications)
 - [NeuralBF](https://neuralbf.github.io) accepted to WACV'2023
