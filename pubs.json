@@ -733,7 +733,7 @@
     ]
   },
   {
-    "type": "workshop",
+    "type": "techreport",
     "key": "williams2020voronoinet",
     "title": "VoronoiNet: General Functional Approximators with Local Support",
     "year": "2020",
