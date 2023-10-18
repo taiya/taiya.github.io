@@ -21,7 +21,7 @@
   },
   {
     "type": "conference",
-    "key": "zhong2023nkf",
+    "key": "hedlin2023unsupervised",
     "title": "Unsupervised Semantic Correspondence Using Stable Diffusion",
     "authors": [
       "Eric Hedlin",
@@ -73,6 +73,9 @@
     "homepage": "https://robustnerf.github.io",
     "arxiv": "https://arxiv.org/abs/2302.00833",
     "special": "CVPR'23 (highlight)",
+    "notes":[
+      "highlight"
+    ],
     "year": "2023"
   },
   {
@@ -565,7 +568,7 @@
     "key": "deng2021vn",
     "title": "Vector Neurons: a general framework for SO(3)-equivariant networks",
     "year": "2021",
-    "venue": "arXiv preprint: 2104.12229",
+    "venue": "International Conference on Computer Vision (ICCV)",
     "icon": "/icons/deng2021vn.jpg",
     "source": "https://github.com/FlyingGiraffe/vnn",
     "homepage": "https://cs.stanford.edu/~congyue/vnn",
