@@ -1,19 +1,11 @@
 # --- Converts the publications into a bibtex file for use in latex
 import json
 
-# @article{flowcaps,
-#   title={Unsupervised part representation by Flow Capsules},
-#   author={Sara Sabour and \textbf{Andrea Tagliasacchi} and Soroosh Yazdani and Geoffrey E. Hinton and David J. Fleet},
-#   year={2021},
-#   journal=ICML,
-#   note={\url{https://arxiv.org/abs/2011.13920}}
-# }
-
 _conference_template="""
-@conference{KEY,
+@inproceedings{KEY,
    title={{TITLE}},
    author={AUTHORS},
-   howpublished={{CONFERENCE}},
+   booktitle={{CONFERENCE}},
    year={YEAR},
    notes={NOTES},
 }"""
@@ -46,7 +38,7 @@ _workshop_template="""
 }"""
 
 _course_template="""
-@misc{KEY,
+@course{KEY,
    title={{TITLE}},
    author={AUTHORS},
    howpublished={{HOWPUBLISHED}},
@@ -92,7 +84,7 @@ def techreport(pub):
     ret = ret.replace("NOTES", notes_to_string(pub['notes']) if "notes" in pub  else "")
     return ret
 
-def misc(pub):
+def course(pub):
     ret = _course_template
     ret = ret.replace("KEY", pub['key'])
     ret = ret.replace("TITLE", pub['title'])
@@ -106,12 +98,11 @@ def dispatcher(pub):
     if pub['type'] == 'conference': return conference(pub)
     if pub['type'] == 'journal': return journal(pub)
     if pub['type'] == 'techreport': return techreport(pub)
-    if pub['type'] == 'course': return techreport(pub)
+    if pub['type'] == 'course': return course(pub)
     raise ValueError(pub['type'])
 
 with open('pubs.json', 'r') as fp:
     data = json.load(fp)
     for pub in data:
         # if pub['key'] != "chen2020bspnet": continue #TODO
-        # if "notes" not in pub: continue
         print(dispatcher(pub))
