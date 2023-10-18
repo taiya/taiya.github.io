@@ -932,7 +932,7 @@
     "type": "journal",
     "key": "angles2019viper",
     "title": "VIPER: Volume Invariant Position-based Elastic Rods",
-    "venue": "Proceedings of Symposium on Computer Animation",
+    "venue": "Proceedings of the ACM (Proc. Symposium on Computer Animation)",
     "year": "2019",
     "pdf": "https://arxiv.org/pdf/1906.05260.pdf",
     "icon": "/icons/angles2019viper.jpg",
