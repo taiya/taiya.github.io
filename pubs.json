@@ -86,6 +86,10 @@
     "icon": "/pubs/chen2023mobilenerf.mov",
     "arxiv": "https://arxiv.org/abs/2208.00277",
     "special": "CVPR'23 (award candidate)",
+    "notes": [
+      "oral",
+      "best student award finalist"
+    ],
     "authors": [
       "Zhiqin Chen",
       "Tom Funkhouser",
@@ -325,7 +329,7 @@
     ]
   },
   {
-    "type": "journal",
+    "type": "conference",
     "key": "rematas2022urf",
     "title": "Urban Radiance Fields",
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
@@ -346,7 +350,7 @@
     ]
   },
   {
-    "type": "journal",
+    "type": "conference",
     "key": "kania2022conerf",
     "title": "CoNeRF: Controllable Neural Radiance Fields",
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
@@ -362,13 +366,13 @@
     ]
   },
   {
-    "type": "journal",
+    "type": "conference",
     "key": "rebain2021lolnerf",
     "title": "LOLNeRF: Learn from One Look",
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "special": "CVPR'22",
     "homepage": "https://ubc-vision.github.io/lolnerf",
-    "year": "2021",
+    "year": "2022",
     "authors": [
       "Daniel Rebain",
       "Mark Matthews",
@@ -378,7 +382,7 @@
     ]
   },
   {
-    "type": "journal",
+    "type": "conference",
     "key": "sajjadi2022srt",
     "title": "Scene Representation Transformer",
     "homepage": "http://srt-paper.github.io",
@@ -402,7 +406,7 @@
     ]
   },
   {
-    "type": "journal",
+    "type": "conference",
     "key": "usman2022metapose",
     "title": "MetaPose: fast 3D pose from multiple views without 3D supervision",
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
@@ -417,7 +421,7 @@
     ]
   },
   {
-    "type": "journal",
+    "type": "conference",
     "key": "greff2022kubric",
     "title": "Kubric: A scalable dataset generator",
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
@@ -463,7 +467,7 @@
     ]
   },
   {
-    "type": "journal",
+    "type": "conference",
     "key": "kundu2022panoptic",
     "title": "Panoptic Neural Fields: A Semantic Object-Aware Neural Scene Representation",
     "year": "2022",
@@ -593,7 +597,7 @@
     ]
   },
   {
-    "type": "journal",
+    "type": "conference",
     "key": "rebain2021derf",
     "title": "DeRF: Decomposed Radiance Fields",
     "year": "2021",
@@ -611,7 +615,7 @@
     ]
   },
   {
-    "type": "journal",
+    "type": "conference",
     "key": "angles2021mist",
     "title": "MIST: Multiple Instance Spatial Transformer Networks",
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
@@ -643,7 +647,7 @@
     ]
   },
   {
-    "type": "journal",
+    "type": "conference",
     "key": "wang2020pienet",
     "title": "PIE-NET: Parametric Inference of Point Cloud Edges",
     "year": "2020",
@@ -662,7 +666,7 @@
     ]
   },
   {
-    "type": "journal",
+    "type": "conference",
     "key": "aksan2020cose",
     "title": "CoSE: Compositional Stroke Embeddings",
     "year": "2020",
@@ -678,7 +682,7 @@
     ]
   },
   {
-    "type": "journal",
+    "type": "conference",
     "key": "jiang2020shapeflow",
     "title": "ShapeFlow: Learnable Deformations Among 3D Shapes",
     "venue": "Neural Information Processing Systems (NeurIPS)",
@@ -686,6 +690,9 @@
     "icon": "/icons/jiang2020shapeflow.jpg",
     "year": "2020",
     "homepage": "https://arxiv.org/pdf/2006.07982",
+    "notes":[
+      "spotlight"
+    ],
     "authors": [
       "Chiyu \"Max\" Jiang",
       " Jingwei Huang",
@@ -694,7 +701,7 @@
     ]
   },
   {
-    "type": "journal",
+    "type": "conference",
     "key": "deng2020nasa",
     "title": "NASA: Neural Articulated Shape Approximation",
     "pdf": "https://arxiv.org/abs/1912.03207",
@@ -750,7 +757,7 @@
     ]
   },
   {
-    "type": "journal",
+    "type": "conference",
     "key": "chen2020bspnet",
     "title": "BSP-Net: Generating Compact Meshes via Binary Space Partitioning",
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
@@ -760,6 +767,10 @@
     "video": "https://youtu.be/9-ixexpjN-8",
     "pdf": "https://arxiv.org/abs/1911.06971",
     "special": "CVPR'20 (oral, best student paper award)",
+    "notes": [
+      "oral",
+      "best student paper award"
+    ],
     "icon": "/icons/chen2020bspnet.jpg",
     "authors": [
       "Zhiqin Chen",
@@ -781,6 +792,9 @@
     "source": "https://github.com/tensorflow/graphics/tree/master/tensorflow_graphics/projects/cvxnet",
     "icon": "/icons/deng2020cvxnet.jpg",
     "media": "https://www.rsipvision.com/ComputerVisionNews-2020July/22",
+    "notes": [
+      "best paper award finalist"
+    ],
     "authors": [
       "Boyang Deng",
       "Kyle Genova",
@@ -791,7 +805,7 @@
     ]
   },
   {
-    "type": "journal",
+    "type": "conference",
     "key": "tang2020compression",
     "title": "Deep Implicit Volume Compression",
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
@@ -819,7 +833,7 @@
     ]
   },
   {
-    "type": "journal",
+    "type": "conference",
     "key": "sun2020acne",
     "title": "Attentive Context Normalization for Robust Permutation-Equivariant Learning",
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
@@ -1234,22 +1248,6 @@
     ]
   },
   {
-    "type": "course",
-    "key": "bouaziz2015registration",
-    "venue": "Proc. Symposium on Geometry Processing (Technical Course Notes)",
-    "title": "Dynamic 2D/3D Registration",
-    "slides": "/pubs/bouaziz2015registration/slides.pdf",
-    "source": "/pubs/bouaziz2015registration/source.zip",
-    "icon": "/icons/bouaziz2015registration.jpg",
-    "pdf": "/pubs/bouaziz2015registration.pdf",
-    "special": "SGP'15",
-    "year": "2015",
-    "authors": [
-      "Sofien Bouaziz",
-      "Andrea Tagliasacchi (presenters)"
-    ]
-  },
-  {
     "type": "journal",
     "key": "tagliasacchi2015htrack",
     "title": "Robust Articulated-ICP for Real-Time Hand Tracking",
@@ -1299,6 +1297,9 @@
     "video": "http://www.youtube.com/watch?v=R00IvqcI9jU",
     "homepage": "http://www.chateaunoir.net/caustics.html",
     "year": "2014",
+    "notes": [
+      "Nature image of the month"
+    ],
     "authors": [
       "Yuliy Schwartzburg",
       "Romain Testuz",
@@ -1499,6 +1500,9 @@
     "number": "3",
     "pages": "71:1--71:9",
     "year": "2009",
+    "notes": [
+      "MITACS best paper award"
+    ],
     "authors": [
       "Andrea Tagliasacchi",
       "Hao Zhang",
