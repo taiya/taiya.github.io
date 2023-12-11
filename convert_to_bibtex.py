@@ -7,7 +7,7 @@ _conference_template="""
    author={AUTHORS},
    booktitle={{CONFERENCE}},
    year={YEAR},
-   notes={NOTES},
+   note={NOTES},
 }"""
 
 _journal_template="""
@@ -16,7 +16,7 @@ _journal_template="""
    author={AUTHORS},
    journal={{CONFERENCE}},
    year={YEAR},
-   notes={NOTES},
+   note={NOTES},
 }"""
 
 _techreport_template="""
@@ -25,7 +25,17 @@ _techreport_template="""
    author={AUTHORS},
    institution={{INSTITUTION}},
    year={YEAR},
-   notes={NOTES},
+   note={NOTES},
+}"""
+
+_arxiv_template="""
+@misc{KEY,
+   title={{TITLE}},
+   author={AUTHORS},
+   institution={{INSTITUTION}},
+   year={YEAR},
+   eprint={1912.03207},
+   note={(arXiv preprint)},
 }"""
 
 _workshop_template="""
@@ -34,7 +44,7 @@ _workshop_template="""
    author={AUTHORS},
    institution={{INSTITUTION}},
    year={YEAR},
-   notes={NOTES},
+   note={NOTES},
 }"""
 
 _course_template="""
@@ -43,7 +53,7 @@ _course_template="""
    author={AUTHORS},
    howpublished={{HOWPUBLISHED}},
    year={YEAR},
-   notes={NOTES},
+   note={NOTES},
 }"""
 
 def list_to_string(mylist):
@@ -84,6 +94,15 @@ def techreport(pub):
     ret = ret.replace("NOTES", notes_to_string(pub['notes']) if "notes" in pub  else "")
     return ret
 
+def arxiv(pub):
+    ret = _arxiv_template
+    ret = ret.replace("KEY", pub['key'])
+    ret = ret.replace("TITLE", pub['title'])
+    ret = ret.replace("AUTHORS", list_to_string(pub['authors']))
+    ret = ret.replace("YEAR", pub['year'])
+    ret = ret.replace("NOTES", notes_to_string(pub['notes']) if "notes" in pub  else "")
+    return ret
+
 def course(pub):
     ret = _course_template
     ret = ret.replace("KEY", pub['key'])
@@ -99,6 +118,7 @@ def dispatcher(pub):
     if pub['type'] == 'journal': return journal(pub)
     if pub['type'] == 'techreport': return techreport(pub)
     if pub['type'] == 'course': return course(pub)
+    if pub['type'] == 'arxiv': return arxiv(pub)
     raise ValueError(pub['type'])
 
 with open('pubs.json', 'r') as fp:
