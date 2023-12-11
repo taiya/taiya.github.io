@@ -1,5 +1,167 @@
 [
   {
+    "type": "arxiv",
+    "key": "bahmani2024fourdfy",
+    "title": "4D-fy: Text-to-4D Generation Using Hybrid Score Distillation Sampling",
+    "year": "2024",
+    "venue": "arXiv",
+    "special": "arXiv",
+    "authors": [
+      "Sherwin Bahmani",
+      "Ivan Skorokhodov",
+      "Victor Rong",
+      "Gordon Wetzstein",
+      "Leonidas Guibas",
+      "Peter Wonka",
+      "Sergey Tulyakov",
+      "Jeong Joon Park",
+      "Andrea Tagliasacchi",
+      "David Lindell"
+    ]
+  },
+  {
+    "type": "arxiv",
+    "key": "charatan2024pixelsplat",
+    "title": "pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction",
+    "year": "2024",
+    "venue": "arXiv",
+    "special": "arXiv",
+    "authors": [
+      "David Charatan",
+      "Sizhe Li",
+      "Andrea Tagliasacchi",
+      "Vincent Sitzmann"
+    ]
+  },
+  {
+    "type": "arxiv",
+    "key": "shabanov2024banf",
+    "title": "BANF: Band-limited Neural Fields for Levels of Detail Reconstruction",
+    "year": "2024",
+    "venue": "arXiv",
+    "special": "arXiv",
+    "authors": [
+      "Ahan Shabanov",
+      "Shrisudhan Govindarajan",
+      "Cody Reading",
+      "Daniel Rebain",
+      "Kwang Moo Yi",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "arxiv",
+    "key": "hedlin2024keypoints",
+    "title": "Unsupervised Keypoints from Pretrained Diffusion Models",
+    "year": "2024",
+    "venue": "arXiv",
+    "special": "arXiv",
+    "authors": [
+      "Eric Hedlin",
+      "Gopal Sharma",
+      "Shweta Mahajan",
+      "Hossam Isack",
+      "Abhishek Kar",
+      "Helge Rhodin",
+      "Andrea Tagliasacchi",
+      "Kwang Moo Yi"
+    ]
+  },
+  {
+    "type": "arxiv",
+    "key": "kheradmand2024softmining",
+    "title": "Accelerating Neural Field Training via Soft Mining",
+    "year": "2024",
+    "venue": "arXiv",
+    "special": "arXiv",
+    "authors": [
+      "Shakiba Kheradmand",
+      "Daniel Rebain",
+      "Gopal Sharma",
+      "Hossam Isack",
+      "Abhishek Kar",
+      "Andrea Tagliasacchi",
+      "Kwang Moo Yi"
+    ]
+  },
+  {
+    "type": "arxiv",
+    "key": "xia2024densify",
+    "title": "Densify Your Labels: Unsupervised Clustering with Bipartite Matching for Weakly Supervised Point Cloud Segmentation",
+    "year": "2024",
+    "venue": "arXiv",
+    "special": "arXiv",
+    "authors": [
+      "Shaobo Xia",
+      "Weiwei Sun",
+      "Jun Yue",
+      "Kacper Kania",
+      "Leyuan Fang",
+      "Andrea Tagliasacchi",
+      "Kwang Moo Yi"
+    ]
+  },
+  {
+    "type": "arxiv",
+    "key": "sun2024pointnerfpp",
+    "title": "PointNeRF++: A multi-scale, point-based Neural Radiance Field",
+    "year": "2024",
+    "venue": "arXiv",
+    "special": "arXiv",
+    "authors": [
+      "Weiwei Sun",
+      "Eduard Trulls",
+      "Yang-Che Tseng",
+      "Sneha Sambandam",
+      "Gopal Sharma",
+      "Andrea Tagliasacchi",
+      "Kwang Moo Yi"
+    ]
+  },
+  {
+    "type": "arxiv",
+    "key": "goli2024bayesrays",
+    "title": "Bayes' Rays: Uncertainty Quantification for Neural Radiance Fields",
+    "year": "2024",
+    "venue": "arXiv",
+    "special": "arXiv",
+    "authors": [
+      "Lily Goli",
+      "Cody Reading",
+      "Silvia Sellan",
+      "Alec Jacobson",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "arxiv",
+    "key": "rebain2024ndf",
+    "title": "Neural Fields as Distributions: Signal Processing Beyond Euclidean Space",
+    "year": "2024",
+    "venue": "arXiv",
+    "special": "arXiv",
+    "authors": [
+      "Daniel Rebain",
+      "Soroosh Yazdani",
+      "Kwang Moo Yi",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "arxiv",
+    "key": "sharma2024quadrature",
+    "title": "Volumetric Rendering with Baked Quadrature Fields",
+    "year": "2024",
+    "venue": "arXiv",
+    "special": "arXiv",
+    "authors": [
+      "Gopal Sharma",
+      "Daniel Rebain",
+      "Kwang Moo Yi",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
     "type": "conference",
     "key": "zhong2023nkf",
     "title": "Neural Fields with Hard Constraints of Arbitrary Differential Order",
@@ -341,7 +503,7 @@
     "pdf": "https://urban-radiance-fields.github.io/images/go_urf.pdf",
     "homepage": "http://urban-radiance-fields.github.io",
     "video": "https://www.youtube.com/watch?v=B973fam8Bag",
-    "year": "2021",
+    "year": "2022",
     "authors": [
       "Konstantinos Rematas",
       "Andrew Liu",
@@ -927,7 +1089,7 @@
       "Qiang Zhou",
       "Andrea Tagliasacchi",
       "Shiqing Xin",
-      "Matthias Nie\u00dfner",
+      "Matthias Niessner",
       "Baoquan Chen"
     ]
   },
