@@ -6,6 +6,9 @@
     "year": "2024",
     "venue": "arXiv",
     "special": "arXiv",
+    "arxiv": "https://arxiv.org/abs/2311.17984",
+    "homepage": "https://sherwinbahmani.github.io/4dfy",
+    "pdf": "https://arxiv.org/pdf/2311.17984.pdf",
     "authors": [
       "Sherwin Bahmani",
       "Ivan Skorokhodov",
@@ -55,6 +58,8 @@
     "title": "Unsupervised Keypoints from Pretrained Diffusion Models",
     "year": "2024",
     "venue": "arXiv",
+    "arXiv": "https://arxiv.org/abs/2312.00065",
+    "homepage": "https://stablekeypoints.github.io",
     "special": "arXiv",
     "authors": [
       "Eric Hedlin",
@@ -177,7 +182,7 @@
       "Cengiz Oztireli"
     ],
     "venue": "Neural Information Processing Systems (NeurIPS)",
-    "arXiv": "https://arxiv.org/abs/2306.08943",
+    "arxiv": "https://arxiv.org/abs/2306.08943",
     "year": "2023",
     "special": "NeurIPS'23"
   },
