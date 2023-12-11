@@ -34,7 +34,7 @@ _arxiv_template="""
    author={AUTHORS},
    institution={{INSTITUTION}},
    year={YEAR},
-   eprint={1912.03207},
+   url={URL},
    note={(arXiv preprint)},
 }"""
 
@@ -100,6 +100,10 @@ def arxiv(pub):
     ret = ret.replace("TITLE", pub['title'])
     ret = ret.replace("AUTHORS", list_to_string(pub['authors']))
     ret = ret.replace("YEAR", pub['year'])
+    if 'arxiv' in pub:
+        ret = ret.replace("URL", pub['arxiv'])
+    else:
+        ret = ret.replace("URL", "https://arxiv.org")
     ret = ret.replace("NOTES", notes_to_string(pub['notes']) if "notes" in pub  else "")
     return ret
 
