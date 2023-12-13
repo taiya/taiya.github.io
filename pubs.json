@@ -29,6 +29,7 @@
     "year": "2024",
     "venue": "arXiv",
     "special": "arXiv",
+    "arxiv": "https://pixelsplat.github.io",
     "authors": [
       "David Charatan",
       "Sizhe Li",
@@ -43,6 +44,7 @@
     "year": "2024",
     "venue": "arXiv",
     "special": "arXiv",
+    "arxiv": "https://theialab.github.io/banf",
     "authors": [
       "Ahan Shabanov",
       "Shrisudhan Govindarajan",
@@ -58,7 +60,7 @@
     "title": "Unsupervised Keypoints from Pretrained Diffusion Models",
     "year": "2024",
     "venue": "arXiv",
-    "arXiv": "https://arxiv.org/abs/2312.00065",
+    "arxiv": "https://arxiv.org/abs/2312.00065",
     "homepage": "https://stablekeypoints.github.io",
     "special": "arXiv",
     "authors": [
@@ -722,6 +724,9 @@
     "icon": "/icons/jiang2021cotr.jpg",
     "source": "https://github.com/ubc-vision/COTR",
     "special": "ICCV'21 (oral)",
+    "notes": [
+      "oral"
+    ],
     "authors": [
       "Wei Jiang",
       "Eduard Trulls",
@@ -740,6 +745,9 @@
     "source": "https://github.com/FlyingGiraffe/vnn",
     "homepage": "https://cs.stanford.edu/~congyue/vnn",
     "special": "ICCV'21 (oral)",
+    "notes": [
+      "oral"
+    ],
     "authors": [
       "Congyue Deng",
       "Or Litany",
@@ -963,6 +971,7 @@
     "icon": "/icons/deng2020cvxnet.jpg",
     "media": "https://www.rsipvision.com/ComputerVisionNews-2020July/22",
     "notes": [
+      "oral",
       "best paper award finalist"
     ],
     "authors": [
@@ -985,6 +994,9 @@
     "pdf": "https://arxiv.org/abs/2005.08877",
     "icon": "/icons/tang2020compression.jpg",
     "special": "CVPR'20 (oral)",
+    "notes": [
+      "oral"
+    ],
     "authors": [
       "Danhang Tang",
       "Saurabh Singh",
@@ -1065,6 +1077,9 @@
     "title": "Linearized Multi-Sampling for Differentiable Image Transformation",
     "venue": "International Conference on Computer Vision (ICCV)",
     "special": "ICCV'19 (oral)",
+    "notes": [
+      "oral"
+    ],
     "year": "2019",
     "icon": "/icons/jiang2019linearized.jpg",
     "pdf": "/pubs/jiang2019linearized.pdf",
