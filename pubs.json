@@ -147,6 +147,7 @@
     "year": "2024",
     "venue": "arXiv",
     "special": "arXiv",
+    "arxiv": "http://ubc-vision.github.io/nfd",
     "authors": [
       "Daniel Rebain",
       "Soroosh Yazdani",
@@ -1716,5 +1717,272 @@
       "Oliver van Kaick",
       "Andrea Tagliasacchi"
     ]
+  },
+  {
+    "type": "patent",
+    "key": "sabour2023patent",
+    "title": "NEURAL RADIANCE FIELD MODELS WITH IMPROVED ROBUSTNESS AGAINST DISTRACTOR OBJECTS",
+    "status": "filed",
+    "filed": "Dec. 7, 2023",
+    "year": "2023",
+    "authors": [
+      "Daniel Duckworth",
+      "Ivan Krasin",
+      "Andrea Tagliasacchi",
+      "David J. Fleet",
+      "Sara Sabour",
+      "Suhani Vora"
+    ],
+    "number": "GP-305003-00-PCT"
+  },
+  {
+    "type": "patent",
+    "key": "vasconcelos2023patent",
+    "title": "IMAGE SUPER-RESOLUTION NEURAL NETWORKS",
+    "status": "filed",
+    "filed": "Oct. 12, 2023",
+    "year": "2023",
+    "authors": [
+      "Cristina Vasconcelos",
+      "Mark Matthews",
+      "Milad Hashemi",
+      "Kevin Swersky",
+      "Cengiz Oztireli",
+      "Andrea Tagliasacchi"
+    ],
+    "number": "GP-304763-00-PCT"
+  },
+  {
+    "type": "patent",
+    "key": "watson2023patent",
+    "title": "THREE-DIMENSIONAL DIFFUSION MODELS",
+    "status": "filed",
+    "filed": "Sep. 1, 2023",
+    "year": "2023",
+    "authors": [
+      "Daniel Watson",
+      "Andrea Tagliasacchi",
+      "Mohammad Norouzi",
+      "William Chen"
+    ],
+    "number": "GP-304541-00-PCT"
+  },
+  {
+    "type": "patent",
+    "key": "hedman2023patent",
+    "title": "EFFICIENT NEURAL RADIANCE FIELD RENDERING",
+    "status": "filed",
+    "filed": "Jul. 20, 2023",
+    "year": "2023",
+    "authors": [
+      "Peter Hedman",
+      "Zhiqin Chen",
+      "Tom Funkhouser",
+      "Andrea Tagliasacchi"
+    ],
+    "number": "GP-304370-00-PCT"
+  },
+  {
+    "type": "patent",
+    "key": "duckworth2022patent",
+    "title": "NEURAL SEMANTIC FIELDS FOR GENERALIZABLE SEMANTIC SEGMENTATION OF 3D SCENES",
+    "status": "filed",
+    "filed": "Dec. 22, 2022",
+    "year": "2022",
+    "authors": [
+      "Daniel Duckworth",
+      "Suhani Vora",
+      "Noha Radwan",
+      "Mehdi S. M. Sajjadi",
+      "Kyle Genova",
+      "Klaus Greff",
+      "Henning Meyer",
+      "Etienne Pot",
+      "Andrea Tagliasacchi"
+    ],
+    "number": "GP-303392-00-PCT"
+  },
+  {
+    "type": "patent",
+    "key": "sajjadi2022patent",
+    "title": "GEOMETRY-FREE NEURAL SCENE REPRESENTATIONS FOR EFFICIENT OBJECT-CENTRIC NOVEL VIEW SYNTHESIS",
+    "status": "published",
+    "filed": "Nov. 15, 2022",
+    "year": "2022",
+    "authors": [
+      "Mehdi S. M. Sajjadi",
+      "Klaus Greff",
+      "Thomas Kipf",
+      "Leonidas Guibas",
+      "Filip Pavetic",
+      "Aravindh Mahendran",
+      "Sjoerd van Steenkiste",
+      "Mario Lucic",
+      "Daniel Duckworth",
+      "Andrea Tagliasacchi",
+      "Tom Funkhouser",
+      "Urs Bergmann",
+      "Suhani Vora",
+      "Etienne Pot",
+      "Noha Radwan",
+      "Henning Meyer"
+    ],
+    "number": "GP-303369-00-US"
+  },
+  {
+    "type": "patent",
+    "key": "tang2022patent",
+    "title": "SYSTEMS AND METHODS FOR COMPRESSION OF THREE-DIMENSIONAL VOLUMETRIC REPRESENTATIONS",
+    "status": "published",
+    "filed": "Oct. 14, 2022",
+    "year": "2022",
+    "authors": [
+      "Danhang Tang",
+      "Cem Keskin",
+      "Phil Chou",
+      "Christian Haene",
+      "Mingsong Dou",
+      "Sofien Bouaziz",
+      "Jonathan Taylor",
+      "Andrea Tagliasacchi",
+      "Philip Davidson",
+      "Yinda Zhang",
+      "Onur G. Guleryuz",
+      "Shahram Izadi",
+      "Saurabh Singh",
+      "Sean Fanello"
+    ],
+    "number": "GP-300804-00-EP"
+  },
+  {
+    "type": "patent",
+    "key": "tagliasacchi2020patent",
+    "title": "CONVEX REPRESENTATIONS OF OBJECTS USING NEURAL NETWORKS",
+    "status": "published",
+    "filed": "Apr. 13, 2020",
+    "year": "2020",
+    "authors": [
+      "Andrea Tagliasacchi",
+      "Boyang Deng",
+      "Kyle Genova",
+      "Soroosh Yazdani",
+      "Sofien Bouaziz",
+      "Geoffrey Hinton"
+    ],
+    "number": "GP-300443-00-US"
+  },
+  {
+    "type": "patent",
+    "key": "meka2019patent",
+    "title": "METHODS, SYSTEMS, AND MEDIA FOR RELIGHTING IMAGES USING PREDICTED DEEP REFLECTANCE FIELDS",
+    "status": "published",
+    "filed": "Oct 16, 2019",
+    "year": "2019",
+    "authors": [
+      "Abhi Meka",
+      "Rohit Pandey",
+      "Sean Fanello",
+      "Graham Fyffe",
+      "Adarsh Kowdle",
+      "Xueming Yu",
+      "Jay Busch",
+      "Jason Dourgarian",
+      "Peter Denny",
+      "Sofien Bouaziz",
+      "Andrea Tagliasacchi",
+      "Peter Lincoln",
+      "Matt Whalen",
+      "Geoff Harvey",
+      "Jonathan Taylor",
+      "Shahram Izadi",
+      "Paul Debevec",
+      "Julien Valentin",
+      "Christoph Rhemann",
+      "Christian Haene"
+    ],
+    "number": "GP-301831-00-US"
+  },
+  {
+    "type": "patent",
+    "key": "yang2020patent",
+    "title": "VOLUMETRIC CAPTURE OF OBJECTS WITH A SINGLE RGBD CAMERA",
+    "status": "published",
+    "filed": "Apr. 30, 2020",
+    "year": "2020",
+    "authors": [
+      "Anastasia Tkach",
+      "Ricardo Martin Brualla",
+      "Shahram Izadi",
+      "Shuoran Yang",
+      "Cem Keskin",
+      "Pavel Pidlypenskyi",
+      "Philip Davidson",
+      "Jonathan Taylor",
+      "Rohit Pandey",
+      "Andrea Tagliasacchi",
+      "Sean Fanello"
+    ],
+    "number": "GP-204355-00-US"
+  },
+  {
+    "type": "patent",
+    "key": "rematas2022patent",
+    "title": "RADIANCE FIELDS FOR THREE-DIMENSIONAL RECONSTRUCTION AND NOVEL VIEW SYNTHESIS IN LARGE-SCALE ENVIRONMENTS",
+    "status": "published",
+    "filed": "Mar. 4, 2022",
+    "year": "2022",
+    "authors": [
+      "Konstantinos Rematas",
+      "Jon Barron",
+      "Andrea Tagliasacchi",
+      "Andrew Liu",
+      "Pratul Srinivasan",
+      "Tom Funkhouser",
+      "Vittorio Ferrari"
+    ],
+    "number": "GP-303451-00-US"
+  },
+  {
+    "type": "patent",
+    "key": "matthews2022patent",
+    "title": "NEURAL RADIANCE FIELD GENERATIVE MODELING OF OBJECT CLASSES FROM SINGLE TWO-DIMENSIONAL VIEWS",
+    "status": "published",
+    "filed": "Apr. 13, 2022",
+    "year": "2022",
+    "authors": [
+      "Mark Matthews",
+      "Andrea Tagliasacchi",
+      "Dmitry Lagun",
+      "Daniel Rebain"
+    ],
+    "number": "GP-303341-00-PCT"
+  },
+  {
+    "type": "patent",
+    "key": "sud2022patent",
+    "title": "PERFORMANCE OF COMPLEX OPTIMIZATION TASKS WITH IMPROVED EFFICIENCY VIA NEURAL META-OPTIMIZATION OF EXPERTS",
+    "status": "published",
+    "filed": "Jul. 21, 2022",
+    "year": "2022",
+    "authors": [
+      "Avneesh Sud",
+      "Ben Usman",
+      "Andrea Tagliasacchi"
+    ],
+    "number": "GP-302673-00-US"
+  },
+  {
+    "type": "patent",
+    "key": "tagliasacchi2017patent",
+    "title": "REAL-TIME HAND MODELING AND TRACKING USING SPHERE-MESH MODELS",
+    "status": "published",
+    "filed": "Aug. 14, 2017",
+    "year": "2017",
+    "authors": [
+      "Andrea Tagliasacchi",
+      "Anastasia Tkach",
+      "Mark Pauly"
+    ],
+    "number": "US11568601B2"
   }
 ]
