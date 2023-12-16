@@ -308,7 +308,9 @@ function make_pub(entry) {
 
 function make_pubs_callback(pubs) {
   for (var i = 0; i < pubs.length; i++) {
-    make_pub(pubs[i])
+    if(pubs[i]['type'] != 'patent') {
+      make_pub(pubs[i])
+    }
   }
 }
 

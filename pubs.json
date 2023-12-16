@@ -80,6 +80,7 @@
     "title": "Accelerating Neural Field Training via Soft Mining",
     "year": "2024",
     "venue": "arXiv",
+    "arxiv": "https://arxiv.org/abs/2312.00075",
     "special": "arXiv",
     "authors": [
       "Shakiba Kheradmand",
@@ -98,6 +99,7 @@
     "year": "2024",
     "venue": "arXiv",
     "special": "arXiv",
+    "arxiv": "https://densify-your-labels.github.io",
     "authors": [
       "Shaobo Xia",
       "Weiwei Sun",
@@ -115,6 +117,7 @@
     "year": "2024",
     "venue": "arXiv",
     "special": "arXiv",
+    "arxiv": "https://pointnerfpp.github.io",
     "authors": [
       "Weiwei Sun",
       "Eduard Trulls",
@@ -132,6 +135,7 @@
     "year": "2024",
     "venue": "arXiv",
     "special": "arXiv",
+    "arxiv": "https://arxiv.org/abs/2309.03185",
     "authors": [
       "Lily Goli",
       "Cody Reading",
@@ -162,6 +166,7 @@
     "year": "2024",
     "venue": "arXiv",
     "special": "arXiv",
+    "arxiv": "https://arxiv.org/abs/2312.02202",
     "authors": [
       "Gopal Sharma",
       "Daniel Rebain",
