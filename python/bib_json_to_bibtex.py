@@ -7,7 +7,7 @@ _conference_template="""
    author={AUTHORS},
    booktitle={{CONFERENCE}},
    year={YEAR},
-   note={NOTES},
+   note={\\textbf{NOTES}},
 }"""
 
 _journal_template="""
@@ -16,7 +16,7 @@ _journal_template="""
    author={AUTHORS},
    journal={{CONFERENCE}},
    year={YEAR},
-   note={NOTES},
+   note={\\textbf{NOTES}},
 }"""
 
 _techreport_template="""
@@ -25,17 +25,24 @@ _techreport_template="""
    author={AUTHORS},
    institution={{INSTITUTION}},
    year={YEAR},
-   note={NOTES},
+   note={\\textbf{NOTES}},
 }"""
 
 _arxiv_template="""
 @misc{KEY,
-   title={{TITLE}},
+   title={\\normalfont{``TITLE''}},
    author={AUTHORS},
-   institution={{INSTITUTION}},
    year={YEAR},
    url={URL},
-   note={(arXiv preprint)},
+}"""
+
+_patent_template="""
+@patent{KEY,
+   title={TITLE},
+   author={AUTHORS},
+   number={NUMBER},
+   year={YEAR},
+   note={NOTES},
 }"""
 
 _workshop_template="""
@@ -44,7 +51,7 @@ _workshop_template="""
    author={AUTHORS},
    institution={{INSTITUTION}},
    year={YEAR},
-   note={NOTES},
+   note={\\textbf{NOTES}},
 }"""
 
 _course_template="""
@@ -53,7 +60,7 @@ _course_template="""
    author={AUTHORS},
    howpublished={{HOWPUBLISHED}},
    year={YEAR},
-   note={NOTES},
+   note={\\textbf{NOTES}},
 }"""
 
 def list_to_string(mylist):
@@ -103,8 +110,18 @@ def arxiv(pub):
     if 'arxiv' in pub:
         ret = ret.replace("URL", pub['arxiv'])
     else:
-        ret = ret.replace("URL", "https://arxiv.org")
+        ret = ret.replace("URL", "")
     ret = ret.replace("NOTES", notes_to_string(pub['notes']) if "notes" in pub  else "")
+    return ret
+
+def patent(pub):
+    ret = _patent_template
+    ret = ret.replace("KEY", pub['key'])
+    ret = ret.replace("TITLE", pub['title'])
+    ret = ret.replace("AUTHORS", list_to_string(pub['authors']))
+    ret = ret.replace("YEAR", pub['year'])
+    ret = ret.replace("NUMBER", pub['number'])
+    ret = ret.replace("NOTES", f"Filed: {pub['filed']}")
     return ret
 
 def course(pub):
@@ -123,10 +140,13 @@ def dispatcher(pub):
     if pub['type'] == 'techreport': return techreport(pub)
     if pub['type'] == 'course': return course(pub)
     if pub['type'] == 'arxiv': return arxiv(pub)
+    if pub['type'] == 'patent': return patent(pub)
     raise ValueError(pub['type'])
 
-with open('pubs.json', 'r') as fp:
+with open('../pubs.json', 'r') as fp:
     data = json.load(fp)
     for pub in data:
         # if pub['key'] != "chen2020bspnet": continue #TODO
-        print(dispatcher(pub))
+        text = dispatcher(pub)
+        text = text.replace("Andrea Tagliasacchi", "\\textcolor{BrickRed}{Andrea Tagliasacchi}")
+        print(text)
