@@ -183,6 +183,8 @@
     "venue": "arXiv",
     "special": "NEW!",
     "arxiv": "https://arxiv.org/abs/2312.02202",
+    "homepage": "https://quadraturefields.github.io",
+    "icon": "/pubs/sharma2024quadrature.mov",
     "authors": [
       "Gopal Sharma",
       "Daniel Rebain",
