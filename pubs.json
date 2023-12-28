@@ -99,7 +99,8 @@
     "year": "2024",
     "venue": "arXiv",
     "special": "arXiv",
-    "arxiv": "https://densify-your-labels.github.io",
+    "arxiv": "https://arxiv.org/abs/2312.06799",
+    "homepage": "https://densify-your-labels.github.io",
     "authors": [
       "Shaobo Xia",
       "Weiwei Sun",
@@ -117,7 +118,8 @@
     "year": "2024",
     "venue": "arXiv",
     "special": "arXiv",
-    "arxiv": "https://pointnerfpp.github.io",
+    "arxiv": "https://arxiv.org/abs/2312.02362",
+    "homepage": "https://pointnerfpp.github.io",
     "authors": [
       "Weiwei Sun",
       "Eduard Trulls",
@@ -516,7 +518,7 @@
     "title": "Urban Radiance Fields",
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "special": "CVPR'22",
-    "arXiv": "https://arxiv.org/abs/2111.14643",
+    "arxiv": "https://arxiv.org/abs/2111.14643",
     "pdf": "https://urban-radiance-fields.github.io/images/go_urf.pdf",
     "homepage": "http://urban-radiance-fields.github.io",
     "video": "https://www.youtube.com/watch?v=B973fam8Bag",
