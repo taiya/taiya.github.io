@@ -167,7 +167,7 @@
     "special": "NEW!",
     "arxiv": "http://ubc-vision.github.io/nfd",
     "homepage": "https://ubc-vision.github.io/nfd",
-    "icon": "/pubs/rebain2024ndf.mov",
+    "icon": "/pubs/rebain2024nfd.mov",
     "authors": [
       "Daniel Rebain",
       "Soroosh Yazdani",
@@ -272,6 +272,7 @@
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "media": "https: //www.rsipvision.com/ComputerVisionNews-2023July/3/",
     "homepage": "https://robustnerf.github.io",
+    "icon": "/pubs/sabour2023robustnerf.mov",
     "arxiv": "https://arxiv.org/abs/2302.00833",
     "special": "CVPR'23 (highlight)",
     "notes":[
