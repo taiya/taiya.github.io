@@ -154,6 +154,8 @@
     "venue": "arXiv",
     "special": "arXiv",
     "arxiv": "http://ubc-vision.github.io/nfd",
+    "homepage": "https://ubc-vision.github.io/nfd",
+    "icon": "/pubs/rebain2024ndf.mov",
     "authors": [
       "Daniel Rebain",
       "Soroosh Yazdani",
