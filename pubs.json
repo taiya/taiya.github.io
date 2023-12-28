@@ -294,11 +294,12 @@
     "homepage": "https://mobile-nerf.github.io",
     "pdf": "/pubs/chen2023mobilenerf.pdf",
     "icon": "/pubs/chen2023mobilenerf.mov",
+    "source": "https://github.com/google-research/jax3d/tree/main/jax3d/projects/mobilenerf",
     "arxiv": "https://arxiv.org/abs/2208.00277",
-    "special": "CVPR'23 (award candidate)",
+    "special": "CVPR'23 (best paper award finalist)",
     "notes": [
       "oral",
-      "best student award finalist"
+      "best paper award finalist"
     ],
     "authors": [
       "Zhiqin Chen",
