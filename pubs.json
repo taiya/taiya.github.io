@@ -230,6 +230,9 @@
     ],
     "venue": "Neural Information Processing Systems (NeurIPS)",
     "arxiv": "https://arxiv.org/abs/2305.15581",
+    "homepage": "https://ubc-vision.github.io/LDM_correspondences",
+    "source": "https://github.com/ubc-vision/LDM_correspondences",
+    "icon": "/pubs/hedlin2023unsupervised.mov",
     "year": "2023",
     "special": "NeurIPS'23"
   },
