@@ -69,6 +69,7 @@
     "venue": "arXiv",
     "arxiv": "https://arxiv.org/abs/2312.00065",
     "homepage": "https://stablekeypoints.github.io",
+    "icon": "/pubs/hedlin2024keypoints.mov",
     "special": "NEW!",
     "authors": [
       "Eric Hedlin",
