@@ -89,6 +89,8 @@
     "year": "2024",
     "venue": "arXiv",
     "arxiv": "https://arxiv.org/abs/2312.00075",
+    "homepage": "https://github.com/ubc-vision/nf-soft-mining",
+    "icon": "/pubs/kheradmand2024softmining.mov",
     "special": "NEW!",
     "authors": [
       "Shakiba Kheradmand",
