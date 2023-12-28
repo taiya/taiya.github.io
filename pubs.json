@@ -131,6 +131,8 @@
     "special": "NEW!",
     "arxiv": "https://arxiv.org/abs/2312.02362",
     "homepage": "https://pointnerfpp.github.io",
+    "icon": "/pubs/sun2024pointnerfpp.mov",
+    "pdf": "https://pointnerfpp.github.io/resources/paper.pdf",
     "authors": [
       "Weiwei Sun",
       "Eduard Trulls",
