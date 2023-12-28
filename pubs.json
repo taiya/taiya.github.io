@@ -136,6 +136,8 @@
     "venue": "arXiv",
     "special": "arXiv",
     "arxiv": "https://arxiv.org/abs/2309.03185",
+    "homepage": "https://bayesrays.github.io",
+    "icon": "/pubs/goli2024bayesrays.mov",
     "authors": [
       "Lily Goli",
       "Cody Reading",
