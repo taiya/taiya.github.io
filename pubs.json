@@ -250,6 +250,7 @@
     "homepage": "https://sherwinbahmani.github.io/cc3d",
     "icon": "/pubs/bahmani2023cc3d.mov",
     "arxiv": "https://arxiv.org/abs/2303.12074",
+    "source": "https://github.com/sherwinbahmani/cc3d",
     "year": "2023",
     "special": "ICCV'23"
   },
