@@ -273,6 +273,7 @@
     "media": "https: //www.rsipvision.com/ComputerVisionNews-2023July/3/",
     "homepage": "https://robustnerf.github.io",
     "icon": "/pubs/sabour2023robustnerf.mov",
+    "video": "https://youtu.be/vCeRgc1lahU",
     "arxiv": "https://arxiv.org/abs/2302.00833",
     "special": "CVPR'23 (highlight)",
     "notes":[
@@ -443,7 +444,8 @@
     "venue": "International Conference on Robotics and Automation (ICRA)",
     "homepage": "http://nerf2nerf.github.io",
     "video": "https://www.youtube.com/watch?v=S071rGezdNM",
-    "media": "https://www.rsipvision.com/ComputerVisionNews-2023March/4/"
+    "media": "https://www.rsipvision.com/ComputerVisionNews-2023March/4/",
+    "arxiv": "https://arxiv.org/abs/2211.01600"
   },
   {
     "type": "journal",
