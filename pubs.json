@@ -275,6 +275,7 @@
     "icon": "/pubs/sabour2023robustnerf.mov",
     "video": "https://youtu.be/vCeRgc1lahU",
     "arxiv": "https://arxiv.org/abs/2302.00833",
+    "source": "https://storage.googleapis.com/jax3d-public/projects/robustnerf/robustnerf.py",
     "special": "CVPR'23 (highlight)",
     "notes":[
       "highlight"
