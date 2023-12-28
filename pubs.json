@@ -32,6 +32,7 @@
     "homepage": "https://davidcharatan.com/pixelsplat",
     "source": "https://github.com/dcharatan/pixelsplat",
     "pdf": "https://pixelsplat.github.io/static/pdfs/paper.pdf",
+    "icon": "/pubs/charatan2024pixelsplat.mov",
     "arxiv": "https://arxiv.org/abs/2312.12337",
     "authors": [
       "David Charatan",
