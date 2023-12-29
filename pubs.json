@@ -337,6 +337,7 @@
       "Igor Gilitschenski",
       "David B. Lindell"
     ],
+    "icon": "/pubs/sinha2023sparsepose.mov",
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "year": "2023",
     "special": "CVPR'23"
@@ -373,7 +374,8 @@
     ],
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "year": "2023",
-    "special": "CVPR'23"
+    "special": "CVPR'23",
+    "icon": "/pubs/tang2023neumap.mov"
   },
   {
     "type": "conference",
@@ -392,7 +394,8 @@
     "year": "2023",
     "special": "CVPR'23",
     "homepage": "https://cuf-paper.github.io",
-    "pdf": "https://cuf-paper.github.io/cuf.pdf"
+    "pdf": "https://cuf-paper.github.io/cuf.pdf",
+    "icon": "/pubs/vasconcelos2023cuf.mov"
   },
   {
     "type": "conference",
@@ -552,6 +555,7 @@
     "pdf": "https://urban-radiance-fields.github.io/images/go_urf.pdf",
     "homepage": "http://urban-radiance-fields.github.io",
     "video": "https://www.youtube.com/watch?v=B973fam8Bag",
+    "icon": "/pubs/rematas2022urf.mov",
     "year": "2022",
     "authors": [
       "Konstantinos Rematas",
@@ -1379,7 +1383,7 @@
     "year": "2017",
     "video": "https://www.youtube.com/watch?v=zbcoWcYg4Qs",
     "source": "https://github.com/OpenGP/honline",
-    "icon": "/icons/tkach2017online.jpg",
+    "icon": "/pubs/tkach2017online.mov",
     "pdf": "/pubs/tkach2017online.pdf",
     "special": "SIGA'17",
     "authors": [
