@@ -356,6 +356,7 @@
     ],
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "year": "2023",
+    "homepage": "https://pengsongyou.github.io/openscene",
     "special": "CVPR'23"
   },
   {	
@@ -376,7 +377,7 @@
   },
   {
     "type": "conference",
-    "key": "vasconcelos2023cufs",
+    "key": "vasconcelos2023cuf",
     "title": "CUF: Continuous Upsampling Filters",
     "arxiv": "https://arxiv.org/abs/2210.06965",
     "authors": [
@@ -530,7 +531,8 @@
     "title": "Neural Dual Contouring",
     "year": "2022",
     "venue": "ACM Transaction on Graphics (Proc. SIGGRAPH)",
-    "pdf": "https://arxiv.org/abs/2202.01999",
+    "arxiv": "https://arxiv.org/abs/2202.01999",
+    "source": "https://github.com/czq142857/NDC",
     "video": "https://youtu.be/uQV9GqeKaQg",
     "special": "SIG'22",
     "authors": [
@@ -568,6 +570,8 @@
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "special": "CVPR'22",
     "homepage": "https://conerf.github.io",
+    "pdf": "https://conerf.github.io/conerf.pdf",
+    "source": "https://github.com/kacperkan/conerf", 
     "year": "2021",
     "authors": [
       "Kacper Kania",
