@@ -322,6 +322,7 @@
       "Julien Valentin",
       "Marek Kowalski"
     ],
+    "icon": "/pubs/kania2023blendfields.mov",
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "year": "2023",
     "special": "CVPR'23"
@@ -355,6 +356,7 @@
       "Marc Pollefeys",
       "Thomas Funkhouser"
     ],
+    "icon": "/pubs/peng2023openscene.mov",
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "year": "2023",
     "homepage": "https://pengsongyou.github.io/openscene",
@@ -413,6 +415,7 @@
     ],
     "venue": "Winter Applications of Computer Vision (WACV)",
     "year": "2023",
+    "icon": "/pubs/sun2023neuralbf.mov",
     "special": "WACV'23",
     "homepage": "https://neuralbf.github.io",
     "pdf": "https://neuralbf.github.io/resources/paper.pdf"
@@ -592,6 +595,9 @@
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "special": "CVPR'22",
     "homepage": "https://ubc-vision.github.io/lolnerf",
+    "icon": "/pubs/rebain2021lolnerf.mov",
+    "arxiv": "https://arxiv.org/abs/2111.09996",
+    "source": "https://github.com/google-research/jax3d/tree/main/jax3d/projects/generative",
     "year": "2022",
     "authors": [
       "Daniel Rebain",
@@ -934,7 +940,7 @@
     "homepage": "https://virtualhumans.mpi-inf.mpg.de/nasa",
     "source": "https://github.com/tensorflow/graphics/tree/master/tensorflow_graphics/projects/nasa",
     "venue": "European Conference on Computer Vision (ECCV)",
-    "icon": "/icons/deng2020nasa.jpg",
+    "icon": "/pubs/deng2020nasa.mov",
     "special": "ECCV'20",
     "year": "2020",
     "authors": [
@@ -1016,7 +1022,7 @@
     "slides": "https://cvxnet.github.io/data/5908-talk.pdf",
     "video": "https://www.youtube.com/watch?v=dfWWtwE8PEo",
     "source": "https://github.com/tensorflow/graphics/tree/master/tensorflow_graphics/projects/cvxnet",
-    "icon": "/icons/deng2020cvxnet.jpg",
+    "icon": "/pubs/deng2020cvxnet.mov",
     "media": "https://www.rsipvision.com/ComputerVisionNews-2020July/22",
     "notes": [
       "oral",
@@ -1255,7 +1261,7 @@
     "key": "peethambaran2019incremental",
     "title": "Incremental Labeling of Voronoi Vertices for Shape Reconstruction",
     "venue": "Computer Graphics Forum",
-    "icon": "/icons/peethambaran2019incremental.jpg",
+    "icon": "/pubs/peethambaran2019incremental.jpeg",
     "pdf": "/pubs/peethambaran2019incremental.pdf",
     "special": "CGF'19",
     "year": "2019",
@@ -1363,7 +1369,7 @@
     "title": "Sketch-Based Implicit Blending",
     "venue": "ACM Transaction on Graphics (Proc. SIGGRAPH Asia)",
     "year": "2017",
-    "icon": "/icons/angles2017sketch.jpg",
+    "icon": "/pubs/angles2017sketch.mov",
     "pdf": "/pubs/angles2017sketch.pdf",
     "video": "https://youtu.be/5lah1kdp-P8",
     "special": "SIGA'17",
@@ -1566,7 +1572,7 @@
     "title": "Sparse Iterative Closest Point",
     "venue": "Computer Graphics Forum (Proc. Symposium on Geometry Processing)",
     "pdf": "/pubs/bouaziz2013sparseicp.pdf",
-    "icon": "/icons/bouaziz2013sparseicp.jpg",
+    "icon": "/pubs/bouaziz2013sparseicp.mov",
     "source": "http://github.com/OpenGP/sparseicp",
     "slides": "https://youtu.be/zd-nUO7E82w",
     "video": "https://www.youtube.com/watch?v=ii2vHBwlmo8",
