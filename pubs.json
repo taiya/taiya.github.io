@@ -517,6 +517,7 @@
     "venue": "Transactions on Machine Learning Research (TMLR)",
     "homepage": "https://nesf3d.github.io",
     "video": "https://www.youtube.com/watch?v=yagzIwmiu20",
+    "icon": "/pubs/vora2022nesf.mov",
     "year": "2021",
     "special": "TMLR'22",
     "authors": [
@@ -578,7 +579,8 @@
     "special": "CVPR'22",
     "homepage": "https://conerf.github.io",
     "pdf": "https://conerf.github.io/conerf.pdf",
-    "source": "https://github.com/kacperkan/conerf", 
+    "source": "https://github.com/kacperkan/conerf",
+    "icon": "/pubs/kania2022conerf.mov",
     "year": "2021",
     "authors": [
       "Kacper Kania",
@@ -611,6 +613,7 @@
     "type": "conference",
     "key": "sajjadi2022srt",
     "title": "Scene Representation Transformer",
+    "icon": "/pubs/sajjadi2022srt.mov",
     "homepage": "http://srt-paper.github.io",
     "year": "2021",
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
@@ -655,6 +658,7 @@
     "source": "https://github.com/google-research/kubric",
     "homepage": "https://arxiv.org/abs/2203.03570",
     "year": "2021",
+    "icon": "/pubs/greff2022kubric.mov",
     "authors": [
       "Klaus Greff",
       "Francois Belletti",
@@ -700,6 +704,7 @@
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "special": "CVPR'22",
     "homepage": "https://abhijitkundu.info/projects/pnf",
+    "icon": "/pubs/kundu2022panoptic.mov",
     "authors": [
       "Abhijit Kundu",
       "Kyle Genova",
