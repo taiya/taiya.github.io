@@ -1107,7 +1107,7 @@
     "homepage": "https://gvv.mpi-inf.mpg.de/projects/DeepReflectanceFields",
     "pdf": "https://vcai.mpi-inf.mpg.de/projects/DeepReflectanceFields/DRF.pdf",
     "slides": "https://vcai.mpi-inf.mpg.de/projects/DeepReflectanceFields/DRF.pptx",
-    "icon": "/icons/meka2019drf.jpg",
+    "icon": "/pubs/meka2019drf.mov",
     "year": "2019",
     "special": "SIG'19",
     "authors": [
