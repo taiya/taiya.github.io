@@ -824,6 +824,7 @@
     "pdf": "https://arxiv.org/pdf/2011.13920.pdf",
     "icon": "/icons/sabour2021flowcaps.jpg",
     "venue": "International Conference on Machine Learning (ICML)",
+    "video": "https://slideslive.com/38959638/unsupervised-part-representation-by-flow-capsules",
     "special": "ICML'21",
     "authors": [
       "Sara Sabour",
@@ -928,7 +929,9 @@
     "special": "NeurIPS'20 (spotlight)",
     "icon": "/icons/jiang2020shapeflow.jpg",
     "year": "2020",
-    "homepage": "https://arxiv.org/pdf/2006.07982",
+    "source": "https://github.com/maxjiang93/ShapeFlow",
+    "video": "https://slideslive.com/38936258/shapeflow-learnable-deformation-flows-among-3d-shapes",
+    "arxiv": "https://arxiv.org/abs/2006.07982",
     "notes":[
       "spotlight"
     ],
