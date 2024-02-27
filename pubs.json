@@ -1,125 +1,19 @@
 [
   {
     "type": "arxiv",
-    "key": "bahmani2024fourdfy",
-    "title": "4D-fy: Text-to-4D Generation Using Hybrid Score Distillation Sampling",
+    "key": "sharma2024quadrature",
+    "title": "Volumetric Rendering with Baked Quadrature Fields",
     "year": "2024",
     "venue": "arXiv",
     "special": "NEW!",
-    "arxiv": "https://arxiv.org/abs/2311.17984",
-    "homepage": "https://sherwinbahmani.github.io/4dfy",
-    "pdf": "https://arxiv.org/pdf/2311.17984.pdf",
-    "icon": "/pubs/bahmani2024fourdfy.mov",
+    "arxiv": "https://arxiv.org/abs/2312.02202",
+    "homepage": "https://quadraturefields.github.io",
+    "icon": "/pubs/sharma2024quadrature.mov",
     "authors": [
-      "Sherwin Bahmani",
-      "Ivan Skorokhodov",
-      "Victor Rong",
-      "Gordon Wetzstein",
-      "Leonidas Guibas",
-      "Peter Wonka",
-      "Sergey Tulyakov",
-      "Jeong Joon Park",
-      "Andrea Tagliasacchi",
-      "David Lindell"
-    ]
-  },
-  {
-    "type": "arxiv",
-    "key": "charatan2024pixelsplat",
-    "title": "pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction",
-    "year": "2024",
-    "venue": "arXiv",
-    "special": "NEW!",
-    "homepage": "https://davidcharatan.com/pixelsplat",
-    "source": "https://github.com/dcharatan/pixelsplat",
-    "pdf": "https://pixelsplat.github.io/static/pdfs/paper.pdf",
-    "icon": "/pubs/charatan2024pixelsplat.mov",
-    "arxiv": "https://arxiv.org/abs/2312.12337",
-    "authors": [
-      "David Charatan",
-      "Sizhe Li",
-      "Andrea Tagliasacchi",
-      "Vincent Sitzmann"
-    ]
-  },
-  {
-    "type": "arxiv",
-    "key": "shabanov2024banf",
-    "title": "BANF: Band-limited Neural Fields for Levels of Detail Reconstruction",
-    "year": "2024",
-    "venue": "arXiv",
-    "special": "NEW!",
-    "homepage": "https://theialab.ca/banf",
-    "pdf": "https://theialab.ca/banf/paper.pdf",
-    "icon": "/pubs/shabanov2024banf.mov",
-    "authors": [
-      "Ahan Shabanov",
-      "Shrisudhan Govindarajan",
-      "Cody Reading",
+      "Gopal Sharma",
       "Daniel Rebain",
       "Kwang Moo Yi",
       "Andrea Tagliasacchi"
-    ]
-  },
-  {
-    "type": "arxiv",
-    "key": "hedlin2024keypoints",
-    "title": "Unsupervised Keypoints from Pretrained Diffusion Models",
-    "year": "2024",
-    "venue": "arXiv",
-    "arxiv": "https://arxiv.org/abs/2312.00065",
-    "homepage": "https://stablekeypoints.github.io",
-    "icon": "/pubs/hedlin2024keypoints.mov",
-    "special": "NEW!",
-    "authors": [
-      "Eric Hedlin",
-      "Gopal Sharma",
-      "Shweta Mahajan",
-      "Hossam Isack",
-      "Abhishek Kar",
-      "Helge Rhodin",
-      "Andrea Tagliasacchi",
-      "Kwang Moo Yi"
-    ]
-  },
-  {
-    "type": "arxiv",
-    "key": "kheradmand2024softmining",
-    "title": "Accelerating Neural Field Training via Soft Mining",
-    "year": "2024",
-    "venue": "arXiv",
-    "arxiv": "https://arxiv.org/abs/2312.00075",
-    "homepage": "https://github.com/ubc-vision/nf-soft-mining",
-    "icon": "/pubs/kheradmand2024softmining.mov",
-    "special": "NEW!",
-    "authors": [
-      "Shakiba Kheradmand",
-      "Daniel Rebain",
-      "Gopal Sharma",
-      "Hossam Isack",
-      "Abhishek Kar",
-      "Andrea Tagliasacchi",
-      "Kwang Moo Yi"
-    ]
-  },
-  {
-    "type": "arxiv",
-    "key": "xia2024densify",
-    "title": "Densify Your Labels: Unsupervised Clustering with Bipartite Matching for Weakly Supervised Point Cloud Segmentation",
-    "year": "2024",
-    "venue": "arXiv",
-    "special": "NEW!",
-    "arxiv": "https://arxiv.org/abs/2312.06799",
-    "homepage": "https://densify-your-labels.github.io",
-    "icon": "/pubs/xia2024densify.jpeg",
-    "authors": [
-      "Shaobo Xia",
-      "Weiwei Sun",
-      "Jun Yue",
-      "Kacper Kania",
-      "Leyuan Fang",
-      "Andrea Tagliasacchi",
-      "Kwang Moo Yi"
     ]
   },
   {
@@ -145,11 +39,134 @@
   },
   {
     "type": "arxiv",
-    "key": "goli2024bayesrays",
-    "title": "Bayes' Rays: Uncertainty Quantification for Neural Radiance Fields",
+    "key": "xia2024densify",
+    "title": "Densify Your Labels: Unsupervised Clustering with Bipartite Matching for Weakly Supervised Point Cloud Segmentation",
     "year": "2024",
     "venue": "arXiv",
     "special": "NEW!",
+    "arxiv": "https://arxiv.org/abs/2312.06799",
+    "homepage": "https://densify-your-labels.github.io",
+    "icon": "/pubs/xia2024densify.jpeg",
+    "authors": [
+      "Shaobo Xia",
+      "Weiwei Sun",
+      "Jun Yue",
+      "Kacper Kania",
+      "Leyuan Fang",
+      "Andrea Tagliasacchi",
+      "Kwang Moo Yi"
+    ]
+  },
+  {
+    "type": "conference",
+    "key": "bahmani2024fourdfy",
+    "title": "4D-fy: Text-to-4D Generation Using Hybrid Score Distillation Sampling",
+    "year": "2024",
+    "venue": "Computer Vision and Pattern Recognition (CVPR)",
+    "special": "CVPR'24",
+    "arxiv": "https://arxiv.org/abs/2311.17984",
+    "homepage": "https://sherwinbahmani.github.io/4dfy",
+    "pdf": "https://arxiv.org/pdf/2311.17984.pdf",
+    "icon": "/pubs/bahmani2024fourdfy.mov",
+    "authors": [
+      "Sherwin Bahmani",
+      "Ivan Skorokhodov",
+      "Victor Rong",
+      "Gordon Wetzstein",
+      "Leonidas Guibas",
+      "Peter Wonka",
+      "Sergey Tulyakov",
+      "Jeong Joon Park",
+      "Andrea Tagliasacchi",
+      "David Lindell"
+    ]
+  },
+  {
+    "type": "conference",
+    "key": "charatan2024pixelsplat",
+    "title": "pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction",
+    "year": "2024",
+    "venue": "Computer Vision and Pattern Recognition (CVPR)",
+    "special": "CVPR'24",
+    "homepage": "https://davidcharatan.com/pixelsplat",
+    "source": "https://github.com/dcharatan/pixelsplat",
+    "pdf": "https://pixelsplat.github.io/static/pdfs/paper.pdf",
+    "icon": "/pubs/charatan2024pixelsplat.mov",
+    "arxiv": "https://arxiv.org/abs/2312.12337",
+    "authors": [
+      "David Charatan",
+      "Sizhe Li",
+      "Andrea Tagliasacchi",
+      "Vincent Sitzmann"
+    ]
+  },
+  {
+    "type": "conference",
+    "key": "shabanov2024banf",
+    "title": "BANF: Band-limited Neural Fields for Levels of Detail Reconstruction",
+    "year": "2024",
+    "venue": "Computer Vision and Pattern Recognition (CVPR)",
+    "special": "CVPR'24",
+    "homepage": "https://theialab.ca/banf",
+    "pdf": "https://theialab.ca/banf/paper.pdf",
+    "icon": "/pubs/shabanov2024banf.mov",
+    "authors": [
+      "Ahan Shabanov",
+      "Shrisudhan Govindarajan",
+      "Cody Reading",
+      "Daniel Rebain",
+      "Kwang Moo Yi",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "conference",
+    "key": "hedlin2024keypoints",
+    "title": "Unsupervised Keypoints from Pretrained Diffusion Models",
+    "year": "2024",
+    "venue": "Computer Vision and Pattern Recognition (CVPR)",
+    "arxiv": "https://arxiv.org/abs/2312.00065",
+    "homepage": "https://stablekeypoints.github.io",
+    "icon": "/pubs/hedlin2024keypoints.mov",
+    "special": "CVPR'24",
+    "authors": [
+      "Eric Hedlin",
+      "Gopal Sharma",
+      "Shweta Mahajan",
+      "Hossam Isack",
+      "Abhishek Kar",
+      "Helge Rhodin",
+      "Andrea Tagliasacchi",
+      "Kwang Moo Yi"
+    ]
+  },
+  {
+    "type": "conference",
+    "key": "kheradmand2024softmining",
+    "title": "Accelerating Neural Field Training via Soft Mining",
+    "year": "2024",
+    "venue": "Computer Vision and Pattern Recognition (CVPR)",
+    "arxiv": "https://arxiv.org/abs/2312.00075",
+    "homepage": "https://github.com/ubc-vision/nf-soft-mining",
+    "icon": "/pubs/kheradmand2024softmining.mov",
+    "special": "CVPR'24",
+    "authors": [
+      "Shakiba Kheradmand",
+      "Daniel Rebain",
+      "Gopal Sharma",
+      "Hossam Isack",
+      "Abhishek Kar",
+      "Andrea Tagliasacchi",
+      "Kwang Moo Yi"
+    ]
+  },
+  {
+    "type": "conference",
+    "key": "goli2024bayesrays",
+    "title": "Bayes' Rays: Uncertainty Quantification for Neural Radiance Fields",
+    "year": "2024",
+    "venue": "Computer Vision and Pattern Recognition (CVPR)",
+    "special": "CVPR'24",
     "arxiv": "https://arxiv.org/abs/2309.03185",
     "homepage": "https://bayesrays.github.io",
     "icon": "/pubs/goli2024bayesrays.mov",
@@ -162,35 +179,18 @@
     ]
   },
   {
-    "type": "arxiv",
+    "type": "conference",
     "key": "rebain2024nfd",
     "title": "Neural Fields as Distributions: Signal Processing Beyond Euclidean Space",
     "year": "2024",
-    "venue": "arXiv",
-    "special": "NEW!",
+    "venue": "Computer Vision and Pattern Recognition (CVPR)",
+    "special": "CVPR'24",
     "arxiv": "http://ubc-vision.github.io/nfd",
     "homepage": "https://ubc-vision.github.io/nfd",
     "icon": "/pubs/rebain2024nfd.mov",
     "authors": [
       "Daniel Rebain",
       "Soroosh Yazdani",
-      "Kwang Moo Yi",
-      "Andrea Tagliasacchi"
-    ]
-  },
-  {
-    "type": "arxiv",
-    "key": "sharma2024quadrature",
-    "title": "Volumetric Rendering with Baked Quadrature Fields",
-    "year": "2024",
-    "venue": "arXiv",
-    "special": "NEW!",
-    "arxiv": "https://arxiv.org/abs/2312.02202",
-    "homepage": "https://quadraturefields.github.io",
-    "icon": "/pubs/sharma2024quadrature.mov",
-    "authors": [
-      "Gopal Sharma",
-      "Daniel Rebain",
       "Kwang Moo Yi",
       "Andrea Tagliasacchi"
     ]
