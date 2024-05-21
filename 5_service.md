@@ -1,4 +1,5 @@
 # Recent service
+- Guest Editor - [TPAMI on 3D GenAI](https://genai3d.github.io)
 - Program Chair – [3DV 2024](https://3dvconf.github.io/2024/people) 
 - Area Chair – [CVPR 2024](https://cvpr.thecvf.com/Conferences/2024/Organizers) 
 - Program Committee – [SIGGRAPH 2023](https://s2023.siggraph.org/technical-papers-committee)
