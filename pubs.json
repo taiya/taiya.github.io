@@ -1783,6 +1783,22 @@
   },
   {
     "type": "patent",
+    "key": "watson2024nvs",
+    "title": "PROCESSING IMAGE ALONG WITH NEW CAMERA POSE AND/OR TIMESTAMP TO GENERATE PREDICTED IMAGE FROM THE NEW CAMERA POSE AND/OR THE NEW TIMESTAMP",
+    "status": "filed",
+    "filed": "Jun. 4, 2024",
+    "year": "2024",
+    "authors": [
+      "Daniel Watson",
+      "Saurabh Saxena",
+      "Lala Li",
+      "Andrea Tagliasacchi",
+      "David J. Fleet"
+    ],
+    "number": "GP-308003-00-PR"
+  },
+  {
+    "type": "patent",
     "key": "sabour2023patent",
     "title": "NEURAL RADIANCE FIELD MODELS WITH IMPROVED ROBUSTNESS AGAINST DISTRACTOR OBJECTS",
     "status": "filed",
