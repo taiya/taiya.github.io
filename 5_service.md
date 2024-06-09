@@ -1,5 +1,6 @@
 # Recent service
-- Guest Editor - [TPAMI on 3D GenAI](https://genai3d.github.io)
+- Associate Editor - [IEEE TPAMI (2024:2026)](https://scholar.google.ca/citations?view_op=top_venues&hl=en&vq=eng_computervisionpatternrecognition)
+- Guest Editor - [IEEE TPAMI on 3D GenAI](https://genai3d.github.io)
 - Program Chair – [3DV 2024](https://3dvconf.github.io/2024/people) 
 - Area Chair – [CVPR 2024](https://cvpr.thecvf.com/Conferences/2024/Organizers) 
 - Program Committee – [SIGGRAPH 2023](https://s2023.siggraph.org/technical-papers-committee)
