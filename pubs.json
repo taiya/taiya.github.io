@@ -87,7 +87,11 @@
     "title": "pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction",
     "year": "2024",
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
-    "special": "CVPR'24 (oral, best paper award candidate)",
+    "special": "CVPR'24 (oral, best paper award finalist)",
+    "notes": [
+      "oral",
+      "best paper award finalist"
+    ],
     "homepage": "https://davidcharatan.com/pixelsplat",
     "source": "https://github.com/dcharatan/pixelsplat",
     "pdf": "https://pixelsplat.github.io/static/pdfs/paper.pdf",
@@ -129,6 +133,9 @@
     "homepage": "https://stablekeypoints.github.io",
     "icon": "/pubs/hedlin2024keypoints.mov",
     "special": "CVPR'24 (spotlight)",
+    "notes": [
+      "spotlight"
+    ],
     "authors": [
       "Eric Hedlin",
       "Gopal Sharma",
@@ -167,6 +174,9 @@
     "year": "2024",
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "special": "CVPR'24 (spotlight)",
+    "notes": [
+      "spotlight"
+    ],
     "arxiv": "https://arxiv.org/abs/2309.03185",
     "homepage": "https://bayesrays.github.io",
     "icon": "/pubs/goli2024bayesrays.mov",
@@ -296,7 +306,7 @@
     "icon": "/pubs/chen2023mobilenerf.mov",
     "source": "https://github.com/google-research/jax3d/tree/main/jax3d/projects/mobilenerf",
     "arxiv": "https://arxiv.org/abs/2208.00277",
-    "special": "CVPR'23 (best paper award finalist)",
+    "special": "CVPR'23 (oral, best paper award finalist)",
     "notes": [
       "oral",
       "best paper award finalist"
@@ -927,14 +937,14 @@
     "title": "ShapeFlow: Learnable Deformations Among 3D Shapes",
     "venue": "Neural Information Processing Systems (NeurIPS)",
     "special": "NeurIPS'20 (spotlight)",
+    "notes": [
+      "spotlight"
+    ],
     "icon": "/icons/jiang2020shapeflow.jpg",
     "year": "2020",
     "source": "https://github.com/maxjiang93/ShapeFlow",
     "video": "https://slideslive.com/38936258/shapeflow-learnable-deformation-flows-among-3d-shapes",
     "arxiv": "https://arxiv.org/abs/2006.07982",
-    "notes":[
-      "spotlight"
-    ],
     "authors": [
       "Chiyu \"Max\" Jiang",
       " Jingwei Huang",
@@ -1026,7 +1036,7 @@
     "title": "CvxNet: Learnable Convex Decomposition",
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "year": "2020",
-    "special": "CVPR'20 (oral, award candidate)",
+    "special": "CVPR'20 (oral, best paper award finalist)",
     "pdf": "https://arxiv.org/pdf/1909.05736.pdf",
     "homepage": "https://cvxnet.github.io/",
     "slides": "https://cvxnet.github.io/data/5908-talk.pdf",
