@@ -154,7 +154,8 @@
     "year": "2024",
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "arxiv": "https://arxiv.org/abs/2312.00075",
-    "homepage": "https://github.com/ubc-vision/nf-soft-mining",
+    "homepage": "https://ubc-vision.github.io/nf-soft-mining",
+    "source": "https://github.com/ubc-vision/nf-soft-mining",
     "icon": "/pubs/kheradmand2024softmining.mov",
     "special": "CVPR'24",
     "authors": [
