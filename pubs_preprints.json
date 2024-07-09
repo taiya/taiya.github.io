@@ -1,0 +1,20 @@
+{
+  "type": "arxiv",
+  "key": "xia2024densify",
+  "title": "Densify Your Labels: Unsupervised Clustering with Bipartite Matching for Weakly Supervised Point Cloud Segmentation",
+  "year": "2024",
+  "venue": "arXiv",
+  "special": "NEW!",
+  "arxiv": "https://arxiv.org/abs/2312.06799",
+  "homepage": "https://densify-your-labels.github.io",
+  "icon": "/pubs/xia2024densify.jpeg",
+  "authors": [
+    "Shaobo Xia",
+    "Weiwei Sun",
+    "Jun Yue",
+    "Kacper Kania",
+    "Leyuan Fang",
+    "Andrea Tagliasacchi",
+    "Kwang Moo Yi"
+  ]
+},
