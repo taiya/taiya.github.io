@@ -1,11 +1,52 @@
 [
   {
-    "type": "arxiv",
+    "type": "conference",
+    "key": "bahmani2024trajectory",
+    "title": "TC4D: Trajectory-Conditioned Text-to-4D Generation",
+    "year": "2024",
+    "venue": "European Conference on Computer Vision (ECCV)",
+    "special": "ECCV'24",
+    "authors": [
+      "Sherwin Bahmani",
+      "Xian Liu",
+      "Yifan Wang",
+      "Ivan Skorokhodov",
+      "Victor Rong",
+      "Ziwei Liu",
+      "Xihui Liu",
+      "Jeong Joon Park",
+      "Sergey Tulyakov",
+      "Gordon Wetzstein",
+      "Andrea Tagliasacchi",
+      "David B. Lindell"
+    ]
+  },
+  {
+    "type": "conference",
+    "key": "shri2024laghash",
+    "title": "Lagrangian Hashing for Compressed Neural Field Representations",
+    "year": "2024",
+    "venue": "European Conference on Computer Vision (ECCV)",
+    "special": "ECCV'24",
+    "authors": [
+      "Shrisudhan Govindarajan",
+      "Zeno Sambugaro",
+      "Ahan Shabhanov",
+      "Towaki Takikawa",
+      "Weiwei Sun",
+      "Daniel Rebain",
+      "Nicola Conci",
+      "Kwang Moo Yi",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "conference",
     "key": "sharma2024quadrature",
     "title": "Volumetric Rendering with Baked Quadrature Fields",
     "year": "2024",
-    "venue": "arXiv",
-    "special": "NEW!",
+    "venue": "European Conference on Computer Vision (ECCV)",
+    "special": "ECCV'24",
     "arxiv": "https://arxiv.org/abs/2312.02202",
     "homepage": "https://quadraturefields.github.io",
     "icon": "/pubs/sharma2024quadrature.mov",
@@ -17,12 +58,12 @@
     ]
   },
   {
-    "type": "arxiv",
+    "type": "conference",
     "key": "sun2024pointnerfpp",
     "title": "PointNeRF++: A multi-scale, point-based Neural Radiance Field",
     "year": "2024",
-    "venue": "arXiv",
-    "special": "NEW!",
+    "venue": "European Conference on Computer Vision (ECCV)",
+    "special": "ECCV'24",
     "arxiv": "https://arxiv.org/abs/2312.02362",
     "homepage": "https://pointnerfpp.github.io",
     "icon": "/pubs/sun2024pointnerfpp.mov",
@@ -33,26 +74,6 @@
       "Yang-Che Tseng",
       "Sneha Sambandam",
       "Gopal Sharma",
-      "Andrea Tagliasacchi",
-      "Kwang Moo Yi"
-    ]
-  },
-  {
-    "type": "arxiv",
-    "key": "xia2024densify",
-    "title": "Densify Your Labels: Unsupervised Clustering with Bipartite Matching for Weakly Supervised Point Cloud Segmentation",
-    "year": "2024",
-    "venue": "arXiv",
-    "special": "NEW!",
-    "arxiv": "https://arxiv.org/abs/2312.06799",
-    "homepage": "https://densify-your-labels.github.io",
-    "icon": "/pubs/xia2024densify.jpeg",
-    "authors": [
-      "Shaobo Xia",
-      "Weiwei Sun",
-      "Jun Yue",
-      "Kacper Kania",
-      "Leyuan Fang",
       "Andrea Tagliasacchi",
       "Kwang Moo Yi"
     ]
@@ -87,10 +108,10 @@
     "title": "pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction",
     "year": "2024",
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
-    "special": "CVPR'24 (oral, best paper award finalist)",
+    "special": "CVPR'24 (oral, best paper honorable mention)",
     "notes": [
       "oral",
-      "best paper award finalist"
+      "best paper honorable mention"
     ],
     "homepage": "https://davidcharatan.com/pixelsplat",
     "source": "https://github.com/dcharatan/pixelsplat",
