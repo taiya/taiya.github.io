@@ -1,6 +1,6 @@
 # Recent news
-- 4x papers accepted to ECCV'2024... 100% acceptance (see publications)
-- [pixelSplat](https://pixelsplat.github.io) is a CVPR'2024 [best paper award, honorable mention](https://media.eventhosts.cc/Conferences/CVPR2024/CVPR_main_conf_2024.pdf)
+- 4x papers accepted to ECCV'2024 (100% accepted 🥳)
+- [pixelSplat](https://pixelsplat.github.io) is a CVPR'2024 [best paper, honorable mention](https://media.eventhosts.cc/Conferences/CVPR2024/CVPR_main_conf_2024.pdf)
 - 7x papers accepted to CVPR'2024 (see publications)
 - 2x papers accepted to NeurIPS'2023 (see publications)
 - [MobileNeRF](https://mobile-nerf.github.io) is a CVPR'2023 [best paper award candidate](https://cvpr2023.thecvf.com/Conferences/2023/AcceptedPapers)
