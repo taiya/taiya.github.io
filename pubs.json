@@ -90,6 +90,8 @@
     "year": "2024",
     "venue": "European Conference on Computer Vision (ECCV)",
     "special": "ECCV'24",
+    "arxiv": "https://arxiv.org/abs/2403.17920",
+    "homepage": "https://sherwinbahmani.github.io/tc4d",
     "authors": [
       "Sherwin Bahmani",
       "Xian Liu",
