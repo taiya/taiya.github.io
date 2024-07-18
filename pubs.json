@@ -1,5 +1,89 @@
 [
   {
+    "type": "arxiv",
+    "key": "kheradmand2024mcmc",
+    "venue": "arXiv",
+    "special": "NEW!!!",
+    "title": "3D Gaussian Splatting as Markov Chain Monte Carlo",
+    "year": "2024",
+    "arxiv": "https://arxiv.org/abs/2404.09591",
+    "homepage": "https://ubc-vision.github.io/3dgs-mcmc",
+    "source": "https://github.com/ubc-vision/3dgs-mcmc",
+    "authors": [
+      "Shakiba Kheradmand",
+      "Daniel Rebain",
+      "Gopal Sharma",
+      "Weiwei Sun",
+      "Jeff Tseng",
+      "Hossam Isack",
+      "Abhishek Kar",
+      "Andrea Tagliasacchi",
+      "Kwang Moo Yi"
+    ]
+  },
+  {
+    "type": "arxiv",
+    "key": "sabour2024sls",
+    "venue": "arXiv",
+    "special": "NEW!!!",
+    "title": "SpotlessSplats: Ignoring Distractors in 3D Gaussian Splatting",
+    "year": "2024",
+    "arxiv": "https://arxiv.org/abs/2406.20055",
+    "homepage": "https://spotlesssplats.github.io",
+    "authors": [
+      "Sara Sabour",
+      "Lily Goli",
+      "George Kopanas",
+      "Mark Matthews",
+      "Dmitry Lagun",
+      "Leonidas Guibas",
+      "Alec Jacobson",
+      "David J. Fleet",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "arxiv",
+    "key": "bahmani2024vd3d",
+    "venue": "arXiv",
+    "special": "NEW!!!",
+    "title": "VD3D: Taming Large Video Diffusion Transformers for 3D Camera Control",
+    "year": "2024",
+    "arxiv": "https://arxiv.org/abs/2407.12781",
+    "homepage": "https://snap-research.github.io/vd3d",
+    "authors": [
+      "Sherwin Bahmani",
+      "Ivan Skorokhodov",
+      "Aliaksandr Siarohin",
+      "Willi Menapace",
+      "Guocheng Qian",
+      "Michael Vasilkovsky",
+      "Hsin-Ying Lee",
+      "Chaoyang Wang",
+      "Jiaxu Zou",
+      "Andrea Tagliasacchi",
+      "David B. Lindell",
+      "Sergey Tulyakov"
+    ]
+  },
+  {
+    "type": "arxiv",
+    "key": "watson2024fourdim",
+    "venue": "arXiv",
+    "special": "NEW!!!",
+    "title": "4DiM: Controlling Space and Time with Diffusion Models",
+    "year": "2024",
+    "arxiv": "https://arxiv.org/abs/2407.07860",
+    "homepage": "https://4d-diffusion.github.io",
+    "authors": [
+      "Daniel Watson",
+      "Saurabh Saxena",
+      "Lala Li",
+      "Andrea Tagliasacchi",
+      "David Fleet"
+    ]
+  },
+  {
     "type": "conference",
     "key": "bahmani2024trajectory",
     "title": "TC4D: Trajectory-Conditioned Text-to-4D Generation",
