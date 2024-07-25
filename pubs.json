@@ -113,6 +113,7 @@
     "title": "Lagrangian Hashing for Compressed Neural Field Representations",
     "year": "2024",
     "venue": "European Conference on Computer Vision (ECCV)",
+    "homepage": "https://theialab.github.io/laghashes",
     "special": "ECCV'24",
     "authors": [
       "Shrisudhan Govindarajan",

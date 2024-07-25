@@ -34,12 +34,12 @@
       "time": "2024-",
       "coadvisors": "Prof. Arash (Ali) Mahdavi-Amiri",
       "currently": "SFU",
-      "homepage": "https://aryanmikaeili.github.io/"
+      "homepage": "https://aryanmikaeili.github.io"
     },
     {
       "name": "Daniel Rebain",
-      "degree": "PhD candidate",
-      "time": "2020-",
+      "degree": "PhD candidate (graduating)",
+      "time": "2020-2024",
       "currently": "UBC",
       "coadvisors": "Prof. Kwang Moo Yi",
       "homepage": "http://drebain.com",
@@ -47,8 +47,8 @@
     },
     {
       "name": "Weiwei Sun",
-      "degree": "PhD candidate",
-      "time": "2020-",
+      "degree": "PhD candidate (graduating)",
+      "time": "2020-2024",
       "currently": "UBC",
       "coadvisors": "Prof. Kwang Moo Yi",
       "homepage": "https://wsunid.github.io"
@@ -87,8 +87,8 @@
     },
     {
       "name": "Sara Sabour",
-      "degree": "PhD candidate",
-      "time": "2021-",
+      "degree": "PhD candidate (graduating)",
+      "time": "2021-2024",
       "coadvisors": "Prof. David Fleet",
       "currently": "UofT",
       "homepage": "https://research.google/people/105557"
