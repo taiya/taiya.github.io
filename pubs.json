@@ -9,6 +9,7 @@
     "arxiv": "https://arxiv.org/abs/2404.09591",
     "homepage": "https://ubc-vision.github.io/3dgs-mcmc",
     "source": "https://github.com/ubc-vision/3dgs-mcmc",
+    "icon": "/pubs/kheradmand2024mcmc.mov",
     "authors": [
       "Shakiba Kheradmand",
       "Daniel Rebain",
