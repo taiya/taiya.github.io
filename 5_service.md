@@ -1,4 +1,5 @@
 # Recent service
+- Senior Area Chair – [CVPR 2025](https://cvpr.thecvf.com/Conferences/2025/Organizers)
 - Associate Editor - [IEEE TPAMI (2024:2026)](https://scholar.google.ca/citations?view_op=top_venues&hl=en&vq=eng_computervisionpatternrecognition)
 - Guest Editor - [IEEE TPAMI on 3D GenAI](https://genai3d.github.io)
 - Program Chair – [3DV 2024](https://3dvconf.github.io/2024/people) 
