@@ -665,7 +665,6 @@
     "arxiv": "https://arxiv.org/abs/2202.01999",
     "source": "https://github.com/czq142857/NDC",
     "video": "https://youtu.be/uQV9GqeKaQg",
-    "icon": "/pubs/chen2022ndc.jpeg",
     "special": "SIG'22",
     "authors": [
       "Zhiqin Chen",
@@ -766,7 +765,6 @@
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "special": "CVPR'22",
     "homepage": "https://metapose.github.io",
-    "icon": "/pubs/usman2022metapose.jpeg",
     "year": "2021",
     "authors": [
       "Ben Usman",
