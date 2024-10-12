@@ -53,14 +53,6 @@
       "honors": "NSERC CGS"
     },
     {
-      "name": "Weiwei Sun",
-      "degree": "PhD candidate (graduating)",
-      "time": "2020-2024",
-      "currently": "UBC",
-      "coadvisors": "Prof. Kwang Moo Yi",
-      "homepage": "https://wsunid.github.io"
-    },
-    {
       "name": "Daniel Ajisafe",
       "degree": "PhD candidate",
       "time": "2023-",
@@ -142,6 +134,14 @@
       "currently": "Research Scientist, Waymo",
       "coadvisors": "Prof. Geoffrey Hinton",
       "homepage": "https://boyangdeng.com"
+    },
+    {
+      "name": "Weiwei Sun",
+      "degree": "PhD",
+      "time": "2020-2024",
+      "currently": "Research Scientist, Amazon",
+      "coadvisors": "Prof. Kwang Moo Yi",
+      "homepage": "https://wsunid.github.io"
     }
   ]
   ,
