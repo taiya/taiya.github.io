@@ -1,13 +1,13 @@
 # Recent news
-- 4x papers accepted to ECCV'2024 (100% accepted 🥳)
+- Weiwei Sun has successfully defended his PhD!
+- 4x papers accepted to ECCV'2024
 - [pixelSplat](https://pixelsplat.github.io) is a CVPR'2024 [best paper, honorable mention](https://media.eventhosts.cc/Conferences/CVPR2024/CVPR_main_conf_2024.pdf)
-- 7x papers accepted to CVPR'2024 (see publications)
-- 2x papers accepted to NeurIPS'2023 (see publications)
+- 7x papers accepted to CVPR'2024
+- 2x papers accepted to NeurIPS'2023
 - [MobileNeRF](https://mobile-nerf.github.io) is a CVPR'2023 [best paper award candidate](https://cvpr2023.thecvf.com/Conferences/2023/AcceptedPapers)
-- 7x papers accepted to CVPR'2023 (see publications)
+- 7x papers accepted to CVPR'2023
 - [NeuralBF](https://neuralbf.github.io) accepted to WACV'2023
-- [D2NeRF](https://d2nerf.github.io) accepted to NeurIPS'2022
-- [NeSF](https://nesf3d.github.io) accecpted to TMLR'2022
+<!-- - [D2NeRF](https://d2nerf.github.io) accepted to NeurIPS'2022 -->
 - 7x papers accepted to CVPR'2022 (see publications)
 
 <!-- OLD NEWS
