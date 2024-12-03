@@ -1,4 +1,5 @@
 # Recent news
+- [3DGS-MCMC](https://ubc-vision.github.io/3dgs-mcmc) is a spotlight at NeurIPS'24
 - [Weiwei Sun](https://wsunid.github.io) has successfully defended his PhD!
 - 4x papers accepted to ECCV'2024
 - [pixelSplat](https://pixelsplat.github.io) is a CVPR'2024 [best paper, honorable mention](https://media.eventhosts.cc/Conferences/CVPR2024/CVPR_main_conf_2024.pdf)
