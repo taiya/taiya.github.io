@@ -1,15 +1,18 @@
 [
   {
-    "type": "arxiv",
+    "type": "conference",
     "key": "kheradmand2024mcmc",
-    "venue": "arXiv preprint",
-    "special": "NEW!!!",
+    "venue": "Neural Information Processing Systems (NeurIPS)",
     "title": "3D Gaussian Splatting as Markov Chain Monte Carlo",
     "year": "2024",
     "arxiv": "https://arxiv.org/abs/2404.09591",
     "homepage": "https://ubc-vision.github.io/3dgs-mcmc",
     "source": "https://github.com/ubc-vision/3dgs-mcmc",
     "icon": "/pubs/kheradmand2024mcmc.mov",
+    "special": "NeurIPS'24 (spotlight)",
+    "notes": [
+      "spotlight"
+    ],
     "authors": [
       "Shakiba Kheradmand",
       "Daniel Rebain",
