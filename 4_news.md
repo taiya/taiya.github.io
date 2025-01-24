@@ -1,4 +1,6 @@
 # Recent news
+- 3x papers accepted to ICLR'2025
+- 1x paper accepted to 3DV'2025
 - [3DGS-MCMC](https://ubc-vision.github.io/3dgs-mcmc) is a spotlight at NeurIPS'24
 - [Weiwei Sun](https://wsunid.github.io) has successfully defended his PhD!
 - 4x papers accepted to ECCV'2024
