@@ -53,20 +53,12 @@
       "honors": "NSERC CGS"
     },
     {
-      "name": "Daniel Ajisafe",
+      "name": "Shakiba Kheradmand",
       "degree": "PhD candidate",
-      "time": "2023-",
-      "currently": "UBC",
-      "coadvisors": "Prof. Kwang Moo Yi",
-      "homepage": "https://danielajisafe.github.io"
-    },
-    {
-      "name": "Gopal Sharma",
-      "degree": "Postdoc",
       "time": "2022-",
       "currently": "UBC",
       "coadvisors": "Prof. Kwang Moo Yi",
-      "homepage": "https://hippogriff.github.io"
+      "homepage": "https://shakibakh.github.io"
     },
     {
       "name": "Lily Goli",
@@ -142,16 +134,14 @@
       "currently": "Research Scientist, Amazon",
       "coadvisors": "Prof. Kwang Moo Yi",
       "homepage": "https://wsunid.github.io"
-    }
-  ]
-  ,
-  "incoming": [
+    },
     {
-      "name": "Maria Taktasheva",
-      "degree": "PhD candidate",
-      "time": "Incoming (May. 2024)",
-      "currently": "SFU",
-      "homepage": "https://dblp.org/pid/244/2434.html"
+      "name": "Gopal Sharma",
+      "degree": "Postdoc",
+      "time": "2022-",
+      "currently": "Research Scientist, Samsung",
+      "coadvisors": "Prof. Kwang Moo Yi",
+      "homepage": "https://hippogriff.github.io"
     }
   ]
 }
