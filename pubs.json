@@ -18,32 +18,6 @@
     "homepage": "https://segment-me-in-time.github.io"
   },
   {
-    "type": "conference",
-    "key": "kheradmand2024mcmc",
-    "venue": "Neural Information Processing Systems (NeurIPS)",
-    "title": "3D Gaussian Splatting as Markov Chain Monte Carlo",
-    "year": "2024",
-    "arxiv": "https://arxiv.org/abs/2404.09591",
-    "homepage": "https://ubc-vision.github.io/3dgs-mcmc",
-    "source": "https://github.com/ubc-vision/3dgs-mcmc",
-    "icon": "/pubs/kheradmand2024mcmc.mov",
-    "special": "NeurIPS'24 (spotlight)",
-    "notes": [
-      "spotlight"
-    ],
-    "authors": [
-      "Shakiba Kheradmand",
-      "Daniel Rebain",
-      "Gopal Sharma",
-      "Weiwei Sun",
-      "Jeff Tseng",
-      "Hossam Isack",
-      "Abhishek Kar",
-      "Andrea Tagliasacchi",
-      "Kwang Moo Yi"
-    ]
-  },
-  {
     "type": "arxiv",
     "key": "sabour2024sls",
     "venue": "arXiv preprint",
@@ -66,10 +40,10 @@
     ]
   },
   {
-    "type": "arxiv",
-    "key": "bahmani2024vd3d",
-    "venue": "arXiv preprint",
-    "special": "NEW!!!",
+    "type": "conference",
+    "key": "bahmani2025vd3d",
+    "venue": "International Conference on Learning Representations (ICLR)",
+    "special": "ICLR'25",
     "title": "VD3D: Taming Large Video Diffusion Transformers for 3D Camera Control",
     "year": "2024",
     "arxiv": "https://arxiv.org/abs/2407.12781",
@@ -94,7 +68,7 @@
     "type": "conference",
     "key": "watson2025fourdim",
     "venue": "International Conference on Learning Representations (ICLR)",
-    "special": "NEW!!!",
+    "special": "ICLR'25",
     "title": "Diffusion Models for 4D Novel View Synthesis",
     "year": "2025",
     "arxiv": "https://arxiv.org/abs/2407.07860",
@@ -106,6 +80,32 @@
       "Lala Li",
       "Andrea Tagliasacchi",
       "David Fleet"
+    ]
+  },
+  {
+    "type": "conference",
+    "key": "kheradmand2024mcmc",
+    "venue": "Neural Information Processing Systems (NeurIPS)",
+    "title": "3D Gaussian Splatting as Markov Chain Monte Carlo",
+    "year": "2024",
+    "arxiv": "https://arxiv.org/abs/2404.09591",
+    "homepage": "https://ubc-vision.github.io/3dgs-mcmc",
+    "source": "https://github.com/ubc-vision/3dgs-mcmc",
+    "icon": "/pubs/kheradmand2024mcmc.mov",
+    "special": "NeurIPS'24 (spotlight)",
+    "notes": [
+      "spotlight"
+    ],
+    "authors": [
+      "Shakiba Kheradmand",
+      "Daniel Rebain",
+      "Gopal Sharma",
+      "Weiwei Sun",
+      "Jeff Tseng",
+      "Hossam Isack",
+      "Abhishek Kar",
+      "Andrea Tagliasacchi",
+      "Kwang Moo Yi"
     ]
   },
   {
