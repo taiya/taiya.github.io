@@ -1,6 +1,24 @@
 [
   {
     "type": "conference",
+    "key": "alimohammadi2025smite",
+    "title": "SMITE: Segment Me In TimE",
+    "authors": [
+      "Amirhossein Alimohammadi",
+      "Sauradip Nag",
+      "Saeid Asgari",
+      "Andrea Tagliasacchi",
+      "Ghassan Hamarneh",
+      "Ali Mahdavi-Amiri"
+    ],
+    "venue": "International Conference on Learning Representations (ICLR)",
+    "year": "2025",
+    "special": "ICLR'25",
+    "arxiv": "https://arxiv.org/abs/2410.18538",
+    "homepage": "https://segment-me-in-time.github.io"
+  },
+  {
+    "type": "conference",
     "key": "kheradmand2024mcmc",
     "venue": "Neural Information Processing Systems (NeurIPS)",
     "title": "3D Gaussian Splatting as Markov Chain Monte Carlo",
@@ -73,12 +91,12 @@
     ]
   },
   {
-    "type": "arxiv",
-    "key": "watson2024fourdim",
-    "venue": "arXiv preprint",
+    "type": "conference",
+    "key": "watson2025fourdim",
+    "venue": "International Conference on Learning Representations (ICLR)",
     "special": "NEW!!!",
-    "title": "4DiM: Controlling Space and Time with Diffusion Models",
-    "year": "2024",
+    "title": "Diffusion Models for 4D Novel View Synthesis",
+    "year": "2025",
     "arxiv": "https://arxiv.org/abs/2407.07860",
     "homepage": "https://4d-diffusion.github.io",
     "icon": "/pubs/watson2024fourdim.mov",
