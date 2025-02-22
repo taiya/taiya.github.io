@@ -1,21 +1,19 @@
 [
   {
-    "type": "conference",
-    "key": "alimohammadi2025smite",
-    "title": "SMITE: Segment Me In TimE",
-    "authors": [
-      "Amirhossein Alimohammadi",
-      "Sauradip Nag",
-      "Saeid Asgari",
-      "Andrea Tagliasacchi",
-      "Ghassan Hamarneh",
-      "Ali Mahdavi-Amiri"
-    ],
-    "venue": "International Conference on Learning Representations (ICLR)",
+    "type": "arxiv",
+    "key": "shri2024radfoam",
+    "title": "Radiant Foam: Real-Time Differentiable Ray Tracing",
     "year": "2025",
-    "special": "ICLR'25",
-    "arxiv": "https://arxiv.org/abs/2410.18538",
-    "homepage": "https://segment-me-in-time.github.io"
+    "venue": "arXiv preprint",
+    "homepage": "https://radfoam.github.io",
+    "source": "https://github.com/theialab/radfoam",
+    "special": "arXiv",
+    "authors": [
+      "Shrisudhan Govindarajan",
+      "Daniel Rebain",
+      "Kwang Moo Yi",
+      "Andrea Tagliasacchi"
+    ]
   },
   {
     "type": "arxiv",
@@ -38,6 +36,42 @@
       "David J. Fleet",
       "Andrea Tagliasacchi"
     ]
+  },
+  {
+    "type": "conference",
+    "key": "li2025noksr",
+    "title": "NoKSR: Kernel-Free Neural Surface Reconstruction via Point Cloud Serialization",
+    "year": "2025",
+    "venue": "International Conference on 3D Vision (3DV)",
+    "homepage": "https://theialab.github.io/noksr",
+    "special": "3DV'25",
+    "authors": [
+      "Zhen Li",
+      "Weiwei Sun",
+      "Shrisudhan Govindarajan",
+      "Shaobo Xia",
+      "Daniel Rebain",
+      "Kwang Moo Yi",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "conference",
+    "key": "alimohammadi2025smite",
+    "title": "SMITE: Segment Me In TimE",
+    "authors": [
+      "Amirhossein Alimohammadi",
+      "Sauradip Nag",
+      "Saeid Asgari",
+      "Andrea Tagliasacchi",
+      "Ghassan Hamarneh",
+      "Ali Mahdavi-Amiri"
+    ],
+    "venue": "International Conference on Learning Representations (ICLR)",
+    "year": "2025",
+    "special": "ICLR'25",
+    "arxiv": "https://arxiv.org/abs/2410.18538",
+    "homepage": "https://segment-me-in-time.github.io"
   },
   {
     "type": "conference",
