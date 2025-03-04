@@ -1,4 +1,5 @@
 # Recent news
+- [Sara Sabour](https://scholar.google.ca/citations?user=l8wQ39EAAAAJ&hl=en) has successfully defended her PhD!
 - 3x papers accepted to ICLR'2025
 - 1x paper accepted to 3DV'2025
 - [3DGS-MCMC](https://ubc-vision.github.io/3dgs-mcmc) is a spotlight at NeurIPS'24
