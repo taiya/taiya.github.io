@@ -38,7 +38,7 @@
     },
     {
       "name": "Zhen (Colin) Li",
-      "degree": "MSc thesis",
+      "degree": "MSc",
       "time": "2024-",
       "currently": "SFU",
       "homepage": ""
@@ -46,7 +46,7 @@
     {
       "name": "Daniel Rebain",
       "degree": "PhD candidate (graduating)",
-      "time": "2020-2024",
+      "time": "2020-2025",
       "currently": "UBC",
       "coadvisors": "Prof. Kwang Moo Yi",
       "homepage": "http://drebain.com",
@@ -76,14 +76,6 @@
       "currently": "UofT",
       "homepage": "https://sherwinbahmani.github.io"
     },
-    {
-      "name": "Sara Sabour",
-      "degree": "PhD candidate (graduating)",
-      "time": "2021-2024",
-      "coadvisors": "Prof. David Fleet",
-      "currently": "UofT",
-      "homepage": "https://research.google/people/105557"
-    }
   ]
   ,
   "alumni": [
@@ -142,6 +134,14 @@
       "currently": "Research Scientist, Samsung",
       "coadvisors": "Prof. Kwang Moo Yi",
       "homepage": "https://hippogriff.github.io"
+    },
+    {
+      "name": "Sara Sabour",
+      "degree": "PhD",
+      "time": "2021-2025",
+      "coadvisors": "Prof. Fleet, Prof. Hinton",
+      "currently": "Google DeepMind",
+      "homepage": "https://research.google/people/105557"
     }
   ]
 }
