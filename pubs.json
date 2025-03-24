@@ -16,12 +16,47 @@
     ]
   },
   {
-    "type": "arxiv",
+    "type": "conference",
+    "key": "yang2025piad",
+    "venue": "Computer Vision and Pattern Recognition (CVPR)",
+    "special": "CVPR'25",
+    "title": "PIAD: Pose and Illumination agnostic Anomaly Detection",
+    "year": "2025",
+    "authors": [
+      "Kaichen Yang",
+      "Junjie Cao",
+      "Zeyu Bai",
+      "Zhixun Su",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "conference",
+    "key": "bahmani2025analyzing",
+    "venue": "Computer Vision and Pattern Recognition (CVPR)",
+    "special": "CVPR'25",
+    "title": "AC3D: Analyzing and Improving 3D Camera Control in Video Diffusion Transformers",
+    "year": "2025",
+    "arxiv": "https://arxiv.org/abs/2411.18673",
+    "homepage": "https://snap-research.github.io/ac3d",
+    "authors": [
+      "Sherwin Bahmani",
+      "Ivan Skorokhodov",
+      "Guocheng Qian",
+      "Aliaksandr Siarohin",
+      "Willi Menapace",
+      "Andrea Tagliasacchi",
+      "David B. Lindell",
+      "Sergey Tulyakov"
+    ]
+  },
+  {
+    "type": "journal",
     "key": "sabour2024sls",
-    "venue": "arXiv preprint",
-    "special": "NEW!!!",
+    "venue": "ACM Transaction on Graphics",
+    "special": "TOG'25",
     "title": "SpotlessSplats: Ignoring Distractors in 3D Gaussian Splatting",
-    "year": "2024",
+    "year": "2025",
     "arxiv": "https://arxiv.org/abs/2406.20055",
     "homepage": "https://spotlesssplats.github.io",
     "icon": "/pubs/sabour2024sls.mov",
@@ -103,7 +138,7 @@
     "key": "watson2025fourdim",
     "venue": "International Conference on Learning Representations (ICLR)",
     "special": "ICLR'25",
-    "title": "Diffusion Models for 4D Novel View Synthesis",
+    "title": "4DiM: Diffusion Models for 4D Novel View Synthesis",
     "year": "2025",
     "arxiv": "https://arxiv.org/abs/2407.07860",
     "homepage": "https://4d-diffusion.github.io",
