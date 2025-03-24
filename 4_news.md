@@ -1,7 +1,6 @@
 # Recent news
+- Accepted papers 1x 3DG'25, 3x ICLR'25, 1x TOG'25, 2x CVPR'25
 - [Sara Sabour](https://scholar.google.ca/citations?user=l8wQ39EAAAAJ&hl=en) has successfully defended her PhD!
-- 3x papers accepted to ICLR'2025
-- 1x paper accepted to 3DV'2025
 - [3DGS-MCMC](https://ubc-vision.github.io/3dgs-mcmc) is a spotlight at NeurIPS'24
 - [Weiwei Sun](https://wsunid.github.io) has successfully defended his PhD!
 - 4x papers accepted to ECCV'2024
