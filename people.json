@@ -50,11 +50,13 @@
       "currently": "UBC",
       "coadvisors": "Prof. Kwang Moo Yi",
       "homepage": "http://drebain.com",
-      "honors": "NSERC CGS"
+      "honors": [
+        "NSERC Canada Graduate Scholarship"
+      ]
     },
     {
       "name": "Shakiba Kheradmand",
-      "degree": "PhD candidate",
+      "degree": "PhD candidate (graduating)",
       "time": "2022-",
       "currently": "UBC",
       "coadvisors": "Prof. Kwang Moo Yi",
