@@ -33,6 +33,7 @@ _arxiv_template="""
    title={\\normalfont{``TITLE''}},
    author={AUTHORS},
    year={YEAR},
+   venue={arXiv preprint},
    url={URL},
 }"""
 
@@ -64,6 +65,35 @@ _course_template="""
 }"""
 
 def list_to_string(mylist):
+    highlight_names = [
+        "Aryan Mikaeili",
+        "Anastasia Tkach",
+        "Weiwei Sun",
+        "Daniel Rebain",
+        "Sara Sabour",
+        "Shrisudhan Govindarajan",
+        "Ahan Shabanov",
+        "Maria Taktasheva",
+        "Yalda Foroutan",
+        "Zhen (Colin) Li",
+        "Shakiba Kheradmand",
+        "Lily Goli",
+        "Sherwin Bahmani",
+        "Baptiste Angles",
+        "Abhishek Kumar Bojja",
+        "Boyang Deng",
+        "Gopal Sharma",
+        # interns?
+        "Francis Williams",
+        "Zhiqin Chen",
+        "Kacper Kania",
+        "Timothy Jeruzalski",
+        "Cody Reading",
+        "Zeno Sambugaro",
+        "Alessandro Fiorini"
+    ]
+    for name in highlight_names:
+        mylist = [author.replace(name, f"{{\\bf {name.split()[0]}}} {{\\bf {name.split()[1]}}}") for author in mylist]
     return " and ".join(mylist)
 
 def notes_to_string(mylist):
