@@ -1,4 +1,5 @@
 # Service
+- Senior Area Chair – [CVPR 2026](https://cvpr.thecvf.com/Conferences/2026/Organizers)
 - Senior Area Chair – [CVPR 2025](https://cvpr.thecvf.com/Conferences/2025/Organizers)
 - Associate Editor - [IEEE TPAMI (2024:2026)](https://scholar.google.ca/citations?view_op=top_venues&hl=en&vq=eng_computervisionpatternrecognition)
 - Guest Editor - [IEEE TPAMI on 3D GenAI](https://genai3d.github.io)
@@ -9,7 +10,7 @@
 - Area Chair – [ECCV 2022](https://research.com/conference/eccv-2021-european-conference-on-computer-vision)
 
 # Teaching
-- **Paternity leave** (Summer 2025, Fall 2025, Spring 2026)
+- **Paternity leave** (Summer and Fall 2025)
 - Computer Vision ([CMPT412](https://www.sfu.ca/outlines.html?2025/spring/cmpt/412/d100), Spring 2025)
 - 3D Computer Vision ([CMPT469/CMPT769](https://www.sfu.ca/outlines.html?2024/spring/cmpt/469/d100), Spring 2024)
 - Inverse (Neural) Rendering ([CMPT983](https://www.sfu.ca/outlines.html?2024/summer/cmpt/983/g200))
