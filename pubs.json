@@ -1,14 +1,103 @@
 [
   {
     "type": "arxiv",
+    "key": "bahmani2025lyra",
+    "venue": "arXiv preprint",
+    "special": "arXiv",
+    "title": "Lyra: Generative 3D Scene Reconstruction via Video Diffusion Model Self-Distillation",
+    "year": "2025",
+    "homepage": "https://research.nvidia.com/labs/toronto-ai/lyra",
+    "authors": [
+      "Sherwin Bahmani",
+      "Tianchang Shen",
+      "Jiawei Ren",
+      "Jiahui Huang",
+      "Yifeng Jiang",
+      "Haithem Turki",
+      "Andrea Tagliasacchi",
+      "David B. Lindell",
+      "Zan Gojcic",
+      "Sanja Fidler",
+      "Huan Ling",
+      "Jun Gao",
+      "Xuanchi Ren"
+    ]
+  },
+  {
+    "type": "arxiv",
+    "key": "mikaeili2025griffin",
+    "venue": "arXiv preprint",
+    "special": "arXiv",
+    "title": "Griffin: Generative Reference and Layout Guided Image Composition",
+    "year": "2025",
+    "homepage": "https://griffin-anonymous.github.io",
+    "authors": [
+      "Aryan Mikaeili",
+      "Amirhossein Alimohammadi",
+      "Negar Hassanpour",
+      "Ali Mahdavi Amiri",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "arxiv",
+    "key": "held2025trianglesplatting",
+    "venue": "arXiv preprint",
+    "special": "arXiv",
+    "title": "Triangle Splatting for Real-Time Radiance Field Rendering",
+    "year": "2025",
+    "authors": [
+      "Jan Held",
+      "Renaud Vandeghen",
+      "Adrien Deliege",
+      "Abdullah Hamdi",
+      "Daniel Rebain",
+      "Silvio Giancola",
+      "Anthony Cioppa",
+      "Andrea Vedaldi",
+      "Bernard Ghanem",
+      "Andrea Tagliasacchi",
+      "Marc Van Droogenbroeck"
+    ]
+  },
+  {
+    "type": "arxiv",
+    "key": "vora2024hit",
+    "venue": "arXiv preprint",
+    "special": "arXiv",
+    "title": "HiT: Hierarchical Transformers for Unsupervised 3D Shape Abstraction",
+    "year": "2025",
+    "authors": [
+      "Aditya Vora",
+      "Lily Goli",
+      "Hao Zhang",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "arxiv",
+    "key": "foroutan2025nerfit",
+    "venue": "arXiv preprint",
+    "special": "arXiv",
+    "title": "NeRF it 'til You Make it: Improving 3DGS with Volume Rendering Cues",
+    "year": "2025",
+    "authors": [
+      "Yalda Foroutan",
+      "Daniel Rebain",
+      "Kwang Moo Yi",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "conference",
     "key": "shri2024radfoam",
     "title": "Radiant Foam: Real-Time Differentiable Ray Tracing",
     "year": "2025",
-    "venue": "arXiv preprint",
+    "venue": "ICCV'25",
     "homepage": "https://radfoam.github.io",
     "source": "https://github.com/theialab/radfoam",
     "arxiv": "https://arxiv.org/abs/2502.01157",
-    "special": "arXiv",
+    "special": "ICCV'25 (spotlight)",
     "authors": [
       "Shrisudhan Govindarajan",
       "Daniel Rebain",
@@ -17,10 +106,10 @@
     ]
   },
   {
-    "type": "arxiv",
+    "type": "conference",
     "key": "kheradmand2025stochasticsplats",
-    "venue": "arXiv preprint",
-    "special": "NEW!!!",
+    "venue": "International Conference on Computer Vision (ICCV)",
+    "special": "ICCV'25",
     "title": "StochasticSplats: Stochastic Rasterization for Sorting-Free 3D Gaussian Splatting",
     "year": "2025",
     "arxiv": "https://arxiv.org/abs/2503.24366",
@@ -36,26 +125,10 @@
     ]
   },
   {
-    "type": "arxiv",
-    "key": "mikaeili2025griffin",
-    "venue": "arXiv preprint",
-    "special": "NEW!!!",
-    "title": "Griffin: Generative Reference and Layout Guided Image Composition",
-    "year": "2025",
-    "homepage": "https://griffin-anonymous.github.io",
-    "authors": [
-      "Aryan Mikaeili",
-      "Amirhossein Alimohammadi",
-      "Negar Hassanpour",
-      "Ali Mahdavi Amiri",
-      "Andrea Tagliasacchi"
-    ]
-  },
-  {
-    "type": "arxiv",
+    "type": "conference",
     "key": "taktasheva2025gaussianflats",
-    "venue": "arXiv preprint",
-    "special": "NEW!!!",
+    "venue": "Neural Information Processing Systems (NeurIPS)",
+    "special": "NeurIPS'25",
     "title": "3D Gaussian Flats: Hybrid 2D/3D Photometric Scene Reconstruction",
     "year": "2025",
     "authors": [
