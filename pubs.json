@@ -2317,76 +2317,6 @@
   },
   {
     "type": "patent",
-    "key": "tagliasacchi2020patent",
-    "title": "CONVEX REPRESENTATIONS OF OBJECTS USING NEURAL NETWORKS",
-    "status": "published",
-    "filed": "Apr. 13, 2020",
-    "year": "2020",
-    "authors": [
-      "Andrea Tagliasacchi",
-      "Boyang Deng",
-      "Kyle Genova",
-      "Soroosh Yazdani",
-      "Sofien Bouaziz",
-      "Geoffrey Hinton"
-    ],
-    "number": "GP-300443-00-US"
-  },
-  {
-    "type": "patent",
-    "key": "meka2019patent",
-    "title": "METHODS, SYSTEMS, AND MEDIA FOR RELIGHTING IMAGES USING PREDICTED DEEP REFLECTANCE FIELDS",
-    "status": "published",
-    "filed": "Oct 16, 2019",
-    "year": "2019",
-    "authors": [
-      "Abhi Meka",
-      "Rohit Pandey",
-      "Sean Fanello",
-      "Graham Fyffe",
-      "Adarsh Kowdle",
-      "Xueming Yu",
-      "Jay Busch",
-      "Jason Dourgarian",
-      "Peter Denny",
-      "Sofien Bouaziz",
-      "Andrea Tagliasacchi",
-      "Peter Lincoln",
-      "Matt Whalen",
-      "Geoff Harvey",
-      "Jonathan Taylor",
-      "Shahram Izadi",
-      "Paul Debevec",
-      "Julien Valentin",
-      "Christoph Rhemann",
-      "Christian Haene"
-    ],
-    "number": "GP-301831-00-US"
-  },
-  {
-    "type": "patent",
-    "key": "yang2020patent",
-    "title": "VOLUMETRIC CAPTURE OF OBJECTS WITH A SINGLE RGBD CAMERA",
-    "status": "published",
-    "filed": "Apr. 30, 2020",
-    "year": "2020",
-    "authors": [
-      "Anastasia Tkach",
-      "Ricardo Martin Brualla",
-      "Shahram Izadi",
-      "Shuoran Yang",
-      "Cem Keskin",
-      "Pavel Pidlypenskyi",
-      "Philip Davidson",
-      "Jonathan Taylor",
-      "Rohit Pandey",
-      "Andrea Tagliasacchi",
-      "Sean Fanello"
-    ],
-    "number": "GP-204355-00-US"
-  },
-  {
-    "type": "patent",
     "key": "rematas2022patent",
     "title": "RADIANCE FIELDS FOR THREE-DIMENSIONAL RECONSTRUCTION AND NOVEL VIEW SYNTHESIS IN LARGE-SCALE ENVIRONMENTS",
     "status": "published",
@@ -2431,6 +2361,76 @@
       "Andrea Tagliasacchi"
     ],
     "number": "GP-302673-00-US"
+  },
+  {
+    "type": "patent",
+    "key": "tagliasacchi2020patent",
+    "title": "CONVEX REPRESENTATIONS OF OBJECTS USING NEURAL NETWORKS",
+    "status": "published",
+    "filed": "Apr. 13, 2020",
+    "year": "2020",
+    "authors": [
+      "Andrea Tagliasacchi",
+      "Boyang Deng",
+      "Kyle Genova",
+      "Soroosh Yazdani",
+      "Sofien Bouaziz",
+      "Geoffrey Hinton"
+    ],
+    "number": "GP-300443-00-US"
+  },
+  {
+    "type": "patent",
+    "key": "yang2020patent",
+    "title": "VOLUMETRIC CAPTURE OF OBJECTS WITH A SINGLE RGBD CAMERA",
+    "status": "published",
+    "filed": "Apr. 30, 2020",
+    "year": "2020",
+    "authors": [
+      "Anastasia Tkach",
+      "Ricardo Martin Brualla",
+      "Shahram Izadi",
+      "Shuoran Yang",
+      "Cem Keskin",
+      "Pavel Pidlypenskyi",
+      "Philip Davidson",
+      "Jonathan Taylor",
+      "Rohit Pandey",
+      "Andrea Tagliasacchi",
+      "Sean Fanello"
+    ],
+    "number": "GP-204355-00-US"
+  },
+  {
+    "type": "patent",
+    "key": "meka2019patent",
+    "title": "METHODS, SYSTEMS, AND MEDIA FOR RELIGHTING IMAGES USING PREDICTED DEEP REFLECTANCE FIELDS",
+    "status": "published",
+    "filed": "Oct 16, 2019",
+    "year": "2019",
+    "authors": [
+      "Abhi Meka",
+      "Rohit Pandey",
+      "Sean Fanello",
+      "Graham Fyffe",
+      "Adarsh Kowdle",
+      "Xueming Yu",
+      "Jay Busch",
+      "Jason Dourgarian",
+      "Peter Denny",
+      "Sofien Bouaziz",
+      "Andrea Tagliasacchi",
+      "Peter Lincoln",
+      "Matt Whalen",
+      "Geoff Harvey",
+      "Jonathan Taylor",
+      "Shahram Izadi",
+      "Paul Debevec",
+      "Julien Valentin",
+      "Christoph Rhemann",
+      "Christian Haene"
+    ],
+    "number": "GP-301831-00-US"
   },
   {
     "type": "patent",
