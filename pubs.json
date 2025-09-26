@@ -45,6 +45,7 @@
     "venue": "arXiv preprint",
     "special": "arXiv",
     "title": "Triangle Splatting for Real-Time Radiance Field Rendering",
+    "arxiv": "https://arxiv.org/abs/2505.19175",
     "year": "2025",
     "authors": [
       "Jan Held",
@@ -96,6 +97,9 @@
     "venue": "Neural Information Processing Systems (NeurIPS)",
     "special": "NeurIPS'25",
     "title": "3D Gaussian Flats: Hybrid 2D/3D Photometric Scene Reconstruction",
+    "homepage": "https://theialab.github.io/3dgs-flats",
+    "arxiv": "https://arxiv.org/abs/2509.16423",
+    "source": "https://github.com/theialab/3dgs-flats",
     "year": "2025",
     "authors": [
       "Maria Taktasheva",
@@ -143,7 +147,7 @@
     ]
   },
   {
-    "type": "arxiv",
+    "type": "conference",
     "key": "goli2025romo",
     "venue": "International Conference on Computer Vision (ICCV)",
     "special": "ICCV'25",
@@ -151,7 +155,7 @@
     "year": "2025",
     "arxiv": "https://arxiv.org/pdf/2411.18650",
     "homepage": "https://romosfm.github.io",
-    "source": "",
+    "source": "https://github.com/google-deepmind/romo",
     "authors": [
       "Lily Goli",
       "Sara Sabour",
