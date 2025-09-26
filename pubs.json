@@ -80,11 +80,29 @@
     "venue": "arXiv preprint",
     "special": "arXiv",
     "title": "NeRF it 'til You Make it: Improving 3DGS with Volume Rendering Cues",
+    "arxiv": "https://arxiv.org/abs/2404.12547",
+    "homepage": "https://theialab.github.io/nerf-3dgs",
     "year": "2025",
     "authors": [
       "Yalda Foroutan",
       "Daniel Rebain",
       "Kwang Moo Yi",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "conference",
+    "key": "taktasheva2025gaussianflats",
+    "venue": "Neural Information Processing Systems (NeurIPS)",
+    "special": "NeurIPS'25",
+    "title": "3D Gaussian Flats: Hybrid 2D/3D Photometric Scene Reconstruction",
+    "year": "2025",
+    "authors": [
+      "Maria Taktasheva",
+      "Alessandro Fiorini",
+      "Lily Goli",
+      "Zhen (Colin) Li",
+      "Daniel Rebain",
       "Andrea Tagliasacchi"
     ]
   },
@@ -125,42 +143,10 @@
     ]
   },
   {
-    "type": "conference",
-    "key": "taktasheva2025gaussianflats",
-    "venue": "Neural Information Processing Systems (NeurIPS)",
-    "special": "NeurIPS'25",
-    "title": "3D Gaussian Flats: Hybrid 2D/3D Photometric Scene Reconstruction",
-    "year": "2025",
-    "authors": [
-      "Maria Taktasheva",
-      "Alessandro Fiorini",
-      "Lily Goli",
-      "Zhen (Colin) Li",
-      "Daniel Rebain",
-      "Andrea Tagliasacchi"
-    ]
-  },
-  {
-    "type": "conference",
-    "key": "alimohammadi2025cora",
-    "title": "Cora: Correspondence-aware image editing using few step diffusion",
-    "year": "2025",
-    "venue": "Proc. SIGGRAPH",
-    "special": "SIG'25",
-    "authors": [
-      "Amirhossein Alimohammadi",
-      "Aryan Mikaeili",
-      "Sauradip Nag",
-      "Negar Hassanpour",
-      "Andrea Tagliasacchi",
-      "Ali Mahdavi-Amiri"
-    ]
-  },
-  {
     "type": "arxiv",
     "key": "goli2025romo",
-    "venue": "arXiv preprint",
-    "special": "NEW!!!",
+    "venue": "International Conference on Computer Vision (ICCV)",
+    "special": "ICCV'25",
     "title": "RoMo: Robust Motion Segmentation Improves Structure from Motion",
     "year": "2025",
     "arxiv": "https://arxiv.org/pdf/2411.18650",
@@ -179,19 +165,19 @@
     ]
   },
   {
-    "type": "arxiv",
-    "key": "foroutan2025nerf3dgs",
-    "venue": "arXiv preprint",
-    "special": "NEW!!!",
-    "title": "NeRF it 'til You Make it: Improving 3DGS with Volume Rendering Cues",
+    "type": "conference",
+    "key": "alimohammadi2025cora",
+    "title": "Cora: Correspondence-aware image editing using few step diffusion",
     "year": "2025",
-    "arxiv": "https://arxiv.org/abs/2404.12547",
-    "homepage": "https://theialab.github.io/nerf-3dgs",
+    "venue": "Proc. SIGGRAPH",
+    "special": "SIG'25",
     "authors": [
-      "Yalda Foroutan",
-      "Daniel Rebain",
-      "Kwang Moo Yi",
-      "Andrea Tagliasacchi"
+      "Amirhossein Alimohammadi",
+      "Aryan Mikaeili",
+      "Sauradip Nag",
+      "Negar Hassanpour",
+      "Andrea Tagliasacchi",
+      "Ali Mahdavi-Amiri"
     ]
   },
   {
