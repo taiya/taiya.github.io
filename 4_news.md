@@ -1,4 +1,6 @@
 # Recent news
+– Organized the ICCV'25 [GeoFreeNVS](https://geofreenvs.github.io) workshop  
+- Papers accepted: 3x ICCV'25, 1x NeurIPS'25
 - Papers accepted: 1x SIGGRAPH'25, 1x TOG'25
 - Papers accepted: 1x 3DV'25, 3x ICLR'25, 2x CVPR'25
 - [Sara Sabour](https://scholar.google.ca/citations?user=l8wQ39EAAAAJ&hl=en) has successfully defended her PhD!
