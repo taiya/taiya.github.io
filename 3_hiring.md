@@ -6,3 +6,4 @@ To apply to my group, simply mention my name in [the application system](https:/
 For inquiries about graduate applications, you can email <a href = "mailto:andrea.tagliasacchi+hiring@sfu.ca">andrea.tagliasacchi+hiring@sfu.ca</a>, but I would kindly ask prospective students to **not email me prior to Dec 15**, and before submitting your formal application.
 I will go through all the applications with my name included, and will review your CV, and transcripts then (there is no point in sending these by email attachment!).
 If you do have any specific questions or ideas you want to share with me, please only do so after Dec 15 **and** submitting your application.
+If you have read these guidelines, please start your email subject with **Potato26**.
