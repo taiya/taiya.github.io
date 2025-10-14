@@ -1,5 +1,8 @@
-# Hiring graduate students (Sep. 2025 entry)
-I am currently hiring graduate students to join my lab.
-If you want to push the boundary of computer vision with machine learning towards effective understanding of the 3D world, with applications to autonomous systems/robotics, inverse graphics, and augmented reality, please <a href="http://www.sfu.ca/computing/prospective-students/graduate-students/admissions.html"> apply here </a> – **the application deadline is mid-January 2025**.
+# Hiring graduate students
+If you want to push the boundary of computer vision with machine learning towards effective understanding of the 3D world, with applications to autonomous systems/robotics, inverse graphics, and augmented reality, please <a href="http://www.sfu.ca/computing/prospective-students/graduate-students/admissions.html"> apply here </a> – **the application deadline is mid-January 2026**.
 To apply to my group, simply mention my name in [the application system](https://www.sfu.ca/gradstudies/apply/applying/gograd.html).
-Please only use <a href = "mailto:andrea.tagliasacchi+hiring@sfu.ca">andrea.tagliasacchi+hiring@sfu.ca</a> for inquiries about graduate admissions (admission emails sent to other recipients are auto-deleted). I promise to read all emails, however, I am likely unable to reply to individual inquiries due to the volume.
+I would kindly ask you to **not email me before Dec 15, 2025** with inquiries about graduate applications, or, even worse, send reminders (I get thousands of emails).
+If you want to send your CV, transcripts, and cover letter, that is what the application system is designed for.
+If you do send an email to <a href = "mailto:andrea.tagliasacchi+hiring@sfu.ca">andrea.tagliasacchi+hiring@sfu.ca</a>, please beware that I will unlikely be able to respond.
+I typically only accept PhD students, as MSc positions are dedicated to domestic students.
+Postdoc positions are rare, and you will need either an NSERC scholarship, or an industrial partner to support you.
