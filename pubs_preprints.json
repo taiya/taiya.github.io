@@ -33,4 +33,20 @@
       "Kwang Moo Yi"
     ]
   },
+  {
+    "type": "arxiv",
+    "key": "foroutan2025nerfit",
+    "venue": "arXiv preprint",
+    "special": "arXiv",
+    "title": "NeRF it 'til You Make it: Improving 3DGS with Volume Rendering Cues",
+    "arxiv": "https://arxiv.org/abs/2404.12547",
+    "homepage": "https://theialab.github.io/nerf-3dgs",
+    "year": "2025",
+    "authors": [
+      "Yalda Foroutan",
+      "Daniel Rebain",
+      "Kwang Moo Yi",
+      "Andrea Tagliasacchi"
+    ]
+  },
 ]
