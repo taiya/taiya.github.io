@@ -40,10 +40,10 @@
     ]
   },
   {
-    "type": "arxiv",
+    "type": "conference",
     "key": "held2025trianglesplatting",
-    "venue": "arXiv preprint",
-    "special": "arXiv",
+    "venue": "International Conference on 3D Vision (3DV)",
+    "special": "3DV'26",
     "title": "Triangle Splatting for Real-Time Radiance Field Rendering",
     "arxiv": "https://arxiv.org/abs/2505.19175",
     "year": "2025",
@@ -62,32 +62,17 @@
     ]
   },
   {
-    "type": "arxiv",
+    "type": "conference",
     "key": "vora2024hit",
-    "venue": "arXiv preprint",
-    "special": "arXiv",
+    "venue": "International Conference on 3D Vision (3DV)",
+    "special": "3DV'26",
     "title": "HiT: Hierarchical Transformers for Unsupervised 3D Shape Abstraction",
+    "arxiv": "https://arxiv.org/abs/2510.27088",
     "year": "2025",
     "authors": [
       "Aditya Vora",
       "Lily Goli",
       "Hao Zhang",
-      "Andrea Tagliasacchi"
-    ]
-  },
-  {
-    "type": "arxiv",
-    "key": "foroutan2025nerfit",
-    "venue": "arXiv preprint",
-    "special": "arXiv",
-    "title": "NeRF it 'til You Make it: Improving 3DGS with Volume Rendering Cues",
-    "arxiv": "https://arxiv.org/abs/2404.12547",
-    "homepage": "https://theialab.github.io/nerf-3dgs",
-    "year": "2025",
-    "authors": [
-      "Yalda Foroutan",
-      "Daniel Rebain",
-      "Kwang Moo Yi",
       "Andrea Tagliasacchi"
     ]
   },
@@ -115,7 +100,7 @@
     "key": "shri2024radfoam",
     "title": "Radiant Foam: Real-Time Differentiable Ray Tracing",
     "year": "2025",
-    "venue": "ICCV'25",
+    "venue": "International Conference on Computer Vision (ICCV)",
     "homepage": "https://radfoam.github.io",
     "source": "https://github.com/theialab/radfoam",
     "arxiv": "https://arxiv.org/abs/2502.01157",

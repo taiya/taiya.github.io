@@ -1,4 +1,5 @@
 # Recent news
+- Papers accepted: 2x 3DV'26
 - [Radiant Foam](https://radfoam.github.io) is a spotlight at ICCV'25
 - Organized the ICCV'25 [GeoFreeNVS](https://geofreenvs.github.io) workshop  
 - Papers accepted: 3x ICCV'25, 1x NeurIPS'25
