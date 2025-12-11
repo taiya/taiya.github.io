@@ -93,7 +93,13 @@ def list_to_string(mylist):
         "Alessandro Fiorini"
     ]
     for name in highlight_names:
-        mylist = [author.replace(name, f"{{\\bf {name.split()[0]}}} {{\\bf {name.split()[1]}}}") for author in mylist]
+        # --- underlined independently
+        first = name.split()[0]
+        last = name.split()[1]
+        ulinename = f"\\ul{{{first}}} \\ul{{{last}}}"
+        mylist = [author.replace(name, ulinename) for author in mylist]
+        # --- underlined as a whole
+        # mylist = [author.replace(name, f"\\ul{{{name}}}") for author in mylist]
     return " and ".join(mylist)
 
 def notes_to_string(mylist):
@@ -178,5 +184,6 @@ with open('../pubs.json', 'r') as fp:
     for pub in data:
         # if pub['key'] != "chen2020bspnet": continue #TODO
         text = dispatcher(pub)
-        text = text.replace("Andrea Tagliasacchi", "\\textcolor{BrickRed}{Andrea Tagliasacchi}")
+        # text = text.replace("Andrea Tagliasacchi", "\\textcolor{BrickRed}{Andrea Tagliasacchi}")
+        text = text.replace("Andrea Tagliasacchi", "\\textbf{Andrea} \\textbf{Tagliasacchi}")
         print(text)

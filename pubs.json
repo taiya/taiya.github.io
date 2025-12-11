@@ -104,7 +104,10 @@
     "homepage": "https://radfoam.github.io",
     "source": "https://github.com/theialab/radfoam",
     "arxiv": "https://arxiv.org/abs/2502.01157",
-    "special": "ICCV'25 (spotlight)",
+    "special": "ICCV'25 (highlight)",
+    "notes": [
+      "highlight"
+    ],
     "authors": [
       "Shrisudhan Govindarajan",
       "Daniel Rebain",
