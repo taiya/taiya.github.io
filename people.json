@@ -1,36 +1,51 @@
 {
   "current": [
     {
+      "name": "George Shramko",
+      "degree": "MSc",
+      "time": "2025-",
+      "currently": "SFU",
+      "coadvisors": "Prof. Ke Li",
+      "homepage": "https://sfuapex.netlify.app/author/george-shramko"
+    },
+    {
+      "name": "Yizheng Xie",
+      "degree": "PhD student",
+      "time": "2025-",
+      "currently": "SFU",
+      "homepage": "https://xieyizheng.com"
+    },
+    {
       "name": "Shrisudhan Govindarajan",
-      "degree": "PhD candidate",
+      "degree": "PhD student",
       "time": "2023-",
       "currently": "SFU",
       "homepage": "https://shrisudhan.github.io"
     },
     {
       "name": "Ahan Shabanov",
-      "degree": "PhD candidate",
+      "degree": "PhD student",
       "time": "2022-",
       "currently": "SFU",
       "homepage": "https://ahanio.github.io"
     },
     {
       "name": "Maria Taktasheva",
-      "degree": "PhD candidate",
+      "degree": "PhD student",
       "time": "2024-",
       "currently": "SFU",
       "homepage": "https://scholar.google.com/citations?user=CcUdBLcAAAAJ"
     },
     {
       "name": "Yalda Foroutan",
-      "degree": "PhD candidate",
+      "degree": "PhD student",
       "time": "2024-",
       "currently": "SFU",
       "homepage": "https://youlenda.github.io"
     },
     {
       "name": "Aryan Mikaeili",
-      "degree": "PhD candidate",
+      "degree": "PhD student",
       "time": "2024-",
       "coadvisors": "Prof. Arash (Ali) Mahdavi-Amiri",
       "currently": "SFU",
@@ -45,7 +60,7 @@
     },
     {
       "name": "Daniel Rebain",
-      "degree": "PhD candidate (graduating)",
+      "degree": "PhD student (graduating soon!)",
       "time": "2020-2025",
       "currently": "UBC",
       "coadvisors": "Prof. Kwang Moo Yi",
@@ -55,16 +70,8 @@
       ]
     },
     {
-      "name": "Shakiba Kheradmand",
-      "degree": "PhD candidate (graduating)",
-      "time": "2022-",
-      "currently": "UBC",
-      "coadvisors": "Prof. Kwang Moo Yi",
-      "homepage": "https://shakibakh.github.io"
-    },
-    {
       "name": "Lily Goli",
-      "degree": "PhD candidate",
+      "degree": "PhD student (graduating soon!)",
       "time": "2021-",
       "currently": "UofT",
       "coadvisors": "Prof. Alec Jacobson",
@@ -72,7 +79,7 @@
     },
     {
       "name": "Sherwin Bahmani",
-      "degree": "PhD candidate",
+      "degree": "PhD student (graduating soon!)",
       "time": "2023-",
       "coadvisors": "Prof. David Lindell",
       "currently": "UofT",
@@ -144,6 +151,14 @@
       "coadvisors": "Prof. Fleet, Prof. Hinton",
       "currently": "Google DeepMind",
       "homepage": "https://research.google/people/105557"
+    },
+    {
+      "name": "Shakiba Kheradmand",
+      "degree": "PhD",
+      "time": "2022-2025",
+      "currently": "UBC",
+      "coadvisors": "Prof. Kwang Moo Yi",
+      "homepage": "https://shakibakh.github.io"
     }
   ]
 }
