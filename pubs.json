@@ -1,12 +1,14 @@
 [
   {
-    "type": "arxiv",
+    "type": "conference",
     "key": "bahmani2025lyra",
-    "venue": "arXiv preprint",
-    "special": "arXiv",
+    "venue": "International Conference on Learning Representations (ICLR)",
+    "special": "ICLR'26",
     "title": "Lyra: Generative 3D Scene Reconstruction via Video Diffusion Model Self-Distillation",
-    "year": "2025",
+    "year": "2026",
     "homepage": "https://research.nvidia.com/labs/toronto-ai/lyra",
+    "arxiv": "https://arxiv.org/abs/2509.19296",
+    "source": "https://github.com/nv-tlabs/lyra",
     "authors": [
       "Sherwin Bahmani",
       "Tianchang Shen",
@@ -46,7 +48,7 @@
     "special": "3DV'26",
     "title": "Triangle Splatting for Real-Time Radiance Field Rendering",
     "arxiv": "https://arxiv.org/abs/2505.19175",
-    "year": "2025",
+    "year": "2026",
     "authors": [
       "Jan Held",
       "Renaud Vandeghen",
@@ -68,7 +70,8 @@
     "special": "3DV'26",
     "title": "HiT: Hierarchical Transformers for Unsupervised 3D Shape Abstraction",
     "arxiv": "https://arxiv.org/abs/2510.27088",
-    "year": "2025",
+    "homepage": "https://aditya-vora.github.io/HiT",
+    "year": "2026",
     "authors": [
       "Aditya Vora",
       "Lily Goli",
@@ -238,7 +241,7 @@
     "homepage": "https://theialab.github.io/noksr",
     "special": "3DV'25",
     "authors": [
-      "Zhen Li",
+      "Zhen (Colin) Li",
       "Weiwei Sun",
       "Shrisudhan Govindarajan",
       "Shaobo Xia",
@@ -2170,6 +2173,60 @@
       "David J. Fleet"
     ],
     "number": "GP-308003-00-PR"
+  },
+  {
+    "type": "patent",
+    "key": "matthews2025unposed",
+    "title": "NEURAL RADIANCE FIELDS WITH UNPOSED IMAGES USING GEOMETRIC CONSISTENCY",
+    "status": "filed",
+    "filed": "Jun. 17, 2025",
+    "year": "2025",
+    "authors": [
+      "Mark Jeffrey Matthews",
+      "Yuhe Jin",
+      "Matan Sela",
+      "Andrea Tagliasacchi",
+      "Dmitry Lagun"
+    ],
+    "number": "US20250384581A1"
+  },
+  {
+    "type": "patent",
+    "key": "matthews2025sls",
+    "title": "GAUSSIAN SPLATTING WITH GRADIENT-BASED PRUNING AND SEMANTICALLY AWARE-ROBUST OPTIMIZATION",
+    "status": "filed",
+    "filed": "Jun. 17, 2025",
+    "year": "2025",
+    "authors": [
+      "Mark Jeffrey Matthews",
+      "Sara Sabour",
+      "Leili Goli",
+      "Georgios Kopanas",
+      "Dmitry Lagun",
+      "Leonidas John Guibas",
+      "David James Fleet",
+      "Andrea Tagliasacchi"
+    ],
+    "number": "US20250384581A1"
+  },
+  {
+    "type": "patent",
+    "key": "matthews2025romo",
+    "title": "ROBUST MOTION FROM STRUCTURE AND STRUCTURE FROM MOTION IN VIDEOS",
+    "status": "filed",
+    "filed": "Nov. 14, 2025",
+    "year": "2025",
+    "authors": [
+      "Leili Goli",
+      "Sara Sabour",
+      "Mark Jeffrey Matthews",
+      "Marcus Brubaker",
+      "Dmitry Lagun",
+      "David Fleet",
+      "Saurabh Saxena",
+      "Andrea Tagliasacchi"
+    ],
+    "number": "GP-403256-00-PCT"
   },
   {
     "type": "patent",
