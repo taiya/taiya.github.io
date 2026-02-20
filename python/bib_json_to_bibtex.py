@@ -179,7 +179,7 @@ def dispatcher(pub):
     if pub['type'] == 'patent': return patent(pub)
     raise ValueError(pub['type'])
 
-with open('../pubs.json', 'r') as fp:
+with open('pubs.json', 'r') as fp:
     data = json.load(fp)
     for pub in data:
         # if pub['key'] != "chen2020bspnet": continue #TODO
