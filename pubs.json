@@ -26,22 +26,6 @@
     ]
   },
   {
-    "type": "arxiv",
-    "key": "mikaeili2025griffin",
-    "venue": "arXiv preprint",
-    "special": "arXiv",
-    "title": "Griffin: Generative Reference and Layout Guided Image Composition",
-    "year": "2025",
-    "homepage": "https://griffin-anonymous.github.io",
-    "authors": [
-      "Aryan Mikaeili",
-      "Amirhossein Alimohammadi",
-      "Negar Hassanpour",
-      "Ali Mahdavi Amiri",
-      "Andrea Tagliasacchi"
-    ]
-  },
-  {
     "type": "conference",
     "key": "held2025trianglesplatting",
     "venue": "International Conference on 3D Vision (3DV)",
