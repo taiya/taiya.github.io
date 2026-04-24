@@ -1,0 +1,24 @@
+{
+  "name": "taiya.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taiya/taiya.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/taiya/taiya.github.io/issues"
+  },
+  "homepage": "https://github.com/taiya/taiya.github.io#readme",
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
