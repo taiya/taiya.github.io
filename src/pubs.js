@@ -20,7 +20,9 @@ function make_pub(entry) {
   const pub = document.createElement('div');
   pub.setAttribute('id', entry.key);
   pub.className = 'publication';
-  document.getElementById('pubs_list').appendChild(pub);
+  const pubs_list = document.getElementById('pubs_list');
+  if (!pubs_list) return;
+  pubs_list.appendChild(pub);
 
   const pub_content = document.createElement('div');
   pub_content.className = 'publication_content';
@@ -41,7 +43,7 @@ function make_pub(entry) {
     let videoLoaded = false;
     pub.addEventListener("mouseover", function() {
       if (!videoLoaded) {
-        source.src = entry.icon;
+        source.src = /** @type {string} */ (entry.icon);
         video.load();
         videoLoaded = true;
       }
@@ -163,7 +165,7 @@ function render_next_chunk() {
   const old = document.getElementById('_pub_sentinel');
   if (old) old.remove();
 
-  if (_rendered_count < _all_pubs.length) {
+  if (_rendered_count < _all_pubs.length && container) {
     const sentinel = document.createElement('div');
     sentinel.id = '_pub_sentinel';
     container.appendChild(sentinel);
