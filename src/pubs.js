@@ -45,15 +45,19 @@ function make_pub(entry) {
     const source = document.createElement('source');
     source.setAttribute('type', "video/mp4");
     video.appendChild(source);
-    let videoLoaded = false;
-    pub.addEventListener("mouseover", function() {
-      if (!videoLoaded) {
+
+    // Start downloading as soon as the card scrolls into view,
+    // but never before — play/pause on hover as before.
+    const vis_observer = new IntersectionObserver(function(entries) {
+      if (entries[0].isIntersecting) {
         source.src = /** @type {string} */ (entry.icon);
         video.load();
-        videoLoaded = true;
+        vis_observer.disconnect();
       }
-      video.play();
-    });
+    }, { rootMargin: '200px' });
+    vis_observer.observe(pub);
+
+    pub.addEventListener("mouseover", function() { video.play(); });
     pub.addEventListener("mouseleave", function() { video.pause(); });
     pub_content.appendChild(video);
     pub_content.appendChild(pub_info);
