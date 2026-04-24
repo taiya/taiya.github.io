@@ -2,9 +2,11 @@
   "name": "taiya.github.io",
   "version": "1.0.0",
   "description": "",
-  "main": "build.js",
   "scripts": {
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "snapshot": "node scripts/snapshot.mjs",
+    "snapshot:baseline": "OUT_DIR=snapshots-baseline node scripts/snapshot.mjs",
+    "visual-diff": "node scripts/visual-diff.mjs"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,9 @@
   },
   "homepage": "https://github.com/taiya/taiya.github.io#readme",
   "devDependencies": {
+    "pixelmatch": "^7.1.0",
+    "playwright": "^1.59.1",
+    "pngjs": "^7.0.0",
     "typescript": "^6.0.3"
   },
   "dependencies": {
