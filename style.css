@@ -458,15 +458,12 @@ http://stackoverflow.com/questions/10933837/line-break-like-br-using-only-css */
     width: 100%; float: none; margin-right: 0;
   }
 
-  /* Hero photo: not floated, centered, comfortable size + breathing room below */
+  /* Hero photo: float right, small enough that bio text wraps beside it */
   .hero-photo {
-    float: none;
-    width: 55%;
-    max-width: 220px;
-    margin: 0 auto 22px;
-    display: block;
+    float: right;
+    width: 110px;
+    margin: 2px 0 10px 14px;
   }
-  .hero-photo .image { margin: 0 auto; }
 
   .publication              { width: 100%; box-sizing: border-box; padding: 10px; }
   .publication_image        { width: 120px; height: 68px; margin-right: 14px; }
