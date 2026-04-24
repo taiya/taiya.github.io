@@ -1,5 +1,6 @@
 // @ts-check
 
+import './menu.js';
 import { render_markdown } from './markdown.js';
 import { make_students, make_alumni } from './people.js';
 import { make_publications } from './pubs.js';

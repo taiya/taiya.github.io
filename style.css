@@ -190,6 +190,23 @@ em {font-style: italic;}
   color: #E65C5C;
 }
 
+/* Hamburger - hidden on desktop; shown inside the responsive media query */
+.menu_toggle {
+  display: none;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  padding: 12px 18px;
+  float: left;
+}
+.menu_toggle span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: #E65C5C;
+  margin: 4px 0;
+}
+
 /******************************************************************************/
 /*                            PUBLICATION SEARCH                              */
 /******************************************************************************/
@@ -420,4 +437,28 @@ http://stackoverflow.com/questions/10933837/line-break-like-br-using-only-css */
   .publication_abstract     { width: 100%; float: none; margin-right: 0; }
   .publication_detail,
   .publication_bibtex       { margin-left: 0; }
+}
+
+/******************************************************************************/
+/*                         RESPONSIVE - HAMBURGER (<1000px)                   */
+/******************************************************************************/
+/*
+ * At any viewport below the 1000px desktop baseline, the top nav collapses
+ * behind a hamburger button. Clicking the hamburger adds .open to #menu
+ * (see javascript/menu.js) which reveals the stacked link list.
+ */
+@media (max-width: 999px) {
+  .menu_toggle { display: block; }
+
+  #menu { overflow: visible; }
+  #menu ol { display: none; float: none; clear: both; margin: 0; padding: 0; list-style: none; }
+  #menu.open ol { display: block; }
+  #menu li {
+    float: none;
+    display: block;
+    border-right: 0;
+    box-shadow: none;
+    border-top: 1px solid rgba(255,255,255,0.1);
+  }
+  #menu a { float: none; display: block; padding: 10px 20px; }
 }
