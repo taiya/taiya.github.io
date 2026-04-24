@@ -30,7 +30,7 @@ function make_students_callback(myjson) {
   }
 }
 function make_students() {
-  jQuery.getJSON("/people.json", make_students_callback)
+  jQuery.getJSON("/data/people.json", make_students_callback)
     .fail(function () { console.error("file not found / JSON syntax incorrect"); });
 }
 
@@ -51,7 +51,7 @@ function make_alumni_callback(myjson) {
   }
 }
 function make_alumni() {
-  jQuery.getJSON("/people.json", make_alumni_callback)
+  jQuery.getJSON("/data/people.json", make_alumni_callback)
     .fail(function () { console.error("file not found / JSON syntax incorrect"); });
 }
 
@@ -315,6 +315,5 @@ function make_pubs_callback(pubs) {
 }
 
 function make_publications() {
-  //--- Download the bibfile
-  jQuery.get("/pubs.json", make_pubs_callback);
+  jQuery.get("/data/pubs.json", make_pubs_callback);
 }
