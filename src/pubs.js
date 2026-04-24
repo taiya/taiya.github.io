@@ -166,10 +166,11 @@ function restart_renderer(list) {
   // Clear all rendered publication nodes (keep the <h1> heading)
   const container = document.getElementById('pubs_list');
   if (!container) return;
-  // Remove everything except the first child (the <h1>Publications</h1>)
-  while (container.children.length > 1) {
-    container.removeChild(/** @type {Element} */ (container.lastChild));
-  }
+  // Remove only rendered publication cards and the sentinel — leaves the
+  // <h1> heading and #pub_search_wrapper untouched.
+  container.querySelectorAll('.publication, #_pub_sentinel').forEach(function(el) {
+    el.remove();
+  });
 
   _active_pubs = list;
   _rendered_count = 0;

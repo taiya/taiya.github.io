@@ -197,8 +197,8 @@ em {font-style: italic;}
 #pub_search_wrapper {
   float: left;
   width: 950px;
-  padding: 10px 15px 4px 15px;
-  box-sizing: border-box;
+  padding: 10px 15px 6px 15px;
+  box-sizing: content-box; /* matches .publication box model */
 }
 
 #pub_search_input {
