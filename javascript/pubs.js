@@ -42,23 +42,46 @@ function make_pub(entry) {
     video.loop = true;
     video.muted = true;
     video.preload = 'none';
+    // playsinline is required so that iOS Safari plays the video inline
+    // inside the card instead of taking over the screen. It's harmless on
+    // other browsers.
+    video.setAttribute('playsinline', '');
+    video.playsInline = true;
     const source = document.createElement('source');
     source.setAttribute('type', "video/mp4");
     video.appendChild(source);
 
-    // Start downloading as soon as the card scrolls into view,
-    // but never before — play/pause on hover as before.
-    const vis_observer = new IntersectionObserver(function(entries) {
+    // Start downloading as soon as the card scrolls into view, but never
+    // before. On touch devices (phones/tablets) there's no hover event,
+    // so we instead auto-play whenever the card is actually visible and
+    // pause when it leaves the viewport to save battery and data.
+    const is_touch = window.matchMedia('(hover: none)').matches;
+
+    const load_observer = new IntersectionObserver(function(entries) {
       if (entries[0].isIntersecting) {
         source.src = /** @type {string} */ (entry.icon);
         video.load();
-        vis_observer.disconnect();
+        load_observer.disconnect();
       }
     }, { rootMargin: '200px' });
-    vis_observer.observe(pub);
+    load_observer.observe(pub);
 
-    pub.addEventListener("mouseover", function() { video.play(); });
-    pub.addEventListener("mouseleave", function() { video.pause(); });
+    if (is_touch) {
+      const play_observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(e) {
+          if (e.isIntersecting) {
+            const p = video.play();
+            if (p && typeof p.catch === 'function') p.catch(function() {});
+          } else {
+            video.pause();
+          }
+        });
+      }, { threshold: 0.25 });
+      play_observer.observe(pub);
+    } else {
+      pub.addEventListener("mouseover", function() { video.play(); });
+      pub.addEventListener("mouseleave", function() { video.pause(); });
+    }
     pub_content.appendChild(video);
     pub_content.appendChild(pub_info);
   } else {
