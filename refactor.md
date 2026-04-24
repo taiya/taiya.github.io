@@ -121,4 +121,4 @@ fetched on page load (only on first hover).
 | 3.5  | Responsive layout — replace fixed 960px with `max-width` + CSS Grid/flex; add `<meta name="viewport">` | Touches every CSS selector; needs visual QA across breakpoints |
 | 3.13 | Print stylesheet (`@media print`) for clean CV PDF export | Requires UX decisions on what to hide/show |
 | 3.2  | Replace `commonmark.js` (274 KB) with `snarkdown` (~1 KB) | **HIGH RISK** — snarkdown supports a CommonMark subset; needs HTML diff of all 5 `data/*.md` files pre/post |
-| 3.14 | Client-side publication search/filter bar | Requires UX decisions (placement, facets, empty-state); interacts with lazy renderer; ~40-line `src/search.js` module |
+| ~~3.14~~ | ~~Client-side publication search/filter bar~~ | **Done** — `src/search.js`; debounced, URL-synced (`?q=`), lazy-renderer-aware, count overlaid inside input |
