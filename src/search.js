@@ -60,8 +60,8 @@ export function init_search() {
   input_row.appendChild(count);
   wrapper.appendChild(input_row);
 
-  // Insert after the <h1> (first child of container)
-  const heading = container.firstChild;
+  // Insert immediately after the <h1> heading
+  const heading = container.querySelector('h1');
   if (heading && heading.nextSibling) {
     container.insertBefore(wrapper, heading.nextSibling);
   } else {
