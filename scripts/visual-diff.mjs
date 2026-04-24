@@ -15,8 +15,14 @@ const BASELINE_DIR = 'snapshots-baseline';
 const CURRENT_DIR  = 'snapshots';
 const DIFF_DIR     = 'snapshots-diff';
 
-/** Desktop viewport substring - any pixel diff here fails the gate. */
+/** Desktop viewport substring - only index-* files gate the build. */
 const DESKTOP_VIEWPORT = '1280x900';
+/**
+ * Files whose filename contains this prefix are excluded from the desktop gate
+ * because they embed live third-party iframes (Google Calendar) that change
+ * every run and would create false positives.
+ */
+const LIVE_CONTENT_PREFIX = 'calendar-';
 
 /** @param {string} dir */
 function dirExists(dir) {
@@ -47,7 +53,7 @@ function main() {
   let desktopFail = false;
 
   for (const file of baselineFiles) {
-    const isDesktop = file.includes(DESKTOP_VIEWPORT);
+    const isDesktop = file.includes(DESKTOP_VIEWPORT) && !file.startsWith(LIVE_CONTENT_PREFIX);
 
     if (!currentFiles.has(file)) {
       rows.push({ file, diff: 0, total: 0, missing: true, sizeMismatch: false });
@@ -90,11 +96,14 @@ function main() {
 
   for (const r of rows) {
     const isDesktop = r.file.includes(DESKTOP_VIEWPORT);
+    const gated = r.file.includes(DESKTOP_VIEWPORT) && !r.file.startsWith(LIVE_CONTENT_PREFIX);
     let status;
     if (r.missing)           status = 'MISSING';
     else if (r.sizeMismatch) status = 'SIZE MISMATCH';
     else if (r.diff === 0)   status = 'identical';
-    else                     status = isDesktop ? 'DESKTOP REGRESSION' : 'changed';
+    else if (gated)          status = 'DESKTOP REGRESSION';
+    else if (r.file.startsWith(LIVE_CONTENT_PREFIX)) status = 'live-content (skipped)';
+    else                     status = 'changed';
 
     const pct = r.missing || r.sizeMismatch ? '-' : ((r.diff / r.total) * 100).toFixed(3) + '%';
     console.log(

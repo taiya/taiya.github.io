@@ -190,6 +190,30 @@ em {font-style: italic;}
   color: #E65C5C;
 }
 
+/******************************************************************************/
+/*                              HERO PHOTO                                    */
+/******************************************************************************/
+/*
+ * Float the hero photo to the right of the biography text so text wraps
+ * around it. The photo is 30% smaller than the old .one-third column (300px).
+ * 300 * 0.7 ≈ 210px. The left+bottom margin gives breathing room.
+ * #contacts gets clear:both so it always starts below the photo float.
+ *
+ * The tricky part: h1/h2/h3 have width:100% + overflow:hidden which creates
+ * a full-width BFC that gets pushed BELOW any float. Override width to auto
+ * inside #biography so the heading fills only the available width beside the
+ * photo float instead of the full 960px, keeping text wrapping intact.
+ */
+.hero-photo {
+  float: right;
+  width: 210px;
+  margin: 0 0 12px 22px;
+}
+
+#biography h1, #biography h2, #biography h3 { width: auto; }
+
+#contacts { clear: both; }
+
 /* Hamburger - hidden on desktop; shown inside the responsive media query */
 .menu_toggle {
   display: none;
@@ -406,7 +430,10 @@ http://stackoverflow.com/questions/10933837/line-break-like-br-using-only-css */
   .one-half, .two-third, .one-third { margin-right: 3.125%; }
   .last       { margin-right: 0 !important; }
 
+  .hero-photo { width: 180px; }
+
   .publication              { width: 100%; box-sizing: border-box; }
+  .publication_image        { margin-right: 14px; }
   .publication_information  { width: auto; float: none; overflow: hidden; }
   .publication_abstract     { width: 100%; float: none; margin-right: 0; }
   .publication_detail,
@@ -431,8 +458,18 @@ http://stackoverflow.com/questions/10933837/line-break-like-br-using-only-css */
     width: 100%; float: none; margin-right: 0;
   }
 
+  /* Hero photo: not floated, centered, comfortable size + breathing room below */
+  .hero-photo {
+    float: none;
+    width: 55%;
+    max-width: 220px;
+    margin: 0 auto 22px;
+    display: block;
+  }
+  .hero-photo .image { margin: 0 auto; }
+
   .publication              { width: 100%; box-sizing: border-box; padding: 10px; }
-  .publication_image        { width: 120px; height: 68px; margin-right: 10px; }
+  .publication_image        { width: 120px; height: 68px; margin-right: 14px; }
   .publication_information  { width: auto; float: none; overflow: hidden; }
   .publication_abstract     { width: 100%; float: none; margin-right: 0; }
   .publication_detail,
