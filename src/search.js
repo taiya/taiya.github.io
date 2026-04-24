@@ -41,6 +41,10 @@ export function init_search() {
   const wrapper = document.createElement('div');
   wrapper.id = 'pub_search_wrapper';
 
+  // Inner div provides the relative positioning context for the count overlay
+  const input_row = document.createElement('div');
+  input_row.id = 'pub_search_input_row';
+
   const input = document.createElement('input');
   input.type = 'search';
   input.id = 'pub_search_input';
@@ -52,8 +56,9 @@ export function init_search() {
   const count = document.createElement('span');
   count.id = 'pub_search_count';
 
-  wrapper.appendChild(input);
-  wrapper.appendChild(count);
+  input_row.appendChild(input);
+  input_row.appendChild(count);
+  wrapper.appendChild(input_row);
 
   // Insert after the <h1> (first child of container)
   const heading = container.firstChild;

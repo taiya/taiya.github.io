@@ -197,13 +197,17 @@ em {font-style: italic;}
 #pub_search_wrapper {
   float: left;
   width: 950px;
-  padding: 10px 15px 6px 15px;
+  padding: 10px 15px 10px 15px;
   box-sizing: content-box; /* matches .publication box model */
+}
+
+#pub_search_input_row {
+  position: relative;
 }
 
 #pub_search_input {
   width: 100%;
-  padding: 7px 12px;
+  padding: 7px 140px 7px 12px; /* right padding reserves space for the count */
   font-size: 0.95em;
   font-family: Arial, Helvetica, sans-serif;
   color: #333;
@@ -221,11 +225,14 @@ em {font-style: italic;}
 }
 
 #pub_search_count {
-  display: block;
-  margin-top: 4px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
   font-size: 0.82em;
   color: #727579;
-  min-height: 1.2em;
+  pointer-events: none;
+  white-space: nowrap;
 }
 
 /******************************************************************************/
