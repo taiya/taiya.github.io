@@ -1,5 +1,5 @@
 // @ts-check
-/// <reference path="../types.d.ts" />
+/// <reference path="./types.d.ts" />
 
 /**
  * @param {PeopleFile} myjson

@@ -12,12 +12,10 @@
     "noUnusedParameters": false
   },
   "include": [
-    "src/**/*.js",
-    "types.d.ts"
+    "javascript/**/*.js",
+    "javascript/types.d.ts"
   ],
   "exclude": [
-    "javascript",
-    "build.js",
     "python"
   ]
 }

@@ -39,7 +39,6 @@ jobs:
             --include='icons/' --include='icons/**' \
             --include='images/' --include='images/**' \
             --include='javascript/' --include='javascript/**' \
-            --include='src/' --include='src/**' \
             --exclude='*' \
             . _site/
 

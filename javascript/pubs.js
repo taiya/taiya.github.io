@@ -1,5 +1,5 @@
 // @ts-check
-/// <reference path="../types.d.ts" />
+/// <reference path="./types.d.ts" />
 
 import { make_link } from './dom.js';
 import { update_count } from './search.js';
