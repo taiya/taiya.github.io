@@ -71,6 +71,7 @@ function make_pub(entry) {
     img.setAttribute('alt', entry.title);
     img.setAttribute('loading', 'lazy');
     img.setAttribute('decoding', 'async');
+    img.onerror = function() { img.src = '/images/placeholder.jpg'; };
     image.appendChild(img);
     pub_content.appendChild(image);
     pub_content.appendChild(pub_info);
