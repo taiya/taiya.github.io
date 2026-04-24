@@ -395,3 +395,29 @@ http://stackoverflow.com/questions/10933837/line-break-like-br-using-only-css */
   .publication_detail,
   .publication_bibtex       { margin-left: 0; }
 }
+
+/******************************************************************************/
+/*                          RESPONSIVE - NARROW (<600px)                      */
+/******************************************************************************/
+/*
+ * Phone layout: columns stack into a single column, paddings shrink, the
+ * publication thumbnail is reduced to 120x68 and kept on the left with the
+ * text wrapping next to it (user picked "shrunk_left"). Hamburger styles
+ * for the top nav live further below next to the base .menu_toggle rule.
+ */
+@media (max-width: 599px) {
+  #menu      { width: auto; margin: 10px 6px; box-sizing: border-box; font-size: 1.2em; }
+  #container { width: auto; margin: 0 6px 20px 6px; padding: 10px; box-sizing: border-box; }
+
+  .one, .one-half, .two-third, .one-third, .one-fourth, .one-fifth, .one-sixth,
+  .inner-content, .one-third-big {
+    width: 100%; float: none; margin-right: 0;
+  }
+
+  .publication              { width: 100%; box-sizing: border-box; padding: 10px; }
+  .publication_image        { width: 120px; height: 68px; margin-right: 10px; }
+  .publication_information  { width: auto; float: none; overflow: hidden; }
+  .publication_abstract     { width: 100%; float: none; margin-right: 0; }
+  .publication_detail,
+  .publication_bibtex       { margin-left: 0; }
+}
