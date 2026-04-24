@@ -1,4 +1,7 @@
 # Recent news
+- Papers accepted: 4x CVPR'26
+- [Shakiba Kheradmand](https://shakibakh.github.io) has successfully defended her PhD!
+- [Sherwin Bahmani](https://sherwinbahmani.github.io) has successfully defended his PhD!
 - Papers accepted: 2x 3DV'26
 - [Radiant Foam](https://radfoam.github.io) is a spotlight at ICCV'25
 - Organized the ICCV'25 [GeoFreeNVS](https://geofreenvs.github.io) workshop  
