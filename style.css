@@ -195,10 +195,10 @@ em {font-style: italic;}
 /******************************************************************************/
 
 #pub_search_wrapper {
-  float: left;
-  width: 950px;
-  padding: 10px 15px 10px 15px;
-  box-sizing: content-box; /* matches .publication box model */
+  display: block;
+  width: 100%;
+  padding: 6px 0 10px 0;
+  box-sizing: border-box;
 }
 
 #pub_search_input_row {
