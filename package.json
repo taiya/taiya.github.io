@@ -20,5 +20,8 @@
   "homepage": "https://github.com/taiya/taiya.github.io#readme",
   "devDependencies": {
     "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "snarkdown": "^2.0.0"
   }
 }
