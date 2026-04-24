@@ -76,17 +76,8 @@
       "currently": "UofT",
       "coadvisors": "Prof. Alec Jacobson",
       "homepage": "https://lilygoli.github.io"
-    },
-    {
-      "name": "Sherwin Bahmani",
-      "degree": "PhD student (graduating soon!)",
-      "time": "2023-",
-      "coadvisors": "Prof. David Lindell",
-      "currently": "UofT",
-      "homepage": "https://sherwinbahmani.github.io"
     }
-  ]
-  ,
+  ],
   "alumni": [
     {
       "name": "Dr. Anastasia Tkach",
@@ -156,9 +147,17 @@
       "name": "Shakiba Kheradmand",
       "degree": "PhD",
       "time": "2022-2025",
-      "currently": "UBC",
+      "currently": "Impossible Inc.",
       "coadvisors": "Prof. Kwang Moo Yi",
       "homepage": "https://shakibakh.github.io"
+    },
+    {
+      "name": "Dr. Sherwin Bahmani",
+      "degree": "PhD",
+      "time": "2023-2026",
+      "currently": "Google DeepMind",
+      "coadvisors": "Prof. David Lindell",
+      "homepage": "https://sherwinbahmani.github.io"
     }
   ]
 }
