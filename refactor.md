@@ -117,7 +117,7 @@ fetched on page load (only on first hover).
 
 | ID   | Description | Why deferred |
 |------|-------------|--------------|
-| 3.4  | Image compression (oversized icons + hero) | JPEG re-encode can't guarantee pixel parity; defer to Phase 2 with SSIM-bounded tooling or `<picture>`/`.webp` |
+| ~~3.4~~ | ~~Image compression (oversized icons + hero)~~ | **Done** — all 48 `icons/*.jpg` converted to WebP at q=85; `icons/` 2.6 MB → 1.1 MB; `pubs.json` references updated; hero photo left untouched |
 | 3.5  | Responsive layout — replace fixed 960px with `max-width` + CSS Grid/flex; add `<meta name="viewport">` | Touches every CSS selector; needs visual QA across breakpoints |
 | 3.13 | Print stylesheet (`@media print`) for clean CV PDF export | Requires UX decisions on what to hide/show |
 | 3.2  | Replace `commonmark.js` (274 KB) with `snarkdown` (~1 KB) | **HIGH RISK** — snarkdown supports a CommonMark subset; needs HTML diff of all 5 `data/*.md` files pre/post |
