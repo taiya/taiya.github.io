@@ -207,7 +207,7 @@ em {font-style: italic;}
 
 #pub_search_input {
   width: 100%;
-  padding: 7px 140px 7px 12px; /* right padding reserves space for the count */
+  padding: 4px 140px 4px 10px; /* right padding reserves space for the count */
   font-size: 0.95em;
   font-family: Arial, Helvetica, sans-serif;
   color: #333;
