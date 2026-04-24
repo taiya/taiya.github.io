@@ -38,7 +38,7 @@ Before                          After
                                 │   ├── dom.js
                                 │   └── calendar_main.js
                                 ├── javascript/
-                                │   └── commonmark.js  (kept)
+                                │   └── snarkdown.js   (vendored, 3 KB)
                                 ├── tsconfig.json  (new)
                                 ├── types.d.ts     (new)
                                 ├── package.json   (new, dev-only)
@@ -68,6 +68,8 @@ Every commit is independently revertable with `git revert <sha>`.
 | c8  | `e5efcdd` | Add `// @ts-check` to all modules, `types.d.ts` with `Publication`/`Person`/`PeopleFile` interfaces, `tsconfig.json` (`allowJs + checkJs + noEmit + strict`), `package.json` with `typecheck` script; `tsc --noEmit` passes with zero errors | `types.d.ts`, `tsconfig.json`, `package.json`, `.gitignore`, `src/pubs.js` |
 | c12 | `bb545da` | Add `lang="en"` to `<html>`; wrap `#menu` in `<nav aria-label="Primary">`, `#container` in `<main id="content">`; add `.sr-only` skip-link; `alt` on hero image; `title` on calendar iframe; add `.sr-only` CSS rule | `index.html`, `calendar.html`, `style.css` |
 | c13 | `fb8f460` | Add `<meta name="description">`, Open Graph (`og:title/description/url/image/type`), Twitter card to `index.html` and `calendar.html`; add `sitemap.xml` and `robots.txt` | `index.html`, `calendar.html`, `sitemap.xml`, `robots.txt` |
+| 3.2a | `c8f3d98` | Replace `commonmark.js` (274 KB) with vendored `snarkdown.js` (~3 KB); rewrite `src/markdown.js` to import `parse` as an ES module; fix `data/2_contacts.md` dangling link lines | `javascript/commonmark.js` (deleted), `javascript/snarkdown.js`, `src/markdown.js`, `index.html`, `data/2_contacts.md` |
+| 3.2b | `c2d5f3c` | Add `paragraphify()` to restore `<p>` wrappers that snarkdown omits (restores 1em margins on biography/hiring); remove dead `<!-- OLD NEWS -->` from `data/4_news.md` | `src/markdown.js`, `data/4_news.md` |
 
 ---
 
@@ -120,5 +122,5 @@ fetched on page load (only on first hover).
 | ~~3.4~~ | ~~Image compression (oversized icons + hero)~~ | **Done** — all 48 `icons/*.jpg` converted to WebP at q=85; `icons/` 2.6 MB → 1.1 MB; `pubs.json` references updated; hero photo left untouched |
 | 3.5  | Responsive layout — replace fixed 960px with `max-width` + CSS Grid/flex; add `<meta name="viewport">` | Touches every CSS selector; needs visual QA across breakpoints |
 | 3.13 | Print stylesheet (`@media print`) for clean CV PDF export | Requires UX decisions on what to hide/show |
-| 3.2  | Replace `commonmark.js` (274 KB) with `snarkdown` (~1 KB) | **HIGH RISK** — snarkdown supports a CommonMark subset; needs HTML diff of all 5 `data/*.md` files pre/post |
+| ~~3.2~~ | ~~Replace `commonmark.js` (274 KB) with `snarkdown` (~1 KB)~~ | **Done** — vendored as `javascript/snarkdown.js` (3 KB); `paragraphify()` restores `<p>` margins; `data/2_contacts.md` fixed for snarkdown's line-oriented list parser |
 | ~~3.14~~ | ~~Client-side publication search/filter bar~~ | **Done** — `src/search.js`; debounced, URL-synced (`?q=`), lazy-renderer-aware, count overlaid inside input |
