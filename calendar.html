@@ -7,14 +7,12 @@
   <link rel="stylesheet" type="text/css" media="screen" href="/style.css">
   <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
 
-  <!-- locally stored libraries -->
-  <script type="text/javascript" src="/javascript/jquery.js"></script>
   <!-- my javascript files -->
   <script type="text/javascript" src="/build.js"></script>
 
   <!-- executes javascript -->
   <script type="text/javascript">
-    $(document).ready(make_footer)
+    document.addEventListener('DOMContentLoaded', make_footer);
   </script>
 </head>
 

@@ -8,7 +8,6 @@
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
 
     <!-- locally stored libraries -->
-    <script type="text/javascript" src="/javascript/jquery.js"></script>
     <script type="text/javascript" src="/javascript/commonmark.js"></script>
     
     <!-- my javascript files -->
@@ -16,15 +15,17 @@
 
     <!-- executes javascript -->
     <script type="text/javascript">
-        $(document).ready(() => { jQuery.get("/data/1_biography.md", (file) => { markdown2html(file, "biography") }); })
-        $(document).ready(() => { jQuery.get("/data/2_contacts.md", (file) => { markdown2html(file, "contacts") }); })
-        $(document).ready(() => { jQuery.get("/data/3_hiring.md", (file) => { markdown2html(file, "hiring") }); })
-        $(document).ready(() => { jQuery.get("/data/4_news.md", (file) => { markdown2html(file, "news") }); })
-        $(document).ready(() => { jQuery.get("/data/5_service.md", (file) => { markdown2html(file, "service") }); })
-        $(document).ready(make_students)
-        $(document).ready(make_alumni)
-        $(document).ready(make_publications)
-        $(document).ready(make_footer)
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch("/data/1_biography.md").then(function(r){ return r.text(); }).then(function(f){ markdown2html(f, "biography"); });
+            fetch("/data/2_contacts.md").then(function(r){ return r.text(); }).then(function(f){ markdown2html(f, "contacts"); });
+            fetch("/data/3_hiring.md").then(function(r){ return r.text(); }).then(function(f){ markdown2html(f, "hiring"); });
+            fetch("/data/4_news.md").then(function(r){ return r.text(); }).then(function(f){ markdown2html(f, "news"); });
+            fetch("/data/5_service.md").then(function(r){ return r.text(); }).then(function(f){ markdown2html(f, "service"); });
+            make_students();
+            make_alumni();
+            make_publications();
+            make_footer();
+        });
     </script>
 </head>
 

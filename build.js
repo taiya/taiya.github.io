@@ -8,18 +8,13 @@ function markdown2html(file, id) {
   div.style = "text-align:justify";
   div.innerHTML = html;
   element.appendChild(div)
-  // alert(html) //< causes popup showing generated html
 }
 
 function make_students_callback(myjson) {
-  // console.log(JSON.stringify(myjson, null, 2)); //< show file on debug console
   var people = myjson["current"];
-
-  // var imax = (news_showall==true) ? mynews.length : news_max_items;  
   var students_list = document.getElementById('students_list');
   for (var i = 0; i < people.length; i++) {
     var person = people[i];
-    // console.log(person);
     var person_li = document.createElement('li');
     person_li.innerHTML = "<a href='" + person["homepage"] + "'>" + person["name"] + "</a>" +
       " – " + person["degree"] + " @ " + person["currently"]
@@ -30,29 +25,30 @@ function make_students_callback(myjson) {
   }
 }
 function make_students() {
-  jQuery.getJSON("/data/people.json", make_students_callback)
-    .fail(function () { console.error("file not found / JSON syntax incorrect"); });
+  fetch("/data/people.json")
+    .then(function(r) { return r.json(); })
+    .then(make_students_callback)
+    .catch(function() { console.error("file not found / JSON syntax incorrect"); });
 }
 
 function make_alumni_callback(myjson) {
-  // console.log(JSON.stringify(myjson, null, 2)); //< show file on debug console
   var people = myjson["alumni"];
-
-  // var imax = (news_showall==true) ? mynews.length : news_max_items;  
   var alumni_list = document.getElementById('alumni_list');
   for (var i = 0; i < people.length; i++) {
     var person = people[i];
     var person_li = document.createElement('li');
     person_li.innerHTML = "<a href='" + person["homepage"] + "'>" + person["name"] + "</a>" +
-      " – " + person["degree"] + " (" + person["time"] + ") " +
+      " – " + person["degree"] + " (" + person["time"] + ") " +
       "co-advised with: " + person["coadvisors"] +
-      " – currently " + person["currently"];
+      " – currently " + person["currently"];
     alumni_list.appendChild(person_li);
   }
 }
 function make_alumni() {
-  jQuery.getJSON("/data/people.json", make_alumni_callback)
-    .fail(function () { console.error("file not found / JSON syntax incorrect"); });
+  fetch("/data/people.json")
+    .then(function(r) { return r.json(); })
+    .then(make_alumni_callback)
+    .catch(function() { console.error("file not found / JSON syntax incorrect"); });
 }
 
 function make_footer() {
@@ -62,24 +58,7 @@ function make_footer() {
   document.getElementById("footer").appendChild(text);
 }
 
-//Check if file exists
-function IfUrlExists(url, callback) {
-  var http = new XMLHttpRequest();
-  http.open('HEAD', url, true);
-  http.onreadystatechange = function (event) {
-    if (http.status != 404) {
-      callback();
-    }
-  };
-  http.send();
-}
-
 function make_pub(entry) {
-  // Ensure this author is required (specify somewhere `var filter_for_author = "Tagliasacchi"`)
-  // console.log( entry["author"] + pAuthor + entry["author"].indexOf(pAuthor) );
-  // if( entry["author"].indexOf(filter_for_author) == -1 )
-  // return;
-
   var pub = document.createElement('div');
   pub.setAttribute('id', entry['key']);
   pub.className = 'publication';
@@ -96,18 +75,13 @@ function make_pub(entry) {
     var video = document.createElement('video');
     video.className = 'publication_image';
     video.setAttribute('loop', '');
-    video.setAttribute('preload', '');
-    video.setAttribute('muted', '');
+    video.muted = true;
+    video.preload = 'none';
     var source = document.createElement('source');
-    source.setAttribute('src', entry["icon"]);
     source.setAttribute('type', "video/mp4");
     video.appendChild(source);
     pub.addEventListener("mouseover", function () { video.play(); });
     pub.addEventListener("mouseleave", function () { video.pause(); });
-    // --- alternative: strategies to autoplay
-    // video.setAttribute('playsinline', '');
-    // video.setAttribute('autoplay', '');
-    // video.addEventListener("canplaythrough", function () { this.play(); }, false);
     pub_content.appendChild(video);
     pub_content.appendChild(pub_info);
   } 
@@ -115,7 +89,7 @@ function make_pub(entry) {
     var image = document.createElement('div');
     image.className = 'publication_image';
     var img = document.createElement('img');
-    icon = entry["icon"] == undefined ? "/images/placeholder.jpg" : entry["icon"];
+    var icon = entry["icon"] == undefined ? "/images/placeholder.jpg" : entry["icon"];
     img.setAttribute('src', icon)
     img.setAttribute('height', '100%');
     image.appendChild(img);
@@ -126,9 +100,9 @@ function make_pub(entry) {
   // --- Title + Special
   var title = document.createElement('div');
   title.className = 'publication_title';
-  special = entry["special"];
+  var special = entry["special"];
   if (special != undefined)
-    title.innerHTML = entry['title'] + ' &mdash; <reddish>' + special;
+    title.innerHTML = entry['title'] + ' &mdash; <reddish>' + special + '</reddish>';
   else
     title.innerHTML = entry['title'];
   pub_info.appendChild(title);
@@ -152,6 +126,7 @@ function make_pub(entry) {
   links.className = 'publication_links';
   pub_info.appendChild(links);
   {
+    var li, a, link;
 
     // PDF
     if (entry["pdf"] != undefined) {
@@ -178,18 +153,18 @@ function make_pub(entry) {
     }
 
     // --- Bibtex
-    blacklist = ["key", "special", "source", "slides", "video", "datasets", "pdf", "homepage", "icon", "type", "media"];
+    var blacklist = ["key", "special", "source", "slides", "video", "datasets", "pdf", "homepage", "icon", "type", "media"];
     var bibtex_text = "@" + entry['type'] + "{" + entry['key'];
     for (var tag_name in entry) {
       if (entry.hasOwnProperty(tag_name) && !blacklist.includes(tag_name)) {
-        value = entry[tag_name]
+        var value = entry[tag_name]
         if (tag_name == "authors")
           value = value.toString().replace(/,/g, " and ");
         bibtex_text += ",\n  " + tag_name + "={" + value + "}";
       }
     }
     bibtex_text += "\n}";
-    bibtex_area = document.createElement('pre');
+    var bibtex_area = document.createElement('pre');
     bibtex_area.className = 'publication_bibtex';
     var bibtex_text_box = document.createElement('p');
     bibtex_text_box.className = 'publication_text_box';
@@ -300,12 +275,6 @@ function make_pub(entry) {
   }
 }
 
-// --- TODO: replace the expansion area w/ copy/paste
-// function copy_bibtex(bibtex) {
-//   navigator.clipboard.writeText(bibtex)
-//     .then(() => alert('Successfully copied Bibtex'));
-// } 
-
 function make_pubs_callback(pubs) {
   for (var i = 0; i < pubs.length; i++) {
     if(pubs[i]['type'] != 'patent') {
@@ -315,5 +284,7 @@ function make_pubs_callback(pubs) {
 }
 
 function make_publications() {
-  jQuery.get("/data/pubs.json", make_pubs_callback);
+  fetch("/data/pubs.json")
+    .then(function(r) { return r.json(); })
+    .then(make_pubs_callback);
 }
