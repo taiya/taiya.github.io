@@ -48,7 +48,7 @@ export function init_search() {
   const input = document.createElement('input');
   input.type = 'search';
   input.id = 'pub_search_input';
-  input.placeholder = 'keyword, author, year, venue\u2026';
+  input.placeholder = 'Search by keyword, author, year, venue\u2026';
   input.autocomplete = 'off';
   input.spellcheck = false;
   input.setAttribute('aria-label', 'Search publications');
