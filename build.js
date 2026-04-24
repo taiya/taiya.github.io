@@ -1,25 +1,30 @@
 function markdown2html(file, id) {
-  var reader = new commonmark.Parser();
-  var writer = new commonmark.HtmlRenderer();
-  var parsed = reader.parse(file);
-  var html = writer.render(parsed);
-  var element = document.getElementById(id);
-  var div = document.createElement("div");
+  const reader = new commonmark.Parser();
+  const writer = new commonmark.HtmlRenderer();
+  const parsed = reader.parse(file);
+  const html = writer.render(parsed);
+  const element = document.getElementById(id);
+  const div = document.createElement("div");
   div.style = "text-align:justify";
   div.innerHTML = html;
-  element.appendChild(div)
+  element.appendChild(div);
 }
 
 function make_students_callback(myjson) {
-  var people = myjson["current"];
-  var students_list = document.getElementById('students_list');
-  for (var i = 0; i < people.length; i++) {
-    var person = people[i];
-    var person_li = document.createElement('li');
-    person_li.innerHTML = "<a href='" + person["homepage"] + "'>" + person["name"] + "</a>" +
-      " – " + person["degree"] + " @ " + person["currently"]
-    if (!(person["coadvisors"] === undefined)){
-      person_li.innerHTML += " – co-advised with: " + person["coadvisors"];
+  const people = myjson["current"];
+  const students_list = document.getElementById('students_list');
+  for (let i = 0; i < people.length; i++) {
+    const person = people[i];
+    const person_li = document.createElement('li');
+    const link = document.createElement('a');
+    link.href = person["homepage"];
+    link.textContent = person["name"];
+    person_li.appendChild(link);
+    person_li.appendChild(document.createTextNode(
+      " \u2013 " + person["degree"] + " @ " + person["currently"]
+    ));
+    if (person["coadvisors"] !== undefined) {
+      person_li.appendChild(document.createTextNode(" \u2013 co-advised with: " + person["coadvisors"]));
     }
     students_list.appendChild(person_li);
   }
@@ -28,19 +33,24 @@ function make_students() {
   fetch("/data/people.json")
     .then(function(r) { return r.json(); })
     .then(make_students_callback)
-    .catch(function() { console.error("file not found / JSON syntax incorrect"); });
+    .catch(function() { console.error("people.json: file not found / JSON syntax incorrect"); });
 }
 
 function make_alumni_callback(myjson) {
-  var people = myjson["alumni"];
-  var alumni_list = document.getElementById('alumni_list');
-  for (var i = 0; i < people.length; i++) {
-    var person = people[i];
-    var person_li = document.createElement('li');
-    person_li.innerHTML = "<a href='" + person["homepage"] + "'>" + person["name"] + "</a>" +
-      " – " + person["degree"] + " (" + person["time"] + ") " +
+  const people = myjson["alumni"];
+  const alumni_list = document.getElementById('alumni_list');
+  for (let i = 0; i < people.length; i++) {
+    const person = people[i];
+    const person_li = document.createElement('li');
+    const link = document.createElement('a');
+    link.href = person["homepage"];
+    link.textContent = person["name"];
+    person_li.appendChild(link);
+    person_li.appendChild(document.createTextNode(
+      " \u2013 " + person["degree"] + " (" + person["time"] + ") " +
       "co-advised with: " + person["coadvisors"] +
-      " – currently " + person["currently"];
+      " \u2013 currently " + person["currently"]
+    ));
     alumni_list.appendChild(person_li);
   }
 }
@@ -48,237 +58,167 @@ function make_alumni() {
   fetch("/data/people.json")
     .then(function(r) { return r.json(); })
     .then(make_alumni_callback)
-    .catch(function() { console.error("file not found / JSON syntax incorrect"); });
+    .catch(function() { console.error("people.json: file not found / JSON syntax incorrect"); });
 }
 
 function make_footer() {
-  var text = document.createElement('span');
-  var dt = new Date();
-  text.innerHTML = "Copyright " + dt.getFullYear() + " – Andrea Tagliasacchi";
+  const text = document.createElement('span');
+  const dt = new Date();
+  text.textContent = "Copyright " + dt.getFullYear() + " \u2013 Andrea Tagliasacchi";
   document.getElementById("footer").appendChild(text);
 }
 
+function make_link(href, label) {
+  const li = document.createElement('li');
+  li.className = 'publication_link';
+  const a = document.createElement('a');
+  a.href = href;
+  a.target = "New";
+  a.textContent = label;
+  li.appendChild(a);
+  return li;
+}
+
 function make_pub(entry) {
-  var pub = document.createElement('div');
+  const pub = document.createElement('div');
   pub.setAttribute('id', entry['key']);
   pub.className = 'publication';
   document.getElementById('pubs_list').appendChild(pub);
 
-  var pub_content = document.createElement('div');
+  const pub_content = document.createElement('div');
   pub_content.className = 'publication_content';
   pub.appendChild(pub_content);
 
-  var pub_info = document.createElement('div');
+  const pub_info = document.createElement('div');
   pub_info.className = 'publication_information';
 
   if (entry["icon"] != undefined && entry["icon"].endsWith(".mov")) {
-    var video = document.createElement('video');
+    const video = document.createElement('video');
     video.className = 'publication_image';
-    video.setAttribute('loop', '');
+    video.loop = true;
     video.muted = true;
     video.preload = 'none';
-    var source = document.createElement('source');
+    const source = document.createElement('source');
     source.setAttribute('type', "video/mp4");
     video.appendChild(source);
-    pub.addEventListener("mouseover", function () { video.play(); });
-    pub.addEventListener("mouseleave", function () { video.pause(); });
+    let videoLoaded = false;
+    pub.addEventListener("mouseover", function() {
+      if (!videoLoaded) {
+        source.src = entry["icon"];
+        video.load();
+        videoLoaded = true;
+      }
+      video.play();
+    });
+    pub.addEventListener("mouseleave", function() { video.pause(); });
     pub_content.appendChild(video);
     pub_content.appendChild(pub_info);
-  } 
-  else {
-    var image = document.createElement('div');
+  } else {
+    const image = document.createElement('div');
     image.className = 'publication_image';
-    var img = document.createElement('img');
-    var icon = entry["icon"] == undefined ? "/images/placeholder.jpg" : entry["icon"];
-    img.setAttribute('src', icon)
+    const img = document.createElement('img');
+    const icon = entry["icon"] == undefined ? "/images/placeholder.jpg" : entry["icon"];
+    img.setAttribute('src', icon);
     img.setAttribute('height', '100%');
+    img.setAttribute('alt', entry['title']);
+    img.setAttribute('loading', 'lazy');
+    img.setAttribute('decoding', 'async');
     image.appendChild(img);
     pub_content.appendChild(image);
     pub_content.appendChild(pub_info);
   }
 
-  // --- Title + Special
-  var title = document.createElement('div');
+  // Title + Special badge
+  const title = document.createElement('div');
   title.className = 'publication_title';
-  var special = entry["special"];
-  if (special != undefined)
-    title.innerHTML = entry['title'] + ' &mdash; <reddish>' + special + '</reddish>';
-  else
-    title.innerHTML = entry['title'];
+  const special = entry["special"];
+  if (special != undefined) {
+    title.appendChild(document.createTextNode(entry['title'] + ' \u2014 '));
+    const badge = document.createElement('reddish');
+    badge.textContent = special;
+    title.appendChild(badge);
+  } else {
+    title.textContent = entry['title'];
+  }
   pub_info.appendChild(title);
 
   // Authors
-  var authors = document.createElement('div');
+  const authors = document.createElement('div');
   authors.className = 'publication_authors';
-  authors.innerHTML = entry["authors"].toString().replace(/,/g, ", ");
+  authors.textContent = entry["authors"].toString().replace(/,/g, ", ");
   pub_info.appendChild(authors);
 
   // Venue
   if (entry["venue"] != undefined) {
-    var venue = document.createElement('div');
+    const venue = document.createElement('div');
     venue.className = 'publication_venue';
-    venue.innerHTML = entry["venue"];
+    venue.textContent = entry["venue"];
     pub_info.appendChild(venue);
   }
 
   // Links
-  var links = document.createElement('ul');
+  const links = document.createElement('ul');
   links.className = 'publication_links';
   pub_info.appendChild(links);
-  {
-    var li, a, link;
 
-    // PDF
-    if (entry["pdf"] != undefined) {
-      li = document.createElement('li');
-      li.className = 'publication_link';
-      a = document.createElement('a');
-      a.href = entry["pdf"];
-      a.target = "New"
-      a.innerHTML = "pdf"
-      li.appendChild(a);
-      links.insertBefore(li, links.firstChild);
-    }
+  if (entry["pdf"] != undefined) {
+    links.insertBefore(make_link(entry["pdf"], "pdf"), links.firstChild);
+  }
+  if (entry["arxiv"] != undefined) {
+    links.appendChild(make_link(entry["arxiv"], "arxiv"));
+  }
 
-    // arXiv
-    if (entry["arxiv"] != undefined) {
-      li = document.createElement('li');
-      li.className = 'publication_link';
-      a = document.createElement('a');
-      a.href = entry["arxiv"];
-      a.target = "New"
-      a.innerHTML = "arxiv"
-      li.appendChild(a);
-      links.appendChild(li);
-    }
-
-    // --- Bibtex
-    var blacklist = ["key", "special", "source", "slides", "video", "datasets", "pdf", "homepage", "icon", "type", "media"];
-    var bibtex_text = "@" + entry['type'] + "{" + entry['key'];
-    for (var tag_name in entry) {
-      if (entry.hasOwnProperty(tag_name) && !blacklist.includes(tag_name)) {
-        var value = entry[tag_name]
-        if (tag_name == "authors")
-          value = value.toString().replace(/,/g, " and ");
-        bibtex_text += ",\n  " + tag_name + "={" + value + "}";
-      }
-    }
-    bibtex_text += "\n}";
-    var bibtex_area = document.createElement('pre');
-    bibtex_area.className = 'publication_bibtex';
-    var bibtex_text_box = document.createElement('p');
-    bibtex_text_box.className = 'publication_text_box';
-    bibtex_text_box.innerText = bibtex_text;
-    bibtex_area.appendChild(bibtex_text_box);
-    pub.appendChild(bibtex_area);
-
-    li = document.createElement('li');
-    li.className = 'publication_link';
-    a = document.createElement('a');
-    a.onclick = (function (bibtex_area) {
-      var open = false;
-
-      return function () {
-        if (open) {
-          bibtex_area.style.maxHeight = "0em";
-          bibtex_area.style.overflowX = "hidden";
-        } else {
-          bibtex_area.style.maxHeight = "30em";
-          bibtex_area.style.overflowX = "auto";
-        }
-        open = !open;
-      };
-    })(bibtex_area);
-
-    a.target = "New";
-    a.innerHTML = "bibtex";
-    li.appendChild(a);
-    links.appendChild(li);
-
-    // Video
-    link = entry["video"];
-    if (link != undefined) {
-      li = document.createElement('li');
-      li.className = 'publication_link';
-      a = document.createElement('a');
-      a.href = link;
-      a.target = "New"
-      a.innerHTML = "youtube"
-      li.appendChild(a);
-      links.appendChild(li);
-    }
-
-    // Slides (PDF)
-    link = entry["slides"];
-    if (link != undefined) {
-      li = document.createElement('li');
-      li.className = 'publication_link';
-      a = document.createElement('a');
-      a.href = link;
-      a.target = "New"
-      a.innerHTML = "slides"
-      li.appendChild(a);
-      links.appendChild(li);
-    }
-
-    // Source Code
-    link = entry["source"];
-    if (link != undefined) {
-      li = document.createElement('li');
-      li.className = 'publication_link';
-      a = document.createElement('a');
-      a.href = link
-      a.target = "New"
-      a.innerHTML = "source"
-      li.appendChild(a);
-      links.appendChild(li);
-    }
-
-    // Datasets
-    link = entry["datasets"];
-    if (link != undefined) {
-      li = document.createElement('li');
-      li.className = 'publication_link';
-      a = document.createElement('a');
-      a.href = link
-      a.target = "New"
-      a.innerHTML = "dataset"
-      li.appendChild(a);
-      links.appendChild(li);
-    }
-
-    // Link to media coverage
-    link = entry["media"];
-    if (link != undefined) {
-      li = document.createElement('li');
-      li.className = 'publication_link';
-      a = document.createElement('a');
-      a.href = link;
-      a.target = "New"
-      a.innerHTML = "media coverage"
-      li.appendChild(a);
-      links.appendChild(li);
-    }
-
-    // Homepage
-    link = entry["homepage"];
-    if (link != undefined) {
-      li = document.createElement('li');
-      li.className = 'publication_link';
-      a = document.createElement('a');
-      a.href = link;
-      a.target = "New"
-      a.innerHTML = "homepage"
-      li.appendChild(a);
-      links.appendChild(li);
+  // Bibtex toggle
+  const blacklist = ["key", "special", "source", "slides", "video", "datasets", "pdf", "homepage", "icon", "type", "media"];
+  let bibtex_text = "@" + entry['type'] + "{" + entry['key'];
+  for (const tag_name in entry) {
+    if (entry.hasOwnProperty(tag_name) && !blacklist.includes(tag_name)) {
+      let value = entry[tag_name];
+      if (tag_name == "authors")
+        value = value.toString().replace(/,/g, " and ");
+      bibtex_text += ",\n  " + tag_name + "={" + value + "}";
     }
   }
+  bibtex_text += "\n}";
+  const bibtex_area = document.createElement('pre');
+  bibtex_area.className = 'publication_bibtex';
+  const bibtex_text_box = document.createElement('p');
+  bibtex_text_box.className = 'publication_text_box';
+  bibtex_text_box.innerText = bibtex_text;
+  bibtex_area.appendChild(bibtex_text_box);
+  pub.appendChild(bibtex_area);
+
+  const bibtex_li = document.createElement('li');
+  bibtex_li.className = 'publication_link';
+  const bibtex_a = document.createElement('a');
+  let bibtex_open = false;
+  bibtex_a.onclick = function() {
+    if (bibtex_open) {
+      bibtex_area.style.maxHeight = "0em";
+      bibtex_area.style.overflowX = "hidden";
+    } else {
+      bibtex_area.style.maxHeight = "30em";
+      bibtex_area.style.overflowX = "auto";
+    }
+    bibtex_open = !bibtex_open;
+  };
+  bibtex_a.target = "New";
+  bibtex_a.textContent = "bibtex";
+  bibtex_li.appendChild(bibtex_a);
+  links.appendChild(bibtex_li);
+
+  if (entry["video"] != undefined)    links.appendChild(make_link(entry["video"],    "youtube"));
+  if (entry["slides"] != undefined)   links.appendChild(make_link(entry["slides"],   "slides"));
+  if (entry["source"] != undefined)   links.appendChild(make_link(entry["source"],   "source"));
+  if (entry["datasets"] != undefined) links.appendChild(make_link(entry["datasets"], "dataset"));
+  if (entry["media"] != undefined)    links.appendChild(make_link(entry["media"],    "media coverage"));
+  if (entry["homepage"] != undefined) links.appendChild(make_link(entry["homepage"], "homepage"));
 }
 
 function make_pubs_callback(pubs) {
-  for (var i = 0; i < pubs.length; i++) {
-    if(pubs[i]['type'] != 'patent') {
-      make_pub(pubs[i])
+  for (let i = 0; i < pubs.length; i++) {
+    if (pubs[i]['type'] != 'patent') {
+      make_pub(pubs[i]);
     }
   }
 }
