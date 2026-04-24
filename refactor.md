@@ -29,27 +29,36 @@ Before                          After
 ├── people.json                 │   ├── 5_service.md
 ├── pubs.json                   │   ├── people.json
 ├── pubs_preprints.json         │   ├── pubs.json
-├── build.js  (monolithic)      │   └── pubs_preprints.json
-├── javascript/                 ├── src/
-│   ├── jquery.js  (GONE)       │   ├── main.js
-│   └── commonmark.js           │   ├── markdown.js
+├── build.js  (GONE)            │   └── pubs_preprints.json
+├── aggregate.py (→ python/)    ├── javascript/             (ES modules)
+├── javascript/                 │   ├── main.js
+│   ├── jquery.js  (GONE)       │   ├── calendar_main.js
+│   └── commonmark.js (GONE)    │   ├── markdown.js
 └── index.html / calendar.html  │   ├── people.js
                                 │   ├── pubs.js
+                                │   ├── search.js
+                                │   ├── menu.js
                                 │   ├── dom.js
-                                │   └── calendar_main.js
-                                ├── javascript/
-                                │   └── snarkdown.js   (vendored, 3 KB)
+                                │   ├── snarkdown.js   (vendored, 3 KB)
+                                │   └── types.d.ts
+                                ├── python/
+                                │   ├── aggregate.py
+                                │   └── *.py
+                                ├── scripts/               (VR harness)
+                                │   ├── snapshot.mjs
+                                │   └── visual-diff.mjs
+                                ├── snapshots-baseline/    (desktop gate)
                                 ├── tsconfig.json  (new)
-                                ├── types.d.ts     (new)
                                 ├── package.json   (new, dev-only)
                                 ├── sitemap.xml    (new)
                                 └── robots.txt     (new)
 ```
 
-The deploy workflow now stages only the files that belong to the site
+The deploy workflow stages only the files that belong to the site
 (`*.html`, `*.css`, `data/`, `icons/`, `images/`, `javascript/`,
-`src/`, `CNAME`, `.nojekyll`), so `python/`, `Makefile`, `aggregate.py`,
-`tsconfig.json`, `package.json`, etc. are never shipped to users.
+`CNAME`, `.nojekyll`), so `python/`, `scripts/`, `snapshots-baseline/`,
+`node_modules/`, `tsconfig.json`, `package.json`, `refactor.md`, etc. are
+never shipped to users.
 
 ---
 
@@ -70,6 +79,12 @@ Every commit is independently revertable with `git revert <sha>`.
 | c13 | `fb8f460` | Add `<meta name="description">`, Open Graph (`og:title/description/url/image/type`), Twitter card to `index.html` and `calendar.html`; add `sitemap.xml` and `robots.txt` | `index.html`, `calendar.html`, `sitemap.xml`, `robots.txt` |
 | 3.2a | `c8f3d98` | Replace `commonmark.js` (274 KB) with vendored `snarkdown.js` (~3 KB); rewrite `src/markdown.js` to import `parse` as an ES module; fix `data/2_contacts.md` dangling link lines | `javascript/commonmark.js` (deleted), `javascript/snarkdown.js`, `src/markdown.js`, `index.html`, `data/2_contacts.md` |
 | 3.2b | `c2d5f3c` | Add `paragraphify()` to restore `<p>` wrappers that snarkdown omits (restores 1em margins on biography/hiring); remove dead `<!-- OLD NEWS -->` from `data/4_news.md` | `src/markdown.js`, `data/4_news.md` |
+| r1   | `ff5c05b` | `git mv src/*.js → javascript/`, `types.d.ts → javascript/`, `aggregate.py → python/`, delete obsolete `build.js`, update script tags / tsconfig paths / rsync whitelist; wrap calendar iframe in a 716px overflow:hidden div with `-384px margin-top` to clip midnight–8 am dead zone | `javascript/*`, `python/aggregate.py`, `tsconfig.json`, `index.html`, `calendar.html`, `.github/workflows/pages.yml` |
+| r2   | `585f8ac` | Visual-regression harness: `scripts/snapshot.mjs` (Playwright + python3 http.server on :8899, full-page PNGs at 1280×900 / 820×1024 / 560×900 / 390×844; scrolls the page to trigger every `IntersectionObserver` for determinism) + `scripts/visual-diff.mjs` (pixelmatch, fails if 1280×900 ≠ baseline); `snapshots-baseline/` (8 PNGs, ~7 MB) captured here | `scripts/*`, `snapshots-baseline/*`, `package.json`, `package-lock.json`, `.gitignore` |
+| 3.5a | `cdac088` | Add `<meta name=viewport content="width=device-width, initial-scale=1">` to both HTML files | `index.html`, `calendar.html` |
+| 3.5b | `a5df358` | Append mid-range media query `@media (max-width:999px) and (min-width:600px)`: fluid container + percentage columns (48.4375% / 65.625% / 31.25% / 3.125%) that preserve the 2/3+1/3 and 1/2+1/2 splits; publications stay image-left text-right, just fluid | `style.css` |
+| 3.5c | `80ac1b4` | Append narrow media query `@media (max-width:599px)`: columns stack to full width, publication thumbnail shrinks to 120×68 kept on the left with text wrapping | `style.css` |
+| 3.5d | `671a610` | Hamburger nav for viewports <1000px: `<button class="menu_toggle">` in both HTML files (aria-label / aria-expanded / aria-controls wired); base `.menu_toggle{display:none}` on desktop; new `@media (max-width:999px)` block reveals the button + stacks menu items; new `javascript/menu.js` toggles `.open` on click and closes on outside-click / Escape / link-click; imported from `main.js` and `calendar_main.js` | `index.html`, `calendar.html`, `javascript/menu.js`, `javascript/main.js`, `javascript/calendar_main.js`, `style.css` |
 
 ---
 
@@ -99,6 +114,37 @@ No files are emitted. The browser receives the same plain JS it always has.
 
 ---
 
+## Visual regression testing
+
+Introduced in commit `585f8ac` to gate the responsive-layout work (3.5) so
+that the desktop rendering at 1280×900 could not drift by a single pixel.
+
+```bash
+npm run snapshot:baseline   # capture (from main)      → snapshots-baseline/
+npm run snapshot            # capture current          → snapshots/
+npm run visual-diff         # pixelmatch; fails if 1280×900 differs
+```
+
+Files:
+
+- `scripts/snapshot.mjs` — spawns `python3 -m http.server` on `127.0.0.1:8899`,
+  launches headless Chromium via Playwright, loads `/` and `/calendar.html`
+  at 1280×900, 820×1024, 560×900, 390×844, and writes full-page PNGs. Before
+  every screenshot it walks the page top-to-bottom to fire every
+  `IntersectionObserver` (lazy publications + video-src assignment), so the
+  output is deterministic across runs.
+- `scripts/visual-diff.mjs` — pixel-diffs `snapshots/` against
+  `snapshots-baseline/` using `pixelmatch`, writes overlay PNGs to
+  `snapshots-diff/`, and exits non-zero if any 1280×900 image differs from
+  the baseline. Non-desktop diffs are expected (the mobile layout is
+  intentionally changed) and are shown for manual review.
+- `snapshots-baseline/` — committed (~7 MB, 8 PNGs). Treated as source of
+  truth for the desktop look; regenerate only when a deliberate desktop
+  change is intended.
+- `snapshots/`, `snapshots-diff/` — gitignored.
+
+---
+
 ## Smoke-test instructions
 
 ```bash
@@ -120,7 +166,7 @@ fetched on page load (only on first hover).
 | ID   | Description | Why deferred |
 |------|-------------|--------------|
 | ~~3.4~~ | ~~Image compression (oversized icons + hero)~~ | **Done** — all 48 `icons/*.jpg` converted to WebP at q=85; `icons/` 2.6 MB → 1.1 MB; `pubs.json` references updated; hero photo left untouched |
-| 3.5  | Responsive layout — replace fixed 960px with `max-width` + CSS Grid/flex; add `<meta name="viewport">` | Touches every CSS selector; needs visual QA across breakpoints |
+| ~~3.5~~ | ~~Responsive layout — desktop parity at ≥1000px, fluid mid-range, stacked mobile, hamburger nav~~ | **Done** — three-tier layout (fixed desktop, fluid 600–999 with percentage columns, stacked <600 with 120×68 pub thumbnail); hamburger nav below 1000px (`javascript/menu.js`); desktop gated at 0-pixel diff by `npm run visual-diff` |
 | 3.13 | Print stylesheet (`@media print`) for clean CV PDF export | Requires UX decisions on what to hide/show |
 | ~~3.2~~ | ~~Replace `commonmark.js` (274 KB) with `snarkdown` (~1 KB)~~ | **Done** — vendored as `javascript/snarkdown.js` (3 KB); `paragraphify()` restores `<p>` margins; `data/2_contacts.md` fixed for snarkdown's line-oriented list parser |
-| ~~3.14~~ | ~~Client-side publication search/filter bar~~ | **Done** — `src/search.js`; debounced, URL-synced (`?q=`), lazy-renderer-aware, count overlaid inside input |
+| ~~3.14~~ | ~~Client-side publication search/filter bar~~ | **Done** — `javascript/search.js`; debounced, URL-synced (`?q=`), lazy-renderer-aware, count overlaid inside input |

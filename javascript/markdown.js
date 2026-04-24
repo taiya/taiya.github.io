@@ -1,5 +1,5 @@
 // @ts-check
-import parse from '/javascript/snarkdown.js';
+import parse from './snarkdown.js';
 
 /**
  * snarkdown omits <p> tags for top-level paragraph text.

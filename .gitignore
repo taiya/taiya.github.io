@@ -2,3 +2,5 @@
 pubs
 pubs.bib
 node_modules/
+snapshots/
+snapshots-diff/

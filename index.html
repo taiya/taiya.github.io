@@ -4,23 +4,24 @@
 <head>
     <title>Andrea Tagliasacchi</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Andrea Tagliasacchi is an Associate Professor at Simon Fraser University, holding the Visual Computing Research Chair. His research focuses on 3D visual perception, bridging computer vision, computer graphics, and machine learning." />
     <!-- Open Graph -->
     <meta property="og:type"        content="profile" />
     <meta property="og:title"       content="Andrea Tagliasacchi" />
     <meta property="og:description" content="Associate Professor at SFU. Research in 3D visual perception, computer vision, computer graphics, and machine learning." />
     <meta property="og:url"         content="https://taiya.github.io/" />
-    <meta property="og:image"       content="https://taiya.github.io/images/andrea_mtdoug.jpeg" />
+    <meta property="og:image"       content="https://taiya.github.io/images/andrea_headshot.webp" />
     <!-- Twitter card -->
     <meta name="twitter:card"        content="summary_large_image" />
     <meta name="twitter:title"       content="Andrea Tagliasacchi" />
     <meta name="twitter:description" content="Associate Professor at SFU. Research in 3D visual perception, computer vision, computer graphics, and machine learning." />
-    <meta name="twitter:image"       content="https://taiya.github.io/images/andrea_mtdoug.jpeg" />
+    <meta name="twitter:image"       content="https://taiya.github.io/images/andrea_headshot.webp" />
     <link rel="stylesheet" type="text/css" media="screen" href="/style.css">
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
 
     <!-- ES module entry point -->
-    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="/javascript/main.js"></script>
 </head>
 
 <body>
@@ -28,8 +29,11 @@
 
     <nav aria-label="Primary">
         <div id="menu">
+            <button class="menu_toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="menu_list">
+                <span></span><span></span><span></span>
+            </button>
             <menu_title>Andrea Tagliasacchi</menu_title>
-            <ol>
+            <ol id="menu_list">
                 <li><a href="/index.html#team"> Team </a></li>
                 <li><a href="/index.html#pubs_list"> Publications </a></li>
                 <li><a href="/index.html#hiring"> Join Us! </a></li>
@@ -40,9 +44,9 @@
 
     <main id="content">
         <div id="container">
-            <!-- SPLIT 2/3 + 1/3-->
-            <div id="biography" class="two-third"></div>
-            <div class="one-third last"> <div class="image"><img src="images/andrea_mtdoug.jpeg" width=100% alt="Andrea Tagliasacchi" /></div> </div>
+            <!-- Hero photo floated right so bio text wraps around it -->
+            <div class="hero-photo"><div class="image"><img src="images/andrea_headshot.webp" width=100% alt="Andrea Tagliasacchi" /></div></div>
+            <div id="biography"></div>
 
             <div id="contacts" class="one"> </div>
             <div id="hiring" class="one"> </div>

@@ -1,3 +1,4 @@
+// @ts-nocheck — vendored library, not type-checked
 const TAGS = {
 	'': ['<em>','</em>'],
 	_: ['<strong>','</strong>'],

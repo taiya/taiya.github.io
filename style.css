@@ -191,6 +191,47 @@ em {font-style: italic;}
 }
 
 /******************************************************************************/
+/*                              HERO PHOTO                                    */
+/******************************************************************************/
+/*
+ * Float the hero photo to the right of the biography text so text wraps
+ * around it. The photo is 30% smaller than the old .one-third column (300px).
+ * 300 * 0.7 ≈ 210px. The left+bottom margin gives breathing room.
+ * #contacts gets clear:both so it always starts below the photo float.
+ *
+ * The tricky part: h1/h2/h3 have width:100% + overflow:hidden which creates
+ * a full-width BFC that gets pushed BELOW any float. Override width to auto
+ * inside #biography so the heading fills only the available width beside the
+ * photo float instead of the full 960px, keeping text wrapping intact.
+ */
+.hero-photo {
+  float: right;
+  width: 252px;
+  margin: 0 0 12px 22px;
+}
+
+#biography h1, #biography h2, #biography h3 { width: auto; }
+
+#contacts { clear: both; }
+
+/* Hamburger - hidden on desktop; shown inside the responsive media query */
+.menu_toggle {
+  display: none;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  padding: 12px 18px;
+  float: left;
+}
+.menu_toggle span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: #E65C5C;
+  margin: 4px 0;
+}
+
+/******************************************************************************/
 /*                            PUBLICATION SEARCH                              */
 /******************************************************************************/
 
@@ -362,4 +403,88 @@ http://stackoverflow.com/questions/10933837/line-break-like-br-using-only-css */
 
 .publication_text_box {
 	padding: 2em;
+}
+
+/******************************************************************************/
+/*                        RESPONSIVE - MID RANGE (600-999px)                  */
+/******************************************************************************/
+/*
+ * Percentage columns preserve the 2/3+1/3 and 1/2+1/2 column splits as the
+ * viewport shrinks below the 1000px desktop baseline. Publications stay
+ * side-by-side (image + text), just fluid.
+ *
+ * 48.4375%  = 465 / 960  (one-half)
+ * 65.625%   = 630 / 960  (two-third)
+ * 31.25%    = 300 / 960  (one-third)
+ * 3.125%    = 30  / 960  (gutter)
+ * Sum: 48.4375 + 3.125 + 48.4375 = 65.625 + 3.125 + 31.25 = 100.
+ */
+@media (max-width: 999px) and (min-width: 600px) {
+  #menu      { width: auto; margin: 20px 10px; box-sizing: border-box; }
+  #container { width: auto; margin: 0 10px 30px 10px; box-sizing: border-box; }
+
+  .one        { width: 100%; }
+  .one-half   { width: 48.4375%; }
+  .two-third  { width: 65.625%;  }
+  .one-third  { width: 31.25%;   }
+  .one-half, .two-third, .one-third { margin-right: 3.125%; }
+  .last       { margin-right: 0 !important; }
+
+  .publication              { width: 100%; box-sizing: border-box; }
+  .publication_image        { margin-right: 14px; }
+  .publication_information  { width: auto; float: none; overflow: hidden; }
+  .publication_abstract     { width: 100%; float: none; margin-right: 0; }
+  .publication_detail,
+  .publication_bibtex       { margin-left: 0; }
+}
+
+/******************************************************************************/
+/*                          RESPONSIVE - NARROW (<600px)                      */
+/******************************************************************************/
+/*
+ * Phone layout: columns stack into a single column, paddings shrink, the
+ * publication thumbnail is reduced to 120x68 and kept on the left with the
+ * text wrapping next to it (user picked "shrunk_left"). Hamburger styles
+ * for the top nav live further below next to the base .menu_toggle rule.
+ */
+@media (max-width: 599px) {
+  #menu      { width: auto; margin: 10px 6px; box-sizing: border-box; font-size: 1.2em; }
+  #container { width: auto; margin: 0 6px 20px 6px; padding: 10px; box-sizing: border-box; }
+
+  .one, .one-half, .two-third, .one-third, .one-fourth, .one-fifth, .one-sixth,
+  .inner-content, .one-third-big {
+    width: 100%; float: none; margin-right: 0;
+  }
+
+  .publication              { width: 100%; box-sizing: border-box; padding: 10px; }
+  .publication_image        { width: 120px; height: 68px; margin-right: 14px; }
+  .publication_information  { width: auto; float: none; overflow: hidden; }
+  .publication_abstract     { width: 100%; float: none; margin-right: 0; }
+  .publication_detail,
+  .publication_bibtex       { margin-left: 0; }
+}
+
+/******************************************************************************/
+/*                         RESPONSIVE - HAMBURGER (<1000px)                   */
+/******************************************************************************/
+/*
+ * At any viewport below the 1000px desktop baseline, the top nav collapses
+ * behind a hamburger button. Clicking the hamburger adds .open to #menu
+ * (see javascript/menu.js) which reveals the stacked link list.
+ */
+@media (max-width: 999px) {
+  .menu_toggle { display: block; }
+  .hero-photo  { width: 180px; }
+
+  #menu { overflow: visible; }
+  #menu ol { display: none; float: none; clear: both; margin: 0; padding: 0; list-style: none; }
+  #menu.open ol { display: block; }
+  #menu li {
+    float: none;
+    display: block;
+    border-right: 0;
+    box-shadow: none;
+    border-top: 1px solid rgba(255,255,255,0.1);
+  }
+  #menu a { float: none; display: block; padding: 10px 20px; }
 }

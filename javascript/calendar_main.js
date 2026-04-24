@@ -1,5 +1,7 @@
 // @ts-check
 
+import './menu.js';
+
 function make_footer() {
   const text = document.createElement('span');
   const dt = new Date();
