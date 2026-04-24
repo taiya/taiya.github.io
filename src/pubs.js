@@ -2,9 +2,14 @@
 /// <reference path="../types.d.ts" />
 
 import { make_link } from './dom.js';
+import { update_count } from './search.js';
 
-/** @type {Publication[]} */
+/** Full list loaded from pubs.json (patents excluded). @type {Publication[]} */
 let _all_pubs = [];
+
+/** Active (possibly filtered) list driving the lazy renderer. @type {Publication[]} */
+let _active_pubs = [];
+
 /** @type {number} */
 let _rendered_count = 0;
 const CHUNK_SIZE = 15;
@@ -151,29 +156,79 @@ function make_pub(entry) {
 }
 
 /**
- * Render the next CHUNK_SIZE publications and reposition the sentinel.
+ * Clear rendered publications and re-start the lazy renderer over `list`.
+ * @param {Publication[]} list
+ */
+function restart_renderer(list) {
+  // Disconnect existing observer
+  if (_sentinel_observer) { _sentinel_observer.disconnect(); _sentinel_observer = null; }
+
+  // Clear all rendered publication nodes (keep the <h1> heading)
+  const container = document.getElementById('pubs_list');
+  if (!container) return;
+  // Remove everything except the first child (the <h1>Publications</h1>)
+  while (container.children.length > 1) {
+    container.removeChild(/** @type {Element} */ (container.lastChild));
+  }
+
+  _active_pubs = list;
+  _rendered_count = 0;
+
+  // Update count label
+  update_count(list.length, _all_pubs.length);
+
+  _sentinel_observer = new IntersectionObserver(function(entries) {
+    if (entries[0].isIntersecting) render_next_chunk();
+  }, { rootMargin: '200px' });
+
+  render_next_chunk();
+}
+
+/**
+ * Render the next CHUNK_SIZE publications from _active_pubs and reposition
+ * the scroll sentinel.
  */
 function render_next_chunk() {
-  const end = Math.min(_rendered_count + CHUNK_SIZE, _all_pubs.length);
+  const end = Math.min(_rendered_count + CHUNK_SIZE, _active_pubs.length);
   for (let i = _rendered_count; i < end; i++) {
-    make_pub(_all_pubs[i]);
+    make_pub(_active_pubs[i]);
   }
   _rendered_count = end;
 
   const container = document.getElementById('pubs_list');
-  // Remove old sentinel if present
   const old = document.getElementById('_pub_sentinel');
   if (old) old.remove();
 
-  if (_rendered_count < _all_pubs.length && container) {
+  if (_rendered_count < _active_pubs.length && container) {
     const sentinel = document.createElement('div');
     sentinel.id = '_pub_sentinel';
     container.appendChild(sentinel);
     if (_sentinel_observer) _sentinel_observer.observe(sentinel);
   } else {
-    // All rendered — disconnect observer
     if (_sentinel_observer) { _sentinel_observer.disconnect(); _sentinel_observer = null; }
   }
+}
+
+/**
+ * Apply a search filter over the full list and restart the renderer.
+ * Pass an empty string to restore the full list.
+ * @param {string} query
+ */
+export function apply_filter(query) {
+  const q = query.trim().toLowerCase();
+  const filtered = q === ''
+    ? _all_pubs
+    : _all_pubs.filter(function(p) {
+        const haystack = [
+          p.title,
+          p.authors.join(' '),
+          p.venue || '',
+          p.year,
+          p.special || ''
+        ].join(' ').toLowerCase();
+        return haystack.includes(q);
+      });
+  restart_renderer(filtered);
 }
 
 /**
@@ -181,13 +236,11 @@ function render_next_chunk() {
  */
 function on_pubs_loaded(pubs) {
   _all_pubs = pubs.filter(function(p) { return p.type !== 'patent'; });
-  _rendered_count = 0;
-
-  _sentinel_observer = new IntersectionObserver(function(entries) {
-    if (entries[0].isIntersecting) render_next_chunk();
-  }, { rootMargin: '200px' });
-
-  render_next_chunk();
+  // Apply any query already present in the URL or search input
+  const input = /** @type {HTMLInputElement|null} */ (document.getElementById('pub_search_input'));
+  const initial_q = (input ? input.value : '') ||
+    new URLSearchParams(window.location.search).get('q') || '';
+  apply_filter(initial_q);
 }
 
 export function make_publications() {

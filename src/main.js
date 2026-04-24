@@ -3,6 +3,7 @@
 import { render_markdown } from './markdown.js';
 import { make_students, make_alumni } from './people.js';
 import { make_publications } from './pubs.js';
+import { init_search } from './search.js';
 
 function make_footer() {
   const text = document.createElement('span');
@@ -20,6 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
   render_markdown("/data/5_service.md",   "service");
   make_students();
   make_alumni();
+  init_search();
   make_publications();
   make_footer();
 });
