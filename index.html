@@ -7,26 +7,11 @@
     <link rel="stylesheet" type="text/css" media="screen" href="/style.css">
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
 
-    <!-- locally stored libraries -->
-    <script type="text/javascript" src="/javascript/commonmark.js"></script>
-    
-    <!-- my javascript files -->
-    <script type="text/javascript" src="/build.js"></script>
+    <!-- locally stored libraries (classic script, must load before modules) -->
+    <script src="/javascript/commonmark.js"></script>
 
-    <!-- executes javascript -->
-    <script type="text/javascript">
-        document.addEventListener('DOMContentLoaded', function() {
-            fetch("/data/1_biography.md").then(function(r){ return r.text(); }).then(function(f){ markdown2html(f, "biography"); });
-            fetch("/data/2_contacts.md").then(function(r){ return r.text(); }).then(function(f){ markdown2html(f, "contacts"); });
-            fetch("/data/3_hiring.md").then(function(r){ return r.text(); }).then(function(f){ markdown2html(f, "hiring"); });
-            fetch("/data/4_news.md").then(function(r){ return r.text(); }).then(function(f){ markdown2html(f, "news"); });
-            fetch("/data/5_service.md").then(function(r){ return r.text(); }).then(function(f){ markdown2html(f, "service"); });
-            make_students();
-            make_alumni();
-            make_publications();
-            make_footer();
-        });
-    </script>
+    <!-- ES module entry point -->
+    <script type="module" src="/src/main.js"></script>
 </head>
 
 <body>
