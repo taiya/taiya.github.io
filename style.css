@@ -206,7 +206,7 @@ em {font-style: italic;}
  */
 .hero-photo {
   float: right;
-  width: 210px;
+  width: 252px;
   margin: 0 0 12px 22px;
 }
 
@@ -430,8 +430,6 @@ http://stackoverflow.com/questions/10933837/line-break-like-br-using-only-css */
   .one-half, .two-third, .one-third { margin-right: 3.125%; }
   .last       { margin-right: 0 !important; }
 
-  .hero-photo { width: 180px; }
-
   .publication              { width: 100%; box-sizing: border-box; }
   .publication_image        { margin-right: 14px; }
   .publication_information  { width: auto; float: none; overflow: hidden; }
@@ -458,13 +456,6 @@ http://stackoverflow.com/questions/10933837/line-break-like-br-using-only-css */
     width: 100%; float: none; margin-right: 0;
   }
 
-  /* Hero photo: float right, small enough that bio text wraps beside it */
-  .hero-photo {
-    float: right;
-    width: 110px;
-    margin: 2px 0 10px 14px;
-  }
-
   .publication              { width: 100%; box-sizing: border-box; padding: 10px; }
   .publication_image        { width: 120px; height: 68px; margin-right: 14px; }
   .publication_information  { width: auto; float: none; overflow: hidden; }
@@ -483,6 +474,7 @@ http://stackoverflow.com/questions/10933837/line-break-like-br-using-only-css */
  */
 @media (max-width: 999px) {
   .menu_toggle { display: block; }
+  .hero-photo  { width: 180px; }
 
   #menu { overflow: visible; }
   #menu ol { display: none; float: none; clear: both; margin: 0; padding: 0; list-style: none; }
