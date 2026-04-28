@@ -41,6 +41,7 @@
     "title": "NeRF it 'til You Make it: Improving 3DGS with Volume Rendering Cues",
     "arxiv": "https://arxiv.org/abs/2404.12547",
     "homepage": "https://theialab.github.io/nerf-3dgs",
+    "icon": "/pubs/foroutan2025nerfit.jpeg",
     "year": "2025",
     "authors": [
       "Yalda Foroutan",
@@ -48,5 +49,5 @@
       "Kwang Moo Yi",
       "Andrea Tagliasacchi"
     ]
-  },
+  }
 ]

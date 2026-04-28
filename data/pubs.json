@@ -9,6 +9,7 @@
     "homepage": "https://research.nvidia.com/labs/toronto-ai/lyra",
     "arxiv": "https://arxiv.org/abs/2509.19296",
     "source": "https://github.com/nv-tlabs/lyra",
+    "icon": "/pubs/bahmani2025lyra.jpeg",
     "authors": [
       "Sherwin Bahmani",
       "Tianchang Shen",
@@ -32,6 +33,7 @@
     "special": "3DV'26",
     "title": "Triangle Splatting for Real-Time Radiance Field Rendering",
     "arxiv": "https://arxiv.org/abs/2505.19175",
+    "icon": "/pubs/held2025trianglesplatting.jpeg",
     "year": "2026",
     "authors": [
       "Jan Held",
@@ -55,6 +57,7 @@
     "title": "HiT: Hierarchical Transformers for Unsupervised 3D Shape Abstraction",
     "arxiv": "https://arxiv.org/abs/2510.27088",
     "homepage": "https://aditya-vora.github.io/HiT",
+    "icon": "/pubs/vora2024hit.jpeg",
     "year": "2026",
     "authors": [
       "Aditya Vora",
@@ -72,6 +75,7 @@
     "homepage": "https://theialab.github.io/3dgs-flats",
     "arxiv": "https://arxiv.org/abs/2509.16423",
     "source": "https://github.com/theialab/3dgs-flats",
+    "icon": "/pubs/taktasheva2025gaussianflats.jpeg",
     "year": "2025",
     "authors": [
       "Maria Taktasheva",
@@ -91,6 +95,7 @@
     "homepage": "https://radfoam.github.io",
     "source": "https://github.com/theialab/radfoam",
     "arxiv": "https://arxiv.org/abs/2502.01157",
+    "icon": "/pubs/shri2024radfoam.jpeg",
     "special": "ICCV'25 (highlight)",
     "notes": [
       "highlight"
@@ -111,6 +116,7 @@
     "year": "2025",
     "arxiv": "https://arxiv.org/abs/2503.24366",
     "homepage": "https://ubc-vision.github.io/stochasticsplats",
+    "icon": "/pubs/kheradmand2025stochasticsplats.jpeg",
     "authors": [
       "Shakiba Kheradmand",
       "Delio Vicini",
@@ -131,6 +137,7 @@
     "arxiv": "https://arxiv.org/pdf/2411.18650",
     "homepage": "https://romosfm.github.io",
     "source": "https://github.com/google-deepmind/romo",
+    "icon": "/pubs/goli2025romo.jpeg",
     "authors": [
       "Lily Goli",
       "Sara Sabour",
@@ -150,6 +157,7 @@
     "year": "2025",
     "venue": "Proc. SIGGRAPH",
     "special": "SIG'25",
+    "icon": "/pubs/alimohammadi2025cora.jpeg",
     "authors": [
       "Amirhossein Alimohammadi",
       "Aryan Mikaeili",
@@ -166,6 +174,7 @@
     "special": "CVPR'25",
     "title": "PIAD: Pose and Illumination agnostic Anomaly Detection",
     "year": "2025",
+    "icon": "/pubs/yang2025piad.jpeg",
     "authors": [
       "Kaichen Yang",
       "Junjie Cao",
@@ -183,6 +192,7 @@
     "year": "2025",
     "arxiv": "https://arxiv.org/abs/2411.18673",
     "homepage": "https://snap-research.github.io/ac3d",
+    "icon": "/pubs/bahmani2025analyzing.jpeg",
     "authors": [
       "Sherwin Bahmani",
       "Ivan Skorokhodov",
@@ -223,6 +233,7 @@
     "year": "2025",
     "venue": "International Conference on 3D Vision (3DV)",
     "homepage": "https://theialab.github.io/noksr",
+    "icon": "/pubs/li2025noksr.jpeg",
     "special": "3DV'25",
     "authors": [
       "Zhen (Colin) Li",
@@ -250,7 +261,8 @@
     "year": "2025",
     "special": "ICLR'25",
     "arxiv": "https://arxiv.org/abs/2410.18538",
-    "homepage": "https://segment-me-in-time.github.io"
+    "homepage": "https://segment-me-in-time.github.io",
+    "icon": "/pubs/alimohammadi2025smite.jpeg"
   },
   {
     "type": "conference",
@@ -353,6 +365,7 @@
     "year": "2024",
     "venue": "European Conference on Computer Vision (ECCV)",
     "homepage": "https://theialab.github.io/laghashes",
+    "icon": "/pubs/shri2024laghash.jpeg",
     "special": "ECCV'24",
     "authors": [
       "Shrisudhan Govindarajan",
@@ -899,6 +912,7 @@
     "arxiv": "https://arxiv.org/abs/2202.01999",
     "source": "https://github.com/czq142857/NDC",
     "video": "https://youtu.be/uQV9GqeKaQg",
+    "icon": "/pubs/chen2022ndc.jpeg",
     "special": "SIG'22",
     "authors": [
       "Zhiqin Chen",
@@ -999,6 +1013,7 @@
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "special": "CVPR'22",
     "homepage": "https://metapose.github.io",
+    "icon": "/pubs/usman2022metapose.jpeg",
     "year": "2021",
     "authors": [
       "Ben Usman",
@@ -1120,6 +1135,7 @@
     "title": "Deep Medial Fields",
     "venue": "Technical Report",
     "homepage": "https://arxiv.org/abs/2106.03804",
+    "icon": "/pubs/rebain2021deep.jpeg",
     "year": "2021",
     "special": "techreport",
     "authors": [
