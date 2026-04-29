@@ -198,7 +198,7 @@ function restart_renderer(list) {
   update_count(list.length, _all_pubs.length);
 
   _sentinel_observer = new IntersectionObserver(function(entries) {
-    if (entries[0].isIntersecting) render_next_chunk();
+    if (entries.some(function(e) { return e.isIntersecting; })) render_next_chunk();
   }, { rootMargin: '200px' });
 
   render_next_chunk();
@@ -217,7 +217,10 @@ function render_next_chunk() {
 
   const container = document.getElementById('pubs_list');
   const old = document.getElementById('_pub_sentinel');
-  if (old) old.remove();
+  if (old) {
+    if (_sentinel_observer) _sentinel_observer.unobserve(old);
+    old.remove();
+  }
 
   if (_rendered_count < _active_pubs.length && container) {
     const sentinel = document.createElement('div');
