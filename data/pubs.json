@@ -2,7 +2,7 @@
   {
     "type": "conference",
     "key": "sabour2025orbit",
-    "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "special": "CVPR'26",
     "notes": [
       "coming soon"
@@ -25,7 +25,7 @@
   {
     "type": "conference",
     "key": "sharafeldin2025semanticfoam",
-    "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "special": "CVPR'26 (spotlight)",
     "title": "Semantic Foam: Unifying Spatial and Semantic Scene Decomposition",
     "year": "2026",
@@ -47,7 +47,7 @@
   {
     "type": "conference",
     "key": "held2025meshsplatting",
-    "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "special": "CVPR'26 (oral)",
     "notes": [
       "oral"
@@ -74,7 +74,7 @@
   {
     "type": "conference",
     "key": "disario2025sphericalvoronoi",
-    "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "special": "CVPR'26",
     "title": "Spherical Voronoi: Directional Appearance as a Differentiable Partition of the Sphere",
     "year": "2026",
