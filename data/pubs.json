@@ -9,6 +9,7 @@
     "homepage": "https://research.nvidia.com/labs/toronto-ai/lyra",
     "arxiv": "https://arxiv.org/abs/2509.19296",
     "source": "https://github.com/nv-tlabs/lyra",
+    "icon": "/pubs/bahmani2026lyra.mov",
     "authors": [
       "Sherwin Bahmani",
       "Tianchang Shen",
@@ -33,6 +34,7 @@
     "title": "Triangle Splatting for Real-Time Radiance Field Rendering",
     "arxiv": "https://arxiv.org/abs/2505.19175",
     "year": "2026",
+    "icon": "/pubs/held2025triangle.mov",
     "authors": [
       "Jan Held",
       "Renaud Vandeghen",
@@ -74,6 +76,7 @@
     "arxiv": "https://arxiv.org/abs/2509.16423",
     "source": "https://github.com/theialab/3dgs-flats",
     "year": "2025",
+    "icon": "/pubs/taktasheva2025flats.mov",
     "authors": [
       "Maria Taktasheva",
       "Alessandro Fiorini",
@@ -854,7 +857,7 @@
     "arxiv": "https://arxiv.org/abs/2209.02417",
     "icon": "/icons/tagliasacchi2022volume.webp",
     "pdf": "/pubs/tagliasacchi2022volume.pdf",
-    "special": "techreport",
+    "special": "arXiv'22",
     "authors": [
       "Andrea Tagliasacchi",
       "Ben Mildenhall"
@@ -1133,7 +1136,7 @@
     "venue": "Technical Report",
     "homepage": "https://arxiv.org/abs/2106.03804",
     "year": "2021",
-    "special": "techreport",
+    "special": "arXiv'21",
     "authors": [
       "Daniel Rebain",
       "Ke Li",
@@ -1340,7 +1343,7 @@
     "title": "NiLBS: Neural Inverse Linear Blend Skinning",
     "venue": "Technical Report",
     "year": "2020",
-    "special": "techreport",
+    "special": "arXiv'20",
     "arxiv": "https://arxiv.org/abs/2004.05980",
     "icon": "/icons/jeruzalski2020nilbs.webp",
     "authors": [
