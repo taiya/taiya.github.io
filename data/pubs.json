@@ -1,6 +1,32 @@
 [
   {
     "type": "conference",
+    "key": "held2025meshsplatting",
+    "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "special": "CVPR'26 (oral)",
+    "notes": [
+      "oral"
+    ],
+    "title": "MeshSplatting: Differentiable Rendering with Opaque Meshes",
+    "year": "2026",
+    "arxiv": "https://arxiv.org/abs/2512.06818",
+    "homepage": "https://meshsplatting.github.io",
+    "source": "https://github.com/meshsplatting/mesh-splatting",
+    "authors": [
+      "Jan Held",
+      "Sanghyun Son",
+      "Renaud Vandeghen",
+      "Daniel Rebain",
+      "Matheus Gadelha",
+      "Yi Zhou",
+      "Anthony Cioppa",
+      "Ming C. Lin",
+      "Marc Van Droogenbroeck",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "conference",
     "key": "disario2025sphericalvoronoi",
     "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
     "special": "CVPR'26",
