@@ -1,0 +1,18 @@
+---
+description: After adding files to pubs/, update pubs.json in taiya.github.io and commit both repos to main.
+alwaysApply: true
+---
+
+# Sync pubs/ → pubs.json
+
+Whenever a new file (e.g. `*.mov`, `*.pdf`, `*.jpeg`) is committed to `~/github/pubs/` on `main`, also update `~/github/taiya.github.io/data/pubs.json`:
+
+1. **Find the matching entry** in `pubs.json` by searching for the paper's author/year/title — the JSON `key` may differ from the filename (e.g. `goli2024romo.mov` → key `goli2025romo`).
+2. **Set the `icon` field** to `/pubs/<filename>.mov` (use the actual filename, not the key).
+3. **Commit** `data/pubs.json` to `main` in `taiya.github.io` (no push).
+
+## Key conventions
+
+- Work directly on `main` in both repos — no PR branches, no `git push`.
+- Icon path format: `"/pubs/<basename-of-file-in-pubs-repo>"`
+- Example: file `govindarajan2025radfoam.mov`, key `shri2024radfoam` → `"icon": "/pubs/govindarajan2025radfoam.mov"`
