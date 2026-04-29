@@ -1,6 +1,24 @@
 [
   {
     "type": "conference",
+    "key": "sharafeldin2025semanticfoam",
+    "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "special": "CVPR'26",
+    "title": "Semantic Foam: Unifying Spatial and Semantic Scene Decomposition",
+    "year": "2026",
+    "homepage": "https://semanticfoam.github.io/",
+    "authors": [
+      "Amr Sharafeldin",
+      "Aryan Mikaeili",
+      "Thomas Walker",
+      "Shrisudhan Govindarajan",
+      "Daniel Rebain",
+      "Kwang Moo Yi",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "conference",
     "key": "held2025meshsplatting",
     "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
     "special": "CVPR'26 (oral)",
