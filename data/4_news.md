@@ -4,9 +4,9 @@
 - 4x papers accepted to CVPR'2026
 - [Shakiba Kheradmand](https://shakibakh.github.io) has successfully defended her PhD!
 - [Sherwin Bahmani](https://sherwinbahmani.github.io) has successfully defended his PhD!
-- Papers accepted: 2x 3DV'26
+- 2x papers accepted to 3DV'2026
 - [Radiant Foam](https://radfoam.github.io) is a spotlight at ICCV'25
-- Organized the ICCV'25 [GeoFreeNVS](https://geofreenvs.github.io) workshop  
+- Organized the ICCV'25 [GeoFreeNVS](https://geofreenvs.github.io) workshop
 - Papers accepted: 3x ICCV'25, 1x NeurIPS'25
 - Papers accepted: 1x SIGGRAPH'25, 1x TOG'25
 - Papers accepted: 1x 3DV'25, 3x ICLR'25, 2x CVPR'25
