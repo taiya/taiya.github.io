@@ -1,5 +1,5 @@
 # Recent news
-- Papers accepted: 4x CVPR'26
+- 4x papers accepted to CVPR'2026
 - [Shakiba Kheradmand](https://shakibakh.github.io) has successfully defended her PhD!
 - [Sherwin Bahmani](https://sherwinbahmani.github.io) has successfully defended his PhD!
 - Papers accepted: 2x 3DV'26

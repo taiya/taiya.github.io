@@ -1,6 +1,24 @@
 [
   {
     "type": "conference",
+    "key": "disario2025sphericalvoronoi",
+    "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "special": "CVPR'26",
+    "title": "Spherical Voronoi: Directional Appearance as a Differentiable Partition of the Sphere",
+    "year": "2026",
+    "arxiv": "https://arxiv.org/abs/2512.14180",
+    "homepage": "https://sphericalvoronoi.github.io",
+    "source": "https://github.com/sphericalvoronoi/sphericalvoronoi",
+    "authors": [
+      "Francesco Di Sario",
+      "Daniel Rebain",
+      "Dor Verbin",
+      "Marco Grangetto",
+      "Andrea Tagliasacchi"
+    ]
+  },
+  {
+    "type": "conference",
     "key": "bahmani2025lyra",
     "venue": "International Conference on Learning Representations (ICLR)",
     "special": "ICLR'26",
