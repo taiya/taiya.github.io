@@ -1,4 +1,6 @@
 # Recent news
+- [MeshSplatting](https://meshsplatting.github.io/) is an oral at CVPR'2026
+- [Semantic Foam](https://semanticfoam.github.io/) is a spotlight at CVPR'2026
 - 4x papers accepted to CVPR'2026
 - [Shakiba Kheradmand](https://shakibakh.github.io) has successfully defended her PhD!
 - [Sherwin Bahmani](https://sherwinbahmani.github.io) has successfully defended his PhD!

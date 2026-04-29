@@ -26,7 +26,7 @@
     "type": "conference",
     "key": "sharafeldin2025semanticfoam",
     "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    "special": "CVPR'26",
+    "special": "CVPR'26 (spotlight)",
     "title": "Semantic Foam: Unifying Spatial and Semantic Scene Decomposition",
     "year": "2026",
     "homepage": "https://semanticfoam.github.io/",
@@ -38,7 +38,11 @@
       "Daniel Rebain",
       "Kwang Moo Yi",
       "Andrea Tagliasacchi"
-    ]
+    ],
+    "notes": [
+      "spotlight"
+    ],
+    "icon": "/pubs/sharafeldin2025semanticfoam.mov"
   },
   {
     "type": "conference",
@@ -83,7 +87,8 @@
       "Dor Verbin",
       "Marco Grangetto",
       "Andrea Tagliasacchi"
-    ]
+    ],
+    "icon": "/pubs/disario2025sphericalvoronoi.mov"
   },
   {
     "type": "conference",
