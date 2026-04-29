@@ -1,6 +1,29 @@
 [
   {
     "type": "conference",
+    "key": "sabour2025orbit",
+    "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "special": "CVPR'26",
+    "notes": [
+      "coming soon"
+    ],
+    "title": "ORBIT: Benchmarking SfM in the Wild with 360\u00b0 Video",
+    "year": "2026",
+    "authors": [
+      "Sara Sabour",
+      "Richard Tucker",
+      "Marcus A. Brubaker",
+      "Saurabh Saxena",
+      "Junhwa Hur",
+      "Andrea Tagliasacchi",
+      "Deqing Sun",
+      "David J. Fleet",
+      "Richard Szeliski",
+      "Noah Snavely"
+    ]
+  },
+  {
+    "type": "conference",
     "key": "sharafeldin2025semanticfoam",
     "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
     "special": "CVPR'26",
