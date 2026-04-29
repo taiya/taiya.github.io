@@ -100,7 +100,8 @@
       "Daniel Rebain",
       "Kwang Moo Yi",
       "Andrea Tagliasacchi"
-    ]
+    ],
+    "icon": "/pubs/govindarajan2025radfoam.mov"
   },
   {
     "type": "conference",
@@ -119,7 +120,8 @@
       "Kwang Moo Yi",
       "Mark J. Matthews",
       "Andrea Tagliasacchi"
-    ]
+    ],
+    "icon": "/pubs/kheradmand2025stochasticsplats.mov"
   },
   {
     "type": "conference",
@@ -141,7 +143,8 @@
       "David J. Fleet",
       "Saurabh Saxena",
       "Andrea Tagliasacchi"
-    ]
+    ],
+    "icon": "/pubs/goli2024romo.mov"
   },
   {
     "type": "conference",
@@ -192,7 +195,8 @@
       "Andrea Tagliasacchi",
       "David B. Lindell",
       "Sergey Tulyakov"
-    ]
+    ],
+    "icon": "/pubs/bahmani2025ac3d.mov"
   },
   {
     "type": "journal",
@@ -250,7 +254,8 @@
     "year": "2025",
     "special": "ICLR'25",
     "arxiv": "https://arxiv.org/abs/2410.18538",
-    "homepage": "https://segment-me-in-time.github.io"
+    "homepage": "https://segment-me-in-time.github.io",
+    "icon": "/pubs/alimohammadi2024smite.mov"
   },
   {
     "type": "conference",
@@ -638,7 +643,7 @@
     "arxiv": "https://arxiv.org/abs/2302.00833",
     "source": "https://storage.googleapis.com/jax3d-public/projects/robustnerf/robustnerf.py",
     "special": "CVPR'23 (highlight)",
-    "notes":[
+    "notes": [
       "highlight"
     ],
     "year": "2023"
@@ -720,13 +725,13 @@
     "homepage": "https://pengsongyou.github.io/openscene",
     "special": "CVPR'23"
   },
-  {	
+  {
     "type": "conference",
     "key": "tang2023neumap",
     "title": "NeuMap: Neural Coordinate Mapping by Auto-Transdecoder for Camera Localization",
     "authors": [
       "Shitao Tang",
-      "Sicong Tang", 
+      "Sicong Tang",
       "Fuyang Zhang",
       "Andrea Tagliasacchi",
       "Ping Tan",
@@ -1472,7 +1477,7 @@
       "Abhimitra Meka",
       "Christian Haene",
       "Rohit Pandey",
-      "Michael Zollhöfer",
+      "Michael Zollh\u00f6fer",
       "Sean Fanello",
       "Graham Fyffe",
       "Adarsh Kowdle",
