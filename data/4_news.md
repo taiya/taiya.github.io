@@ -4,14 +4,14 @@
 - [MeshSplatting](https://meshsplatting.github.io/) is an oral at CVPR'26
 - [Semantic Foam](https://semanticfoam.github.io/) is a spotlight at CVPR'26
 - 4x papers accepted to CVPR'26
-- [Shakiba Kheradmand](https://shakibakh.github.io) and [Sherwin Bahmani](https://sherwinbahmani.github.io) have successfully defended their PhDs!
+- [Shakiba](https://shakibakh.github.io) and [Sherwin](https://sherwinbahmani.github.io) have successfully defended their PhDs!
 - 2x papers accepted to 3DV'26
 - [Radiant Foam](https://radfoam.github.io) is a spotlight at ICCV'25
 - Organized the ICCV'25 [GeoFreeNVS](https://geofreenvs.github.io) workshop
 - Papers accepted: 3x ICCV'25, 1x NeurIPS'25
 - Papers accepted: 1x SIGGRAPH'25, 1x TOG'25
 - Papers accepted: 1x 3DV'25, 3x ICLR'25, 2x CVPR'25
-- [Sara Sabour](https://scholar.google.ca/citations?user=l8wQ39EAAAAJ&hl=en) and [Weiwei Sun](https://wsunid.github.io) have successfully defended their PhDs!
+- [Sara](https://scholar.google.ca/citations?user=l8wQ39EAAAAJ&hl=en) and [Weiwei](https://wsunid.github.io) have successfully defended their PhDs!
 - [3DGS-MCMC](https://ubc-vision.github.io/3dgs-mcmc) is a spotlight at NeurIPS'24
 - [pixelSplat](https://pixelsplat.github.io) is a CVPR'24 [best paper, honorable mention](https://media.eventhosts.cc/Conferences/CVPR2024/CVPR_main_conf_2024.pdf)
 - Papers accepted: 7x CVPR'24, 4x ECCV'24
