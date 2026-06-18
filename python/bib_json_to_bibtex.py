@@ -33,7 +33,7 @@ _arxiv_template="""
    title={\\normalfont{``TITLE''}},
    author={AUTHORS},
    year={YEAR},
-   venue={arXiv preprint},
+   note={arXiv preprint},
    url={URL},
 }"""
 
@@ -100,12 +100,17 @@ def list_to_string(mylist):
         mylist = [author.replace(name, ulinename) for author in mylist]
         # --- underlined as a whole
         # mylist = [author.replace(name, f"\\ul{{{name}}}") for author in mylist]
-    return " and ".join(mylist)
+    return " and\n          ".join(mylist)
 
 def notes_to_string(mylist):
     ret = ", ".join(mylist)
     ret = f"({ret})"
     return ret
+
+def replace_notes(template, pub):
+    if "notes" in pub:
+        return template.replace("NOTES", notes_to_string(pub['notes']))
+    return template.replace("   note={\\textbf{NOTES}},\n", "")
 
 def conference(pub):
     ret = _conference_template
@@ -114,7 +119,7 @@ def conference(pub):
     ret = ret.replace("AUTHORS", list_to_string(pub['authors']))
     ret = ret.replace("CONFERENCE", pub['venue'])
     ret = ret.replace("YEAR", pub['year'])
-    ret = ret.replace("NOTES", notes_to_string(pub['notes']) if "notes" in pub  else "")
+    ret = replace_notes(ret, pub)
     return ret
 
 def journal(pub):
@@ -124,7 +129,7 @@ def journal(pub):
     ret = ret.replace("AUTHORS", list_to_string(pub['authors']))
     ret = ret.replace("CONFERENCE", pub['venue'])
     ret = ret.replace("YEAR", pub['year'])
-    ret = ret.replace("NOTES", notes_to_string(pub['notes']) if "notes" in pub  else "")
+    ret = replace_notes(ret, pub)
     return ret
 
 def techreport(pub):
@@ -132,9 +137,9 @@ def techreport(pub):
     ret = ret.replace("KEY", pub['key'])
     ret = ret.replace("TITLE", pub['title'])
     ret = ret.replace("AUTHORS", list_to_string(pub['authors']))
-    ret = ret.replace("CONFERENCE", pub['venue'])
+    ret = ret.replace("INSTITUTION", pub['venue'])
     ret = ret.replace("YEAR", pub['year'])
-    ret = ret.replace("NOTES", notes_to_string(pub['notes']) if "notes" in pub  else "")
+    ret = replace_notes(ret, pub)
     return ret
 
 def arxiv(pub):
@@ -167,7 +172,7 @@ def course(pub):
     ret = ret.replace("AUTHORS", list_to_string(pub['authors']))
     ret = ret.replace("HOWPUBLISHED", pub['venue'])
     ret = ret.replace("YEAR", pub['year'])
-    ret = ret.replace("NOTES", notes_to_string(pub['notes']) if "notes" in pub  else "")
+    ret = replace_notes(ret, pub)
     return ret
 
 def dispatcher(pub):

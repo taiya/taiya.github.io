@@ -18,6 +18,80 @@ const CHUNK_SIZE = 15;
 let _sentinel_observer = null;
 
 /**
+ * Map site-local publication types to canonical BibTeX entry types.
+ * @param {string} type
+ * @returns {string}
+ */
+function bibtex_entry_type(type) {
+  if (type === 'conference') return 'inproceedings';
+  if (type === 'journal') return 'article';
+  if (type === 'course') return 'misc';
+  if (type === 'arxiv') return 'misc';
+  return type;
+}
+
+/**
+ * Map the JSON venue field to the appropriate BibTeX field for the entry type.
+ * @param {string} type
+ * @returns {string|null}
+ */
+function bibtex_venue_field(type) {
+  if (type === 'conference') return 'booktitle';
+  if (type === 'journal') return 'journal';
+  if (type === 'techreport') return 'institution';
+  if (type === 'course') return 'howpublished';
+  if (type === 'arxiv') return 'note';
+  return null;
+}
+
+/**
+ * @param {string} field
+ * @param {string} value
+ * @returns {string}
+ */
+function bibtex_field(field, value) {
+  const wrapped = field === 'title' ? '{' + value + '}' : value;
+  return ",\n  " + field + "={" + wrapped + "}";
+}
+
+/**
+ * Build BibTeX from a publication record using BibTeX field names rather than
+ * the site's JSON field names.
+ * @param {Publication} entry
+ * @returns {string}
+ */
+function make_bibtex(entry) {
+  const entry_any = /** @type {any} */ (entry);
+  /** @type {Array<[string, string]>} */
+  const fields = [
+    ['title', entry.title],
+    ['author', entry.authors.join(' and\n    ')],
+  ];
+
+  const venue_field = bibtex_venue_field(entry.type);
+  if (venue_field && entry.venue) fields.push([venue_field, entry.venue]);
+
+  fields.push(['year', entry.year]);
+
+  ['volume', 'number', 'pages'].forEach(function(field) {
+    if (entry_any[field] != undefined) fields.push([field, String(entry_any[field])]);
+  });
+
+  if (entry.notes != undefined && entry.notes.length > 0) {
+    fields.push(['note', entry.notes.join(', ')]);
+  }
+
+  const url = entry.arxiv || entry.pdf || entry.homepage;
+  if (url != undefined) fields.push(['url', url]);
+
+  let bibtex_text = "@" + bibtex_entry_type(entry.type) + "{" + entry.key;
+  fields.forEach(function(field) {
+    bibtex_text += bibtex_field(field[0], field[1]);
+  });
+  return bibtex_text + "\n}";
+}
+
+/**
  * Build and append one publication entry to #pubs_list.
  * @param {Publication} entry
  */
@@ -127,18 +201,7 @@ function make_pub(entry) {
   if (entry.arxiv != undefined)   links.appendChild(make_link(entry.arxiv, "arxiv"));
 
   // Bibtex toggle
-  const blacklist = ["key", "special", "source", "slides", "video", "datasets", "pdf", "homepage", "icon", "type", "media"];
-  let bibtex_text = "@" + entry.type + "{" + entry.key;
-  for (const tag_name in entry) {
-    if (Object.prototype.hasOwnProperty.call(entry, tag_name) && !blacklist.includes(tag_name)) {
-      /** @type {any} */
-      let value = (/** @type {any} */ (entry))[tag_name];
-      if (tag_name === "authors")
-        value = value.toString().replace(/,/g, " and ");
-      bibtex_text += ",\n  " + tag_name + "={" + value + "}";
-    }
-  }
-  bibtex_text += "\n}";
+  const bibtex_text = make_bibtex(entry);
   const bibtex_area = document.createElement('pre');
   bibtex_area.className = 'publication_bibtex';
   const bibtex_text_box = document.createElement('p');
