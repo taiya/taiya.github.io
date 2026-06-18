@@ -1,5 +1,6 @@
 # Recent news
 - 3x papers accepted to ECCV'26
+- Organized the CVPR'25 [GeoFreeNVS](https://geofreenvs.github.io) workshop
 - [MeshSplatting](https://meshsplatting.github.io/) is an oral at CVPR'26
 - [Semantic Foam](https://semanticfoam.github.io/) is a spotlight at CVPR'26
 - 4x papers accepted to CVPR'26
