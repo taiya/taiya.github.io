@@ -12,7 +12,7 @@
 - Area Chair – [ECCV 2022](https://research.com/conference/eccv-2021-european-conference-on-computer-vision)
 
 # Teaching
-- Industrial leave @ Wayve (2026)
+- **Industrial leave @ Wayve** (2026)
 - **Paternity leave** (Summer and Fall 2025)
 - Computer Vision ([CMPT412](https://www.sfu.ca/outlines.html?2025/spring/cmpt/412/d100), Spring 2025)
 - 3D Computer Vision ([CMPT469/CMPT769](https://www.sfu.ca/outlines.html?2024/spring/cmpt/469/d100), Spring 2024)
