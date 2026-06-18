@@ -1,6 +1,69 @@
 [
   {
     "type": "conference",
+    "key": "shabanov2026freerangegaussians",
+    "venue": "European Conference on Computer Vision (ECCV)",
+    "special": "ECCV'26",
+    "title": "Free-Range Gaussians: Non-Grid-Aligned Generative 3D Gaussian Reconstruction",
+    "year": "2026",
+    "arxiv": "https://arxiv.org/abs/2604.04874",
+    "homepage": "https://free-range-gaussians.github.io",
+    "authors": [
+      "Ahan Shabanov",
+      "Peter Hedman",
+      "Ethan Weber",
+      "Zhengqin Li",
+      "Denis Rozumny",
+      "Gael Le Lan",
+      "Naina Dhingra",
+      "Lei Luo",
+      "Andrea Vedaldi",
+      "Christian Richardt",
+      "Andrea Tagliasacchi",
+      "Bo Zhu",
+      "Numair Khan"
+    ]
+  },
+  {
+    "type": "conference",
+    "key": "rong2026nexels",
+    "venue": "European Conference on Computer Vision (ECCV)",
+    "special": "ECCV'26",
+    "title": "Nexels: Neurally-Textured Surfels for Real-Time Novel View Synthesis with Sparse Primitives",
+    "year": "2026",
+    "arxiv": "https://arxiv.org/abs/2512.13796",
+    "homepage": "https://lessvrong.com/cs/nexels/",
+    "authors": [
+      "Victor Rong",
+      "Jan Held",
+      "Victor Chu",
+      "Daniel Rebain",
+      "Marc Van Droogenbroeck",
+      "Kyros Kutulakos",
+      "Andrea Tagliasacchi",
+      "David B. Lindell"
+    ]
+  },
+  {
+    "type": "conference",
+    "key": "wu2026anything360",
+    "venue": "European Conference on Computer Vision (ECCV)",
+    "special": "ECCV'26",
+    "title": "360Anything: Geometry-Free Lifting of Images and Videos to 360\u00b0",
+    "year": "2026",
+    "arxiv": "https://arxiv.org/abs/2601.16192",
+    "homepage": "https://360anything.github.io/",
+    "authors": [
+      "Ziyi Wu",
+      "Daniel Watson",
+      "Andrea Tagliasacchi",
+      "David J. Fleet",
+      "Marcus A Brubaker",
+      "Saurabh Saxena"
+    ]
+  },
+  {
+    "type": "conference",
     "key": "sabour2025orbit",
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "special": "CVPR'26",
