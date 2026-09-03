@@ -1,13 +1,6 @@
 {
   "current": [
     {
-      "name": "Rudy Lam",
-      "degree": "MSc",
-      "time": "2025-",
-      "currently": "SFU",
-      "homepage": "https://ca.linkedin.com/in/rudy-lam"
-    },
-    {
       "name": "George Shramko",
       "degree": "PhD student",
       "time": "2025-",
@@ -63,6 +56,13 @@
       "time": "2024-",
       "currently": "SFU",
       "homepage": "https://colinzhenli.github.io"
+    },
+    {
+      "name": "Rudy Lam",
+      "degree": "MSc",
+      "time": "2025-",
+      "currently": "SFU",
+      "homepage": "https://ca.linkedin.com/in/rudy-lam"
     },
     {
       "name": "Daniel Rebain",
