@@ -192,16 +192,19 @@ function shortTzLabel(tz) {
  * timezone is selected, lays the two times side-by-side as
  * `[secondary] [primary]`, matching Google Calendar's world-clock axis.
  *
- * @param {{ date: Date }} arg
+ * @param {{ time: { milliseconds: number }, view: { currentStart: Date } }} arg
  */
 function buildSlotLabelHtml(arg) {
   const luxon = /** @type {any} */ (window).luxon;
   if (!luxon) return { html: '' };
 
-  /* `arg.date` is a JS Date whose millisecond value is the actual UTC
-   * instant of this slot. We convert via Luxon to produce wall-clock
-   * formatted strings in each target zone. */
-  const instant = luxon.DateTime.fromMillis(arg.date.valueOf());
+  /* FullCalendar anchors `arg.date` to 1970, whose timezone rules can
+   * differ from the displayed date. Apply the slot's wall-clock time to
+   * the view's first day in Vancouver before converting to other zones.
+   * Set the clock fields rather than adding elapsed hours across DST. */
+  const time = luxon.DateTime.fromMillis(arg.time.milliseconds, { zone: 'UTC' });
+  const instant = luxon.DateTime.fromJSDate(arg.view.currentStart, { zone: PRIMARY_TZ })
+    .set({ hour: time.hour, minute: time.minute, second: time.second, millisecond: time.millisecond });
   const primaryStr = instant.setZone(PRIMARY_TZ).toFormat('h a');
 
   if (!secondaryTz || secondaryTz === PRIMARY_TZ) {
@@ -398,7 +401,11 @@ function init_calendar() {
     slotLabelContent: buildSlotLabelHtml,
     /* Re-inject the corner [Lon][Van] labels whenever FC re-renders the
      * header (initial load, prev/next/today, view switches, refetch). */
-    datesSet: function () { refreshAxisHeader(el); },
+    datesSet: function () {
+      // Slats are reused on navigation; a fresh callback refreshes date-dependent labels.
+      calendar.setOption('slotLabelContent', (/** @type {Parameters<typeof buildSlotLabelHtml>[0]} */ arg) => buildSlotLabelHtml(arg));
+      refreshAxisHeader(el);
+    },
     headerToolbar: {
       left: 'prev,next today',
       center: '',
@@ -458,7 +465,7 @@ function init_calendar() {
     secondaryTz = target.value;
     saveTz(secondaryTz);
     console.log('[calendar] secondary timezone changed to', secondaryTz);
-    calendar.setOption('slotLabelContent', function (/** @type {{date: Date}} */ arg) { return buildSlotLabelHtml(arg); });
+    calendar.setOption('slotLabelContent', function (/** @type {Parameters<typeof buildSlotLabelHtml>[0]} */ arg) { return buildSlotLabelHtml(arg); });
     queueMicrotask(() => refreshAxisHeader(el));
   });
 }
