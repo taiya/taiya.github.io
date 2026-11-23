@@ -67,11 +67,11 @@
     "key": "sabour2025orbit",
     "venue": "Computer Vision and Pattern Recognition (CVPR)",
     "special": "CVPR'26",
-    "notes": [
-      "coming soon"
-    ],
     "title": "ORBIT: Benchmarking SfM in the Wild with 360\u00b0 Video",
     "year": "2026",
+    "arxiv": "https://arxiv.org/abs/2608.22039",
+    "homepage": "https://orbit-sfm.github.io/",
+    "source": "https://github.com/google-deepmind/orbit_sfm",
     "authors": [
       "Sara Sabour",
       "Richard Tucker",

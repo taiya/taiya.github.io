@@ -11,16 +11,19 @@ function render_students(myjson) {
   for (let i = 0; i < people.length; i++) {
     const person = people[i];
     const person_li = document.createElement('li');
+    const identity = document.createElement('span');
     const link = document.createElement('a');
     link.href = person.homepage;
     link.textContent = person.name;
-    person_li.appendChild(link);
-    person_li.appendChild(document.createTextNode(
-      " \u2013 " + person.degree + " @ " + person.currently
-    ));
+    identity.appendChild(link);
     if (person.coadvisors !== undefined) {
-      person_li.appendChild(document.createTextNode(" \u2013 co-advised with: " + person.coadvisors));
+      identity.appendChild(document.createTextNode(" \u2013 co-advised with: " + person.coadvisors));
     }
+    person_li.appendChild(identity);
+    const details = document.createElement('span');
+    details.className = 'student_details';
+    details.textContent = person.degree + " @ " + person.currently;
+    person_li.appendChild(details);
     students_list.appendChild(person_li);
   }
 }
@@ -35,15 +38,20 @@ function render_alumni(myjson) {
   for (let i = 0; i < people.length; i++) {
     const person = people[i];
     const person_li = document.createElement('li');
+    const identity = document.createElement('span');
     const link = document.createElement('a');
     link.href = person.homepage;
     link.textContent = person.name;
-    person_li.appendChild(link);
-    person_li.appendChild(document.createTextNode(
-      " \u2013 " + person.degree + " (" + person.time + ") " +
-      "co-advised with: " + person.coadvisors +
-      " \u2013 currently " + person.currently
+    identity.appendChild(link);
+    identity.appendChild(document.createTextNode(
+      " " + person.degree + " (" + person.time + ") " +
+      "co-advised with: " + person.coadvisors
     ));
+    person_li.appendChild(identity);
+    const details = document.createElement('span');
+    details.className = 'alumni_details';
+    details.textContent = person.currently;
+    person_li.appendChild(details);
     alumni_list.appendChild(person_li);
   }
 }

@@ -113,6 +113,20 @@ h3 {font-size: 1.1em; line-height: 1.1em; font-weight: 700}
 a  {color: #0b7183; text-decoration: none}
 p {margin-bottom:1em;}
 ul {margin-left: 25px; margin-bottom:1em; list-style-image: url('images/bullet.png');}
+#students_list li,
+#alumni_list li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 1em;
+}
+
+#students_list .student_details,
+#alumni_list .alumni_details {
+  margin-left: auto;
+  text-align: right;
+}
+
 a:hover{text-decoration: underline}
 strong {font-weight: bold; color: red;}
 em {font-style: italic;}

@@ -43,14 +43,6 @@
       "homepage": "https://youlenda.github.io"
     },
     {
-      "name": "Aryan Mikaeili",
-      "degree": "PhD student",
-      "time": "2024-",
-      "coadvisors": "Prof. Arash (Ali) Mahdavi-Amiri",
-      "currently": "SFU",
-      "homepage": "https://aryanmikaeili.github.io"
-    },
-    {
       "name": "Zhen (Colin) Li",
       "degree": "MSc",
       "time": "2024-",
@@ -63,6 +55,22 @@
       "time": "2025-",
       "currently": "SFU",
       "homepage": "https://ca.linkedin.com/in/rudy-lam"
+    },
+    {
+      "name": "Aryan Mikaeili",
+      "degree": "PhD student",
+      "time": "2024-",
+      "coadvisors": "Prof. Arash (Ali) Mahdavi-Amiri",
+      "currently": "SFU",
+      "homepage": "https://aryanmikaeili.github.io"
+    },
+    {
+      "name": "Mehdi Safaee",
+      "degree": "PhD student",
+      "time": "2026-",
+      "currently": "UBC",
+      "coadvisors": "Prof. Leonid Sigal",
+      "homepage": "https://mehdi0xc.github.io/"
     },
     {
       "name": "Daniel Rebain",
